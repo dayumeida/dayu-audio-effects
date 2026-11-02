@@ -16,3 +16,5 @@
 SHA256：`fe2091fd17645df2e29dda981ce3ea66da6438a54564cdf14f8b835396ff7c1b`。
 
 源码与发行证据见 `Packaging/README.md`、`Analysis/Packaging/1.2-10/summary.json`。GitHub 会随标签提供源码归档；本次上传沿用现有正式安装包，未重新构建或追加音频/FCP 验收。
+
+源码中的降噪模型使用 Git LFS；克隆仓库前运行 `git lfs install`，已有检出运行 `git lfs pull`。安装包已包含模型，无需另行下载。

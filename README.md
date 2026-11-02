@@ -6,6 +6,8 @@
 
 GitHub 备份仓库：`dayumeida/dayu-audio-effects`（私有）。正式安装包通过 [GitHub Release](https://github.com/dayumeida/dayu-audio-effects/releases/tag/v1.2-build10) 提供；本地 `Outputs/` 成品、构建缓存、大型分析中间数据和凭据不提交到 Git。
 
+降噪模型使用 **Git LFS** 保存。克隆前运行 `git lfs install`，已有检出运行 `git lfs pull`，即可取得 `大鱼音频效果器Extension/UI/Resources/dayu-denoise-weights.bin` 完整模型；正式安装包已内含模型。
+
 最新发行版 **1.2（10）** 已包含时间线预览、离线输出和 -3 dB 默认目标电平，完成发行签名、公证及票据验证：[下载安装包](https://github.com/dayumeida/dayu-audio-effects/releases/tag/v1.2-build10)。[发布文章](https://dayu.media/15770/) 已上线，整包50元、会员免费。打包方法见 [Packaging/README.md](Packaging/README.md)，图标、封面与发布核验见 [发布记录](Publication/2026-11-02/发布记录.md)。
 
 用户已确认音频/FCP验收通过，停止追加测试。原验收成品 **1.2（8）** 保留在 `Outputs/MultiEffect/大鱼音频效果器.app`；最新发行App为 `Outputs/Distribution/1.2-10/App/大鱼音频效果器.app`，包含上述主程序功能及两种电平器的 -3 dB 默认值；低延迟目标范围同步扩展为 -30 至 -3 dB。一个主App和一个AUv3扩展提供四个独立效果；主App可切换试听，FCP在音频效果的Dayu分类中显示。菜单、参数、预设操作和帮助为中文。支持Apple Silicon、macOS14+。
