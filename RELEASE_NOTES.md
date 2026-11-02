@@ -9,7 +9,7 @@
 
 ## 安装与校验
 
-下载 Release 附件 `大鱼音频效果器安装包-1.2.pkg`。安装前退出 Final Cut Pro 与主 App，安装后打开 `/Applications/大鱼音频效果器.app` 一次，再启动 Final Cut Pro。
+下载 Release 附件 `DayuAudioEffects-1.2-build10-arm64.pkg`。安装前退出 Final Cut Pro 与主 App，安装后打开 `/Applications/大鱼音频效果器.app` 一次，再启动 Final Cut Pro。
 
 安装包已完成 Developer ID 签名、Apple 公证和票据验证，大小 42,407,490 字节。
 
