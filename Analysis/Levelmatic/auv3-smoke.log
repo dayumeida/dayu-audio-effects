@@ -1,0 +1,2 @@
+instantiated AudioComponentDescription(componentType: 1635083896, componentSubType: 1685679222, componentManufacturer: 1147238773, componentFlags: 14, componentFlagsMask: 0) parameters=7 latency=7.552
+renderedFrames=506496 wetRMS=0.09720964601352347 peak=0.1454159 fullStateRoundtrip=PASS finiteAudio=PASS

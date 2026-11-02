@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<installer-gui-script minSpecVersion="2">
+    <title>大鱼音频效果器</title>
+    <organization>media.dayu.audio.effects.b20261101192127625.ai7qqjip</organization>
+    <domains enable_localSystem="true" enable_currentUserHome="false" enable_anywhere="false"/>
+    <options customize="never" require-scripts="true" rootVolumeOnly="true"/>
+    <background file="background.png" alignment="bottomleft" scaling="none" mime-type="image/png"/>
+    <background-darkAqua file="background.png" alignment="bottomleft" scaling="none" mime-type="image/png"/>
+    <welcome file="welcome.rtf" mime-type="text/rtf"/>
+    <readme file="readme.rtf" mime-type="text/rtf"/>
+    <conclusion file="conclusion.rtf" mime-type="text/rtf"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="payload"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="payload" visible="false">
+        <pkg-ref id="media.dayu.audio.effects.b20261101192127625.ai7qqjip.payload"/>
+    </choice>
+    <pkg-ref id="media.dayu.audio.effects.b20261101192127625.ai7qqjip.payload" version="1.2" auth="root" onConclusion="none" installKBytes="45128" updateKBytes="0">#Payload.pkg</pkg-ref>
+    <pkg-ref id="media.dayu.audio.effects.b20261101192127625.ai7qqjip.payload">
+        <bundle-version>
+            <bundle CFBundleShortVersionString="1.2" CFBundleVersion="10" id="media.dayu.audio.leveler" path="Applications/大鱼音频效果器.app"/>
+            <bundle CFBundleShortVersionString="1.2" CFBundleVersion="10" id="media.dayu.audio.leveler.Extension" path="Applications/大鱼音频效果器.app/Contents/PlugIns/大鱼音频效果器Extension.appex"/>
+        </bundle-version>
+    </pkg-ref>
+</installer-gui-script>

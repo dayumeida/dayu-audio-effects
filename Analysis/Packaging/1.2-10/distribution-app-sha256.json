@@ -1,0 +1,207 @@
+{
+  "Contents/CodeResources": {
+    "bytes": 1674,
+    "sha256": "8cf4f55fb6c9f63f3b2bc6ca20dd2e52fcd908409b74736d51af1989481e278e",
+    "executable": false
+  },
+  "Contents/embedded.provisionprofile": {
+    "bytes": 22395,
+    "sha256": "39733a024aff068570c66c6976910f9fa546659cc2f6a48ee2650ad0734bc563",
+    "executable": false
+  },
+  "Contents/Info.plist": {
+    "bytes": 2132,
+    "sha256": "2354ffce9223edb6e83b8c149d4ac5f5794b6b2f97556ea99afa8356cd50ae5d",
+    "executable": false
+  },
+  "Contents/PkgInfo": {
+    "bytes": 8,
+    "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+    "executable": false
+  },
+  "Contents/_CodeSignature/CodeResources": {
+    "bytes": 3933,
+    "sha256": "64cf3c41fd9337e45eb8a24d5313b6bde6c9bacbcc9d46b7a19a3d5da3f8f18c",
+    "executable": false
+  },
+  "Contents/MacOS/大鱼音频效果器": {
+    "bytes": 836224,
+    "sha256": "41670f828adf97ba276eed3cbd29fc0431ea1ffc945900117340675a2868d41a",
+    "executable": true
+  },
+  "Contents/Resources/Synth.aif": {
+    "bytes": 3628854,
+    "sha256": "713ca2f6b8125e1cbbd05a687d9394ee6a5ce2b6cdbf54af02588c9b8e8b749c",
+    "executable": false
+  },
+  "Contents/Resources/AppIcon.icns": {
+    "bytes": 116381,
+    "sha256": "31efd45ecda9b17296b61f50d243f8e6172a6d45469e63f811b0f34edc1cefa6",
+    "executable": false
+  },
+  "Contents/Resources/Assets.car": {
+    "bytes": 2515976,
+    "sha256": "d2ee4b167b8a047873b8a2c0bd30fb0d81e1e6573335bd3a4131dc37fe6ec3a2",
+    "executable": false
+  },
+  "Contents/Resources/zh-Hans.lproj/InfoPlist.strings": {
+    "bytes": 72,
+    "sha256": "dc29835557cdb0c91397c7c4175a37a0cbf6c17704b1508257a6bd6be5fbc559",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Info.plist": {
+    "bytes": 4321,
+    "sha256": "22f0f4a91fad273622daac4e24a656b773c41d99c5d2871f93517cc09aa4c884",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/_CodeSignature/CodeResources": {
+    "bytes": 9441,
+    "sha256": "a5bd7ac4d4643731d45c576b823b599a7cd0783b5cdc157eec1525bf700c8a1f",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/MacOS/大鱼音频效果器Extension": {
+    "bytes": 681568,
+    "sha256": "af21144b04d89a5f386f3ac696b2374843c871e1ede5f289dc3b498040242701",
+    "executable": true
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-display.tiff": {
+    "bytes": 15594,
+    "sha256": "8c742e09354eddb15ff35f20bd958427080fbd5194ab694563dddc5a8553b29d",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/UPSTREAM.md": {
+    "bytes": 184,
+    "sha256": "54fb8b7fe5c0a1b9e9f7eab011e53ad18fc5c64167864bedac8ded9dfc577bdf",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-slider-empty.tiff": {
+    "bytes": 18254,
+    "sha256": "68219de3360b18b728cee5afd093ba4687cd308d1f210c401b4825b215353740",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/_______ExtensionDSPKernel.hpp": {
+    "bytes": 11333,
+    "sha256": "a30ee41d95af782c520335559f0f9d62d48b1b20a4982a2238a164d5307bfea2",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/LICENSE": {
+    "bytes": 1076,
+    "sha256": "5b2fca0def6e5c93d42f2cb226f4731cfbb6eb30bf12226ad6a9ff299d333c2a",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-slider-button-on.tiff": {
+    "bytes": 14618,
+    "sha256": "314d0db12959d911b8a8421b502f88b413e0e3855b56560664759e86efa7705a",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/_______ExtensionAUProcessHelper.hpp": {
+    "bytes": 1874,
+    "sha256": "442a37b26097e6299b23863547dbf058c0b5b31c9f8684315b95c16be5febce4",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-waveform.tiff": {
+    "bytes": 34826,
+    "sha256": "7f8d0bef7c7ce3f5158bd8b1e004222d8b68d16f62484effca32b33f58c505be",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-levelbar_on.tiff": {
+    "bytes": 13684,
+    "sha256": "369f11ff8e429f4bd6fcd7e5d49ca91fcebeffd5ffc6b16c38fa04467fab8890",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-slider-filled.tiff": {
+    "bytes": 17368,
+    "sha256": "944a201059b646c2ea9b5033910cc46ee1d10a45c39e80ca058b3c32df12954d",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-largeknob-indicator-on.tiff": {
+    "bytes": 26142,
+    "sha256": "0416987920f1301a7a9ec2ebf8fbea1da0fbb923a690fa2378aa7c00162e9783",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-levelbar_off.tiff": {
+    "bytes": 16570,
+    "sha256": "c480dce86254cf9245c57714466e6b4b89fdc80d2e1092e7ea3050e414c3c65e",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-largeknob.tiff": {
+    "bytes": 98884,
+    "sha256": "72bdb3909e7066926e2bd8ccaef5969970a7616f0b6da8289de49d41cc8a1c9a",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-background.tiff": {
+    "bytes": 52692,
+    "sha256": "33a1f462ca501b94e6671c71c6988f3bb144866550024b22d61f6d1d782f9209",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-display-small.tiff": {
+    "bytes": 7572,
+    "sha256": "bf5185c4a2b7c10888f56ca6c0a03df1eb593148e7db8d5400a0ccea61af4ac8",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-smallknob.tiff": {
+    "bytes": 32588,
+    "sha256": "ce344417349dcce0531d7df732d4c79a0a6536385c271be77c7a4e00d0f88f72",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/README.md": {
+    "bytes": 4913,
+    "sha256": "5ffc3c0ae443a5c73b944dbf6c628d2b57ec165b37fdc4d63c77c102242f2482",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-display.tiff": {
+    "bytes": 15594,
+    "sha256": "d621a695ddf00e5f24c8a4a53a924906b176d8f9199904197810340a508c6686",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-slider-filled.tiff": {
+    "bytes": 16870,
+    "sha256": "a9b809ce31ee066d57506fe0ec482bde4d3dd9717e3faed7b8b863c2dc93c07c",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-levelbar_off.tiff": {
+    "bytes": 11644,
+    "sha256": "c8df078ec77dd59cfcac6b34b1339fc265a76a53b328ac6cdbc99f5d3ec4352a",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-levelbar_on.tiff": {
+    "bytes": 13298,
+    "sha256": "380d0bbe23a37e2658aff6bf0acd7cb2250b3e519da1ae0da5282526c273702e",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-slider-button-on.tiff": {
+    "bytes": 14722,
+    "sha256": "11b427a03a554c42a6b1091a6557315bddf743abee556ecfa30a17cf3a468f25",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-largeknob.tiff": {
+    "bytes": 98266,
+    "sha256": "bc8ee6af054c19d14470fb292c9a650352ffebcc3e97eb8d98a9db850fb8bba5",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Denoise-slider-empty.tiff": {
+    "bytes": 13274,
+    "sha256": "0dae3e1dcb5a34f6bef2431dbf7e27995e5ef5eaf53b1ddc4aff68947dbbd539",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/dayu-denoise-weights.bin": {
+    "bytes": 37759988,
+    "sha256": "d76d1ec54a541328438e50fb81197eb0fa4630f9cdad14b693363d285ce323d6",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-largeknob-indicator-off.tiff": {
+    "bytes": 24532,
+    "sha256": "8211e47de1749097045a5d6c978f7d626492755d32143cf504bdc06dc390e03b",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/Leveler-background.tiff": {
+    "bytes": 32778,
+    "sha256": "59f036f6225d63572e40de029090e5ffdd4dac7172c7c0bd8bcd50c8fe6e126f",
+    "executable": false
+  },
+  "Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/Resources/zh-Hans.lproj/InfoPlist.strings": {
+    "bytes": 72,
+    "sha256": "dc29835557cdb0c91397c7c4175a37a0cbf6c17704b1508257a6bd6be5fbc559",
+    "executable": false
+  }
+}

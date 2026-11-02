@@ -1,0 +1,7 @@
+command script import "Analysis/DeClipper/lldb_probe.py"
+breakpoint set -n AudioUnitInitialize
+run
+declipinit
+breakpoint disable 1
+continue
+quit

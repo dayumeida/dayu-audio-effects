@@ -1,0 +1,81 @@
+{
+  "target": "ERA5 DeClipper 5.4.00 arm64",
+  "targetBinarySha256": "270172733d583f2023436baa5e6c5dc2c87342a88f1cbe8f5026e63fbaa910f5",
+  "compileFlags": [
+    "-std=c++17",
+    "-O2",
+    "-ffp-contract=off",
+    "no fast-math"
+  ],
+  "framework": "Accelerate",
+  "supportedSampleRatesHz": [
+    16000,
+    384000
+  ],
+  "parameters": {
+    "defaults": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "minima": [
+      0,
+      0,
+      0,
+      -30,
+      0
+    ],
+    "maxima": [
+      1,
+      1,
+      1,
+      5,
+      1
+    ]
+  },
+  "latencyFrames": {
+    "44100": 7232,
+    "48000": 7871,
+    "96000": 15744
+  },
+  "originalResidualOverreadFixed": true,
+  "files": [
+    {
+      "path": "ERA5DeClipperCore.hpp",
+      "sha256": "46271c2d43fa67fdf70ad5822bb56b31c72a825e5ccb7ab824988e151b5a368a",
+      "bytes": 11914
+    },
+    {
+      "path": "RecoveredDetector.hpp",
+      "sha256": "0bf50631fff9228c67edbf243dd6593e16f460e8a7382aa68ea8875dde33227a",
+      "bytes": 7973
+    },
+    {
+      "path": "RecoveredSegments.hpp",
+      "sha256": "00aa3023b2fc82c260e32e1b6b813afe7d33aa1f0844e6fa541e0b18aa9da3d6",
+      "bytes": 3114
+    },
+    {
+      "path": "RecoveredLimiter.hpp",
+      "sha256": "8f9a1417934f2faf9f4e94f4b70b057bd0916a0fb29b9c79253f8b6d9021ca59",
+      "bytes": 3737
+    },
+    {
+      "path": "Repair/RecoveredRepairLoop.hpp",
+      "sha256": "5f6e696e1aafc973a8eda33bb47edf490789f2ba3d1057f3c90a340e7e7b3c49",
+      "bytes": 12649
+    },
+    {
+      "path": "Repair/RecoveredDualPrediction.hpp",
+      "sha256": "84555eecdad2235a3507e10beced1e669c09771d4790fdc26420be3bc1653ce2",
+      "bytes": 8853
+    },
+    {
+      "path": "Repair/RecoveredLPC.hpp",
+      "sha256": "e022a361f3ba038f6b391efe4da73ef5ec4d24f29e0430e1127bea370dd75702",
+      "bytes": 17006
+    }
+  ]
+}

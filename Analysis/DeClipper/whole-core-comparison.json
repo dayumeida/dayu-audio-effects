@@ -1,0 +1,70 @@
+[
+  {
+    "type": 0,
+    "quality": 0,
+    "samples": 192000,
+    "unequal": 0,
+    "firstUnequal": null,
+    "maxError": 0.0,
+    "rmsError": 0.0,
+    "timing": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 887.171,
+      "p99Milliseconds": 34.5775,
+      "maxMilliseconds": 34.8751
+    }
+  },
+  {
+    "type": 0,
+    "quality": 1,
+    "samples": 192000,
+    "unequal": 0,
+    "firstUnequal": null,
+    "maxError": 0.0,
+    "rmsError": 0.0,
+    "timing": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 2487.97,
+      "p99Milliseconds": 98.454,
+      "maxMilliseconds": 100.282
+    }
+  },
+  {
+    "type": 1,
+    "quality": 0,
+    "samples": 192000,
+    "unequal": 115504,
+    "firstUnequal": 75569,
+    "maxError": 0.4321608543395996,
+    "rmsError": 0.024744001340713195,
+    "timing": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 1685.2,
+      "p99Milliseconds": 34.9284,
+      "maxMilliseconds": 35.3057
+    }
+  },
+  {
+    "type": 1,
+    "quality": 1,
+    "samples": 192000,
+    "unequal": 0,
+    "firstUnequal": null,
+    "maxError": 0.0,
+    "rmsError": 0.0,
+    "timing": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 4730.1,
+      "p99Milliseconds": 98.6274,
+      "maxMilliseconds": 100.112
+    }
+  }
+]

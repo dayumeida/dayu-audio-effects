@@ -1,0 +1,12 @@
+{
+  "price": 50,
+  "currency": "CNY",
+  "membersFree": true,
+  "productName": "大鱼音频效果器",
+  "version": "1.2",
+  "build": 9,
+  "destination": "https://dayu.media/15770/",
+  "postId": 15770,
+  "status": "publish",
+  "verified": true
+}

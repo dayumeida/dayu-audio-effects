@@ -1,0 +1,186 @@
+
+    AU Validation Tool
+    Version: 1.10.0 
+    Copyright 2003-2019, Apple Inc. All Rights Reserved.
+    Specify -h (-help) for command options
+
+--------------------------------------------------
+VALIDATING AUDIO UNIT: 'aufx' - 'dydn' - 'Dayu'
+--------------------------------------------------
+Manufacturer String: Dayu
+AudioUnit Name: 大鱼智能降噪
+Component Version: 1.0.7 (0x10007)
+
+* * PASS
+--------------------------------------------------
+TESTING OPEN TIMES:
+COLD:
+
+Loaded AudioUnit out-of-process: true 
+Time to open AudioUnit:         562.768 ms
+WARM:
+
+Loaded AudioUnit out-of-process: true 
+Time to open AudioUnit:         201.636  ms
+This AudioUnit is a version 3 implementation.
+FIRST TIME:
+Time for initialization:        258.877 ms
+
+* * PASS
+--------------------------------------------------
+VERIFYING DEFAULT SCOPE FORMATS:
+Input Scope Bus Configuration:
+ Default Bus Count:1
+    Default Format: AudioStreamBasicDescription:  2 ch,  48000 Hz, Float32, deinterleaved
+
+Output Scope Bus Configuration:
+ Default Bus Count:1
+    Default Format: AudioStreamBasicDescription:  2 ch,  48000 Hz, Float32, deinterleaved
+
+* * PASS
+--------------------------------------------------
+VERIFYING REQUIRED PROPERTIES:
+
+* * PASS
+--------------------------------------------------
+VERIFYING RECOMMENDED PROPERTIES:
+  VERIFYING PROPERTY: Latency
+    PASS
+  VERIFYING PROPERTY: Tail Time
+    PASS
+  VERIFYING PROPERTY: Bypass Effect
+    PASS
+
+* * PASS
+--------------------------------------------------
+VERIFYING OPTIONAL PROPERTIES:
+
+* * PASS
+--------------------------------------------------
+VERIFYING SPECIAL PROPERTIES:
+
+VERIFYING CUSTOM UI
+Cocoa Views Available: 0
+WARNING: CurrentPreset property is deprectated. AU should implement PresentPreset
+
+VERIFYING CLASS INFO
+    PASS
+
+TESTING HOST CALLBACKS
+    PASS
+
+* * PASS
+--------------------------------------------------
+PUBLISHED PARAMETER INFO:
+
+# # # 7 Global Scope Parameters:
+
+# # Parameters for clump: 212950
+# Full Clump Name: 智能降噪
+# Short (4 Chars limit) Clump Name: 智能降噪
+Parameter ID:-276134176
+Name: 启用处理
+Parameter Type: Boolean
+Values: Minimum = 0.000000, Default = 1.000000, Maximum = 1.000000
+Flags: Readable, Writable 
+  -parameter PASS
+
+Parameter ID:-1332756205
+Name: 降噪强度
+Parameter Type: Percent
+Values: Minimum = 0.000000, Default = 80.000000, Maximum = 100.000000
+Flags: Readable, Writable 
+  -parameter PASS
+
+Parameter ID:-1337892236
+Name: 输出增益
+Parameter Type: Decibels
+Values: Minimum = -24.000000, Default = 0.000000, Maximum = 24.000000
+Flags: Readable, Writable 
+  -parameter PASS
+
+Parameter ID:-859419018
+Name: 低频处理
+Parameter Type: Percent
+Values: Minimum = 0.000000, Default = 100.000000, Maximum = 100.000000
+Flags: Readable, Writable 
+  -parameter PASS
+
+Parameter ID:-859418146
+Name: 中频处理
+Parameter Type: Percent
+Values: Minimum = 0.000000, Default = 100.000000, Maximum = 100.000000
+Flags: Readable, Writable 
+  -parameter PASS
+
+Parameter ID:1703792772
+Name: 高频处理
+Parameter Type: Percent
+Values: Minimum = 0.000000, Default = 100.000000, Maximum = 100.000000
+Flags: Readable, Writable 
+  -parameter PASS
+
+Parameter ID:-54242607
+Name: 分析状态
+Parameter Type: Percent
+Values: Minimum = 0.000000, Default = 0.000000, Maximum = 100.000000
+Flags: Readable, 
+  -parameter PASS
+
+Testing that parameters retain value across reset and initialization
+  PASS
+
+* * PASS
+--------------------------------------------------
+FORMAT TESTS:
+
+Reported Channel Capabilities (explicit):
+      [1, 1]  [2, 2]  
+
+Input/Output Channel Handling:
+1-1   1-2   1-4   1-5   1-6   1-7   1-8   2-2   2-4   2-5   2-6   2-7   2-8   4-4   4-5   5-5   6-6   7-7   8-8
+X                                         X                                                                       
+
+* * PASS
+--------------------------------------------------
+RENDER TESTS:
+
+Input Format: AudioStreamBasicDescription:  2 ch,  48000 Hz, Float32, deinterleaved
+Output Format: AudioStreamBasicDescription:  2 ch,  48000 Hz, Float32, deinterleaved
+Render Test at 512 frames
+Slicing Render Test at 64 frames
+  PASS
+
+
+Render Test at 64 frames, sample rate: 22050 Hz
+Render Test at 137 frames, sample rate: 96000 Hz
+Render Test at 4096 frames, sample rate: 48000 Hz
+Render Test at 4096 frames, sample rate: 192000 Hz
+Render Test at 4096 frames, sample rate: 11025 Hz
+Render Test at 512 frames, sample rate: 44100 Hz
+  PASS
+
+1 Channel Test:
+Render Test at 512 frames
+  PASS
+
+Checking connection semantics:
+Connection format:
+AudioStreamBasicDescription:  2 ch,  44100 Hz, Float32, deinterleaved
+  PASS
+
+Bad Max Frames - Render should fail
+  PASS
+
+Checking parameter setting
+Using AudioUnitSetParameter
+Using AudioUnitScheduleParameter
+  PASS
+
+Test MIDI
+  PASS
+
+* * PASS
+--------------------------------------------------
+AU VALIDATION SUCCEEDED.
+--------------------------------------------------

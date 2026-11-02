@@ -1,0 +1,39 @@
+[
+  {
+    "passed" : true,
+    "test" : "import_stages_only_and_deduplicates"
+  },
+  {
+    "frames" : 120480,
+    "passed" : true,
+    "test" : "original_and_processed_waveforms_match_segment_length"
+  },
+  {
+    "passed" : true,
+    "test" : "parameter_edit_invalidates_old_preview_and_regenerates"
+  },
+  {
+    "passed" : true,
+    "test" : "long_file_segment_selection_keeps_context_and_12s_preview"
+  },
+  {
+    "passed" : true,
+    "test" : "source_change_cancels_old_work_and_discards_stale_preview"
+  },
+  {
+    "passed" : true,
+    "test" : "video_audio_track_selection_regenerates_at_original_rate"
+  },
+  {
+    "passed" : true,
+    "test" : "rapid_knob_edits_only_publish_latest_preview"
+  },
+  {
+    "passed" : true,
+    "test" : "lookahead_preview_with_real_following_context_matches_full_render_first12s"
+  },
+  {
+    "passed" : true,
+    "test" : "preview_and_parameter_edits_never_write_source_directory"
+  }
+]

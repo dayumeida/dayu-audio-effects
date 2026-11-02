@@ -1,0 +1,38 @@
+Collecting onnx
+  Downloading onnx-1.23.2-cp312-abi3-macosx_13_0_universal2.whl.metadata (8.7 kB)
+Collecting onnxruntime
+  Downloading onnxruntime-1.31.1-cp313-cp313-macosx_14_0_arm64.whl.metadata (5.8 kB)
+Collecting opencv-python-headless
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl.metadata (19 kB)
+Collecting numpy>=1.23.2 (from onnx)
+  Downloading numpy-2.5.4-cp313-cp313-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting protobuf>=6.31.1 (from onnx)
+  Downloading protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl.metadata (595 bytes)
+Collecting typing_extensions>=4.7.1 (from onnx)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting ml_dtypes>=0.5.4 (from onnx)
+  Downloading ml_dtypes-0.6.0-cp313-cp313-macosx_10_13_universal2.whl.metadata (8.8 kB)
+Collecting flatbuffers (from onnxruntime)
+  Downloading flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting packaging (from onnxruntime)
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Downloading onnx-1.23.2-cp312-abi3-macosx_13_0_universal2.whl (9.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.7/9.7 MB 29.8 MB/s  0:00:00
+Downloading onnxruntime-1.31.1-cp313-cp313-macosx_14_0_arm64.whl (20.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 37.0 MB/s  0:00:00
+Downloading opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl (48.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.3/48.3 MB 38.0 MB/s  0:00:01
+Downloading ml_dtypes-0.6.0-cp313-cp313-macosx_10_13_universal2.whl (565 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 565.5/565.5 kB 25.9 MB/s  0:00:00
+Downloading numpy-2.5.4-cp313-cp313-macosx_14_0_arm64.whl (5.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 35.2 MB/s  0:00:00
+Downloading protobuf-7.36.2-cp310-abi3-macosx_10_9_universal2.whl (456 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+Installing collected packages: flatbuffers, typing_extensions, protobuf, packaging, numpy, opencv-python-headless, onnxruntime, ml_dtypes, onnx
+
+Successfully installed flatbuffers-25.12.19 ml_dtypes-0.6.0 numpy-2.5.4 onnx-1.23.2 onnxruntime-1.31.1 opencv-python-headless-5.0.0.93 packaging-26.3 protobuf-7.36.2 typing_extensions-4.16.0
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip

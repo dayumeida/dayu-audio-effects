@@ -1,0 +1,1361 @@
+{
+  "algorithm": "dayu::LevelerCore behavioral reconstruction; default target -12dB / strength 80",
+  "algorithm_latency_frames_removed": 331776,
+  "algorithm_latency_seconds_removed": 7.523265306122449,
+  "channels": 2,
+  "core_process_timing": {
+    "block_count": 1186,
+    "max_us": 697.333,
+    "mean_us": 169.17669477234398,
+    "nominal_block_frames": 1024,
+    "p50_us": 65,
+    "p99_us": 453.042,
+    "total_core_seconds": 0.20064355999999997
+  },
+  "duration_seconds": 20,
+  "flush_zero_frames": 331776,
+  "input_total": {
+    "channels": [
+      {
+        "finite_samples": 882000,
+        "infinity_samples": 0,
+        "nan_samples": 0,
+        "nonfinite_samples": 0,
+        "peak_dbfs": -0.00026507636037961915,
+        "peak_linear": 0.999969482421875,
+        "rms_dbfs": -27.295798114159208,
+        "samples_abs_ge_1": 0,
+        "samples_abs_le_1e-9": 227001
+      },
+      {
+        "finite_samples": 882000,
+        "infinity_samples": 0,
+        "nan_samples": 0,
+        "nonfinite_samples": 0,
+        "peak_dbfs": 0,
+        "peak_linear": 1,
+        "rms_dbfs": -26.56475332893223,
+        "samples_abs_ge_1": 1,
+        "samples_abs_le_1e-9": 252978
+      }
+    ],
+    "frames": 882000,
+    "peak_dbfs": 0,
+    "rms_dbfs": -26.914911817043247,
+    "silent_frames_all_channels_abs_le_1e-9": 116488
+  },
+  "notes": "Float WAV statistics before lossy AAC encoding. Input/output timelines are aligned by trimming reported algorithm latency and zero-flushing the tail. Output statistics count only decoded source duration; no startup/tail padding. RMS is unweighted dBFS, not LUFS. Stereo channels are linked by the algorithm; background and speech are not independently separated. Timing p99 is empirical, not a real-time guarantee.",
+  "output_frames_written": 882000,
+  "output_intermediate": "/var/folders/t4/kbc10sqs43b0rjf3nfh51nmw0000gn/T//dayu-audio-render.d6Ripf/render.wav",
+  "output_total": {
+    "channels": [
+      {
+        "finite_samples": 882000,
+        "infinity_samples": 0,
+        "nan_samples": 0,
+        "nonfinite_samples": 0,
+        "peak_dbfs": -11.98307366526678,
+        "peak_linear": 0.25167861580848694,
+        "rms_dbfs": -39.87100563258859,
+        "samples_abs_ge_1": 0,
+        "samples_abs_le_1e-9": 227001
+      },
+      {
+        "finite_samples": 882000,
+        "infinity_samples": 0,
+        "nan_samples": 0,
+        "nonfinite_samples": 0,
+        "peak_dbfs": -11.976573714289145,
+        "peak_linear": 0.25186702609062195,
+        "rms_dbfs": -39.14212656609894,
+        "samples_abs_ge_1": 0,
+        "samples_abs_le_1e-9": 252978
+      }
+    ],
+    "frames": 882000,
+    "peak_dbfs": -11.976573714289145,
+    "rms_dbfs": -39.491292984671944,
+    "silent_frames_all_channels_abs_le_1e-9": 116488
+  },
+  "parameter_values_by_address": [
+    -12,
+    80,
+    24.608978271484375,
+    1000,
+    -36.599998474121094,
+    0,
+    0
+  ],
+  "peak_resident_memory_bytes_macOS_getrusage": 22462464,
+  "per_second": [
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -69.48114499602985,
+            "peak_linear": 0.000335693359375,
+            "rms_dbfs": -92.3184078157869,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21659
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -69.48114499602985,
+            "peak_linear": 0.000335693359375,
+            "rms_dbfs": -90.94972384646645,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 19433
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -69.48114499602985,
+        "rms_dbfs": -91.58036970753118,
+        "silent_frames_all_channels_abs_le_1e-9": 12642
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -79.88114819949469,
+            "peak_linear": 0.00010137773642782122,
+            "rms_dbfs": -102.8959823766234,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21659
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -79.88114819949469,
+            "peak_linear": 0.00010137773642782122,
+            "rms_dbfs": -101.50950852990384,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 19433
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -79.88114819949469,
+        "rms_dbfs": -102.1476503067805,
+        "silent_frames_all_channels_abs_le_1e-9": 12642
+      },
+      "start_second": 0
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -52.80777343136036,
+            "peak_linear": 0.002288818359375,
+            "rms_dbfs": -79.4971100741642,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 14432
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -52.46710664538475,
+            "peak_linear": 0.00238037109375,
+            "rms_dbfs": -80.09851278604464,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 13655
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -52.46710664538475,
+        "rms_dbfs": -79.78740959976255,
+        "silent_frames_all_channels_abs_le_1e-9": 8318
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -63.207774423858524,
+            "peak_linear": 0.0006912120152264833,
+            "rms_dbfs": -89.89711228331689,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 14432
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -62.867107834811094,
+            "peak_linear": 0.0007188604795373976,
+            "rms_dbfs": -90.49851495796244,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 13655
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -62.867107834811094,
+        "rms_dbfs": -90.1874117915848,
+        "silent_frames_all_channels_abs_le_1e-9": 8318
+      },
+      "start_second": 1
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -59.93871990163661,
+            "peak_linear": 0.001007080078125,
+            "rms_dbfs": -88.7625304670072,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 16734
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -46.50236473578853,
+            "peak_linear": 0.004730224609375,
+            "rms_dbfs": -78.0035479687556,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 9593
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -46.50236473578853,
+        "rms_dbfs": -80.66369265136879,
+        "silent_frames_all_channels_abs_le_1e-9": 6123
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -70.33872268950616,
+            "peak_linear": 0.0003041332238353789,
+            "rms_dbfs": -98.727756309671,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 16734
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -56.90236719118187,
+            "peak_linear": 0.0014285045908764005,
+            "rms_dbfs": -87.91303330429245,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 9593
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -56.90236719118187,
+        "rms_dbfs": -90.57747026340039,
+        "silent_frames_all_channels_abs_le_1e-9": 6123
+      },
+      "start_second": 2
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -66.22659904607586,
+            "peak_linear": 0.00048828125,
+            "rms_dbfs": -87.05024133213925,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 14427
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -54.891958466351475,
+            "peak_linear": 0.001800537109375,
+            "rms_dbfs": -75.91487683570863,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 8769
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -54.891958466351475,
+        "rms_dbfs": -78.60303918740959,
+        "silent_frames_all_channels_abs_le_1e-9": 4515
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -75.98459155541924,
+            "peak_linear": 0.00015877072291914374,
+            "rms_dbfs": -96.80823234257318,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 14427
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -64.64995112411906,
+            "peak_linear": 0.0005854670307599008,
+            "rms_dbfs": -85.67286720235656,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 8769
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -64.64995112411906,
+        "rms_dbfs": -88.36102960008226,
+        "silent_frames_all_channels_abs_le_1e-9": 4515
+      },
+      "start_second": 3
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -74.74597369152148,
+            "peak_linear": 0.00018310546875,
+            "rms_dbfs": -92.51175799412393,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 20732
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -63.46054508275024,
+            "peak_linear": 0.00067138671875,
+            "rms_dbfs": -86.47084503939004,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 17915
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -63.46054508275024,
+        "rms_dbfs": -88.5160998806148,
+        "silent_frames_all_channels_abs_le_1e-9": 9738
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -84.5039685891455,
+            "peak_linear": 5.953900472377427e-05,
+            "rms_dbfs": -102.3127116470018,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 20732
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -73.21853954614134,
+            "peak_linear": 0.00021830969490110874,
+            "rms_dbfs": -96.239706689536,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 17915
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -73.21853954614134,
+        "rms_dbfs": -98.2913370584879,
+        "silent_frames_all_channels_abs_le_1e-9": 9738
+      },
+      "start_second": 4
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -60.76657360480111,
+            "peak_linear": 0.00091552734375,
+            "rms_dbfs": -92.00321383869476,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21914
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -59.93871990163661,
+            "peak_linear": 0.001007080078125,
+            "rms_dbfs": -91.39083118711427,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21452
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -59.93871990163661,
+        "rms_dbfs": -91.68623771537837,
+        "silent_frames_all_channels_abs_le_1e-9": 11561
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -70.52453718946462,
+            "peak_linear": 0.00029769609682261944,
+            "rms_dbfs": -101.77371115703247,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21914
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -69.69668580220089,
+            "peak_linear": 0.00032746561919339,
+            "rms_dbfs": -101.16515851446593,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21452
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -69.69668580220089,
+        "rms_dbfs": -101.45878440870464,
+        "silent_frames_all_channels_abs_le_1e-9": 11561
+      },
+      "start_second": 5
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -84.28839878591474,
+            "peak_linear": 6.103515625e-05,
+            "rms_dbfs": -93.30141227457295,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22100
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -84.28839878591474,
+            "peak_linear": 6.103515625e-05,
+            "rms_dbfs": -93.31103424835635,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22134
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -84.28839878591474,
+        "rms_dbfs": -93.30622059673011,
+        "silent_frames_all_channels_abs_le_1e-9": 11362
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -94.04637935386484,
+            "peak_linear": 1.984636764973402e-05,
+            "rms_dbfs": -103.05940715457652,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22100
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -94.04637935386484,
+            "peak_linear": 1.984636764973402e-05,
+            "rms_dbfs": -103.06902910295193,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22134
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -94.04637935386484,
+        "rms_dbfs": -103.06421546404377,
+        "silent_frames_all_channels_abs_le_1e-9": 11362
+      },
+      "start_second": 6
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -84.28839878591474,
+            "peak_linear": 6.103515625e-05,
+            "rms_dbfs": -93.29866705019643,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22167
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -84.28839878591474,
+            "peak_linear": 6.103515625e-05,
+            "rms_dbfs": -93.30847940145382,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22133
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -84.28839878591474,
+        "rms_dbfs": -93.30357045460018,
+        "silent_frames_all_channels_abs_le_1e-9": 11406
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -94.04634671414033,
+            "peak_linear": 1.9846442228299566e-05,
+            "rms_dbfs": -103.12320815507945,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22167
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -94.04635626721773,
+            "peak_linear": 1.9846420400426723e-05,
+            "rms_dbfs": -103.13455003480777,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 22133
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -94.04634671414033,
+        "rms_dbfs": -103.12887539243862,
+        "silent_frames_all_channels_abs_le_1e-9": 11406
+      },
+      "start_second": 7
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -76.32959861247399,
+            "peak_linear": 0.000152587890625,
+            "rms_dbfs": -91.6248070010255,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 19853
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -84.28839878591474,
+            "peak_linear": 6.103515625e-05,
+            "rms_dbfs": -93.20961071554025,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21930
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -76.32959861247399,
+        "rms_dbfs": -92.34531668865279,
+        "silent_frames_all_channels_abs_le_1e-9": 11099
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -86.0875982866612,
+            "peak_linear": 4.961580998497084e-05,
+            "rms_dbfs": -101.38280237537943,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 19853
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -94.04637696558815,
+            "peak_linear": 1.984637310670223e-05,
+            "rms_dbfs": -102.96760449421544,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 21930
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -86.0875982866612,
+        "rms_dbfs": -102.1033114091447,
+        "silent_frames_all_channels_abs_le_1e-9": 11099
+      },
+      "start_second": 8
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -58.94496421785446,
+            "peak_linear": 0.001129150390625,
+            "rms_dbfs": -79.19956846037391,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 10759
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -61.68172341601461,
+            "peak_linear": 0.000823974609375,
+            "rms_dbfs": -89.41836251635971,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 17868
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -58.94496421785446,
+        "rms_dbfs": -81.81538266167804,
+        "silent_frames_all_channels_abs_le_1e-9": 6796
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -69.02508810396978,
+            "peak_linear": 0.00035379003384150565,
+            "rms_dbfs": -89.07257144743215,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 10759
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -71.78679472052522,
+            "peak_linear": 0.0002574306563474238,
+            "rms_dbfs": -99.28168417496735,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 17868
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -69.02508810396978,
+        "rms_dbfs": -91.68754415855217,
+        "silent_frames_all_channels_abs_le_1e-9": 6796
+      },
+      "start_second": 9
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -21.681723416014613,
+            "peak_linear": 0.0823974609375,
+            "rms_dbfs": -44.76837069072499,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 7004
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -20.86850474518873,
+            "peak_linear": 0.090484619140625,
+            "rms_dbfs": -43.9764412093626,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 7264
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -20.86850474518873,
+        "rms_dbfs": -44.354380009177596,
+        "silent_frames_all_channels_abs_le_1e-9": 3368
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -17.678095133201303,
+            "peak_linear": 0.1306457370519638,
+            "rms_dbfs": -40.50520403316948,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 7004
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -16.864877015359323,
+            "peak_linear": 0.14346836507320404,
+            "rms_dbfs": -39.712553827504976,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 7264
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -16.864877015359323,
+        "rms_dbfs": -40.090820209633506,
+        "silent_frames_all_channels_abs_le_1e-9": 3368
+      },
+      "start_second": 10
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -1.9433044016316456,
+            "peak_linear": 0.799530029296875,
+            "rms_dbfs": -35.661777629630336,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1501
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -1.711047525451406,
+            "peak_linear": 0.821197509765625,
+            "rms_dbfs": -35.25579344454006,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1516
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -1.711047525451406,
+        "rms_dbfs": -35.45404327158929,
+        "silent_frames_all_channels_abs_le_1e-9": 779
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -11.98307366526678,
+            "peak_linear": 0.25167861580848694,
+            "rms_dbfs": -40.54635389409229,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1501
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -11.97773516445542,
+            "peak_linear": 0.25183334946632385,
+            "rms_dbfs": -39.987403581801956,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1516
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -11.97773516445542,
+        "rms_dbfs": -40.25789261014179,
+        "silent_frames_all_channels_abs_le_1e-9": 779
+      },
+      "start_second": 11
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -3.4874339549654927,
+            "peak_linear": 0.6693115234375,
+            "rms_dbfs": -34.98361767863922,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 661
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -1.663405866285238,
+            "peak_linear": 0.825714111328125,
+            "rms_dbfs": -34.053777437952,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 602
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -1.663405866285238,
+        "rms_dbfs": -34.493859673697116,
+        "silent_frames_all_channels_abs_le_1e-9": 232
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -13.07281097017228,
+            "peak_linear": 0.22200331091880798,
+            "rms_dbfs": -37.753568086950025,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 661
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -11.976573714289145,
+            "peak_linear": 0.25186702609062195,
+            "rms_dbfs": -36.9744850067806,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 602
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -11.976573714289145,
+        "rms_dbfs": -37.346579908048284,
+        "silent_frames_all_channels_abs_le_1e-9": 232
+      },
+      "start_second": 12
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -21.54764969012448,
+            "peak_linear": 0.08367919921875,
+            "rms_dbfs": -59.093443728446225,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 10395
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -34.90669280345232,
+            "peak_linear": 0.017974853515625,
+            "rms_dbfs": -72.20794509673513,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 15007
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -21.54764969012448,
+        "rms_dbfs": -61.896756382295244,
+        "silent_frames_all_channels_abs_le_1e-9": 6449
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -21.276602858692094,
+            "peak_linear": 0.08633161336183548,
+            "rms_dbfs": -58.831902152629674,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 10395
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -34.63564650845464,
+            "peak_linear": 0.01854460872709751,
+            "rms_dbfs": -71.86081940082575,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 15007
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -21.276602858692094,
+        "rms_dbfs": -61.63119384888628,
+        "silent_frames_all_channels_abs_le_1e-9": 6449
+      },
+      "start_second": 13
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -58.053321564799646,
+            "peak_linear": 0.001251220703125,
+            "rms_dbfs": -79.41102859160597,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 7185
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -70.30899869919436,
+            "peak_linear": 0.00030517578125,
+            "rms_dbfs": -89.90888090477597,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 17452
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -58.053321564799646,
+        "rms_dbfs": -82.05037511470084,
+        "silent_frames_all_channels_abs_le_1e-9": 4078
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -57.02316950705047,
+            "peak_linear": 0.0014087746385484934,
+            "rms_dbfs": -76.83125988933149,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 7185
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -69.32945451886872,
+            "peak_linear": 0.00034160740324296057,
+            "rms_dbfs": -87.25001339294914,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 17452
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -57.02316950705047,
+        "rms_dbfs": -79.46407625325958,
+        "silent_frames_all_channels_abs_le_1e-9": 4078
+      },
+      "start_second": 14
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -56.86704154048001,
+            "peak_linear": 0.001434326171875,
+            "rms_dbfs": -76.45575347096954,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 8117
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -69.48114499602985,
+            "peak_linear": 0.000335693359375,
+            "rms_dbfs": -87.71169506280037,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 13495
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -56.86704154048001,
+        "rms_dbfs": -79.15242573581962,
+        "silent_frames_all_channels_abs_le_1e-9": 3918
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -53.51606765242377,
+            "peak_linear": 0.0021095830015838146,
+            "rms_dbfs": -73.86719815739451,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 8117
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -66.13017056328896,
+            "peak_linear": 0.0004937322228215635,
+            "rms_dbfs": -84.9683495776174,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 13495
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -53.51606765242377,
+        "rms_dbfs": -76.55290562528688,
+        "silent_frames_all_channels_abs_le_1e-9": 3918
+      },
+      "start_second": 15
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -58.48770655866438,
+            "peak_linear": 0.001190185546875,
+            "rms_dbfs": -74.53716905201739,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1553
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -58.053321564799646,
+            "peak_linear": 0.001251220703125,
+            "rms_dbfs": -85.36026213808604,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 8754
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -58.053321564799646,
+        "rms_dbfs": -77.20224616534853,
+        "silent_frames_all_channels_abs_le_1e-9": 908
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -58.262729187693985,
+            "peak_linear": 0.0012214158196002245,
+            "rms_dbfs": -75.60235270254543,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1553
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -59.78184967070107,
+            "peak_linear": 0.0010254335356876254,
+            "rms_dbfs": -86.7734537629226,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 8754
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -58.262729187693985,
+        "rms_dbfs": -78.29306015059866,
+        "silent_frames_all_channels_abs_le_1e-9": 908
+      },
+      "start_second": 16
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -0.8702626072997793,
+            "peak_linear": 0.9046630859375,
+            "rms_dbfs": -25.902906715460997,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1672
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": 0,
+            "peak_linear": 1,
+            "rms_dbfs": -25.11693921945409,
+            "samples_abs_ge_1": 1,
+            "samples_abs_le_1e-9": 9898
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": 0,
+        "rms_dbfs": -25.49216705109565,
+        "silent_frames_all_channels_abs_le_1e-9": 973
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -13.58929808243994,
+            "peak_linear": 0.20918719470500946,
+            "rms_dbfs": -38.572213879998266,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 1672
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -12.719036161994028,
+            "peak_linear": 0.23123213648796082,
+            "rms_dbfs": -37.7838482500986,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 9898
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -12.719036161994028,
+        "rms_dbfs": -38.16016677868699,
+        "silent_frames_all_channels_abs_le_1e-9": 973
+      },
+      "start_second": 17
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -0.8931472478564364,
+            "peak_linear": 0.90228271484375,
+            "rms_dbfs": -27.5389880348201,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 3671
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -0.447927827761439,
+            "peak_linear": 0.949737548828125,
+            "rms_dbfs": -26.837681858427406,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 3661
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -0.447927827761439,
+        "rms_dbfs": -27.17419428516213,
+        "silent_frames_all_channels_abs_le_1e-9": 2083
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -14.229578996724735,
+            "peak_linear": 0.19432158768177032,
+            "rms_dbfs": -40.87618585423532,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 3671
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -13.784359060813658,
+            "peak_linear": 0.20454178750514984,
+            "rms_dbfs": -40.1748679448322,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 3661
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -13.784359060813658,
+        "rms_dbfs": -40.51138576542816,
+        "silent_frames_all_channels_abs_le_1e-9": 2083
+      },
+      "start_second": 18
+    },
+    {
+      "input": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -0.00026507636037961915,
+            "peak_linear": 0.999969482421875,
+            "rms_dbfs": -14.904871619806189,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 465
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -0.00026507636037961915,
+            "peak_linear": 0.999969482421875,
+            "rms_dbfs": -14.175868733152889,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 447
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -0.00026507636037961915,
+        "rms_dbfs": -14.525091878326457,
+        "silent_frames_all_channels_abs_le_1e-9": 140
+      },
+      "output": {
+        "channels": [
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -13.360622104895135,
+            "peak_linear": 0.2147676646709442,
+            "rms_dbfs": -28.258529216405318,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 465
+          },
+          {
+            "finite_samples": 44100,
+            "infinity_samples": 0,
+            "nan_samples": 0,
+            "nonfinite_samples": 0,
+            "peak_dbfs": -13.360631144657418,
+            "peak_linear": 0.2147674411535263,
+            "rms_dbfs": -27.529498043312426,
+            "samples_abs_ge_1": 0,
+            "samples_abs_le_1e-9": 447
+          }
+        ],
+        "frames": 44100,
+        "peak_dbfs": -13.360622104895135,
+        "rms_dbfs": -27.878734147428116,
+        "silent_frames_all_channels_abs_le_1e-9": 140
+      },
+      "start_second": 19
+    }
+  ],
+  "real_time_speed_ratio": 76.41108591137174,
+  "render_wall_seconds_including_decode_metrics_and_wav_io": 0.261742125,
+  "sample_rate_hz": 44100,
+  "source": "/Volumes/DayuMedia 4TB/2026.10.27/261027_005.MP3",
+  "source_frames_decoded": 882000,
+  "final_audio_output": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/261027_005_自动电平_小样.m4a",
+  "final_audio_size_bytes": 496226,
+  "encoding": "AAC LC, 192 kb/s, source sample rate and channel count retained",
+  "intermediate_float_wav_deleted_after_encode": true
+}

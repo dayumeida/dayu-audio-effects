@@ -1,0 +1,29 @@
+(lldb) target create "Analysis/DeClipper/UserClip/era5-file-probe"
+Current executable set to '/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Analysis/DeClipper/UserClip/era5-file-probe' (arm64).
+(lldb) settings set -- target.run-args  "/Users/dayu/Movies/FCPX千问识音交接/incoming-qwen-share-1793470011166-1/大鱼多插件长素材验证-011166-1.wav" "Analysis/DeClipper/UserClip/original-lldb-q0-t1.f32" "0" "1" "0"
+(lldb) command source -s 0 'Analysis/DeClipper/UserClip/lldb-realclip.commands'
+Executing commands in '/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Analysis/DeClipper/UserClip/lldb-realclip.commands'.
+(lldb) command script import "Analysis/DeClipper/UserClip/lldb_realclip.py"
+(lldb) breakpoint set -n AudioUnitInitialize
+Breakpoint 1: where = AudioToolboxCore`AudioUnitInitialize, address = 0x000000019ee13300
+(lldb) run
+Process 56113 launched: '/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Analysis/DeClipper/UserClip/era5-file-probe' (arm64)
+Process 56113 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+       frame #0: 0x00000001ab747300 AudioToolboxCore`AudioUnitInitialize
+AudioToolboxCore`AudioUnitInitialize:
+->  0x1ab747300 <+0>:  pacibsp 
+    0x1ab747304 <+4>:  sub    sp, sp, #0xa0
+    0x1ab747308 <+8>:  stp    x22, x21, [sp, #0x70]
+    0x1ab74730c <+12>: stp    x20, x19, [sp, #0x80]
+Target 0: (era5-file-probe) stopped.
+(lldb) realinit
+(lldb) breakpoint disable 1
+1 breakpoints disabled.
+(lldb) continue
+{"target":"ERA5 DeClipper 5.4.00 arm64 AUv2","sampleRate":48000,"inputFrames":271200,"channels":2,"quality":0,"type":1,"gainDbRequested":0.00,"gainNormalizedRead":0.857142866,"latencyFrames":5368,"latencySeconds":0.111833333,"inputFormatStatus":0,"outputFormatStatus":0,"callbackStatus":0,"initializeStatus":0,"renderStatus":0,"licenseHandling":"Unmodified installed AU, normal trial/licensed processing; no bypass"}
+Process 56113 resuming
+Process 56113 exited with status = 0 (0x00000000)
+(lldb) realfinish
+saved original normal AU internals q0-t1
+(lldb) quit

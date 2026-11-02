@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-01",
+  "appVersion": "1.2",
+  "build": 8,
+  "componentVersion": 65543,
+  "appPath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/MultiEffect/大鱼音频效果器.app",
+  "components": [
+    {
+      "subtype": "dylv",
+      "latencyFrames48k": 362496
+    },
+    {
+      "subtype": "dyll",
+      "latencyFrames48k": 240
+    },
+    {
+      "subtype": "dydn",
+      "latencyFrames48k": 30722
+    },
+    {
+      "subtype": "dycr",
+      "latencyFrames48k": 7871
+    }
+  ],
+  "buildPassed": true,
+  "codesignPassed": true,
+  "fullRegressionExitCode": 0,
+  "auval": {
+    "dylv": true,
+    "dyll": true,
+    "dydn": true,
+    "dycr": true
+  },
+  "auV3SmokePassed": true,
+  "allocations": {
+    "denoise": {
+      "sampleRate": 48000,
+      "subtype": "6479646e",
+      "mallocLoggerPositiveControl": true,
+      "freshRenderThreads": true,
+      "blocks": [
+        {
+          "frames": 32,
+          "budgetMs": 0.666667,
+          "p99Ms": 0.353542,
+          "maxMs": 0.443292
+        },
+        {
+          "frames": 128,
+          "budgetMs": 2.666667,
+          "p99Ms": 0.721458,
+          "maxMs": 0.803125
+        },
+        {
+          "frames": 512,
+          "budgetMs": 10.666667,
+          "p99Ms": 2.090667,
+          "maxMs": 2.178042
+        },
+        {
+          "frames": 16384,
+          "budgetMs": 341.333333,
+          "p99Ms": 48.425166,
+          "maxMs": 48.800041
+        }
+      ],
+      "cAllocations": 0,
+      "cppAllocations": 0,
+      "finiteAudio": true,
+      "limitations": "Offline synthetic pulls under current system load; not FCP waveform timing or a worst-case scheduling guarantee"
+    },
+    "declipper": {
+      "sampleRate": 48000,
+      "subtype": "64796372",
+      "mallocLoggerPositiveControl": true,
+      "freshRenderThreads": true,
+      "blocks": [
+        {
+          "frames": 32,
+          "budgetMs": 0.666667,
+          "p99Ms": 0.400792,
+          "maxMs": 0.517667
+        },
+        {
+          "frames": 128,
+          "budgetMs": 2.666667,
+          "p99Ms": 0.611042,
+          "maxMs": 0.702042
+        },
+        {
+          "frames": 512,
+          "budgetMs": 10.666667,
+          "p99Ms": 1.448417,
+          "maxMs": 1.487208
+        },
+        {
+          "frames": 16384,
+          "budgetMs": 341.333333,
+          "p99Ms": 35.274875,
+          "maxMs": 35.316875
+        }
+      ],
+      "cAllocations": 0,
+      "cppAllocations": 0,
+      "finiteAudio": true,
+      "limitations": "Offline synthetic pulls under current system load; not FCP waveform timing or a worst-case scheduling guarantee"
+    }
+  },
+  "userClip": {
+    "frames": 271200,
+    "channels": 2,
+    "sampleRate": 48000,
+    "allFourOriginalModesBitExact": true,
+    "actualAUv3DefaultMatchesCore": true,
+    "subjectiveRepairSuccess": false,
+    "userConfirmedOriginalAlsoLimited": true
+  },
+  "fcp": {
+    "isolatedLibrary": "Outputs/FCPValidation/大鱼多插件验证.fcpbundle",
+    "fourEffectsVisible": true,
+    "denoiseEnabledWaveformVisible": true,
+    "denoiseMidPlaybackObserved": [
+      "00:20:44:56",
+      "00:21:37:58"
+    ],
+    "finalBuildLatePlaybackStartedAt": "00:35:45:20",
+    "latePlaybackFollowup": "browser AX recovered; project playback start verified; further validation accepted and stopped by user",
+    "preciseColdWaveformRebuildSeconds": null,
+    "full44MinuteContinuousAudition": false,
+    "finalBuildProjectPlaybackObserved": [
+      "00:40:27:34",
+      "00:40:27:51"
+    ],
+    "projectDurationTimecode": "00:44:48:22",
+    "userAdded40SecondClipPreserved": true,
+    "userAccepted": true
+  },
+  "limitations": [
+    "Denoise fixed delay and zero startup history intentionally differ from original",
+    "ERA5 original residual overread repaired; arbitrary-input universal bit-exact not claimed",
+    "Complex high-quality declipping can exceed realtime block budget",
+    "FCP full timeline cold waveform timing remains unmeasured"
+  ],
+  "status": "complete-user-accepted",
+  "userAcceptance": {
+    "statement": "验收通过不用测了",
+    "additionalTestingStopped": true,
+    "date": "2026-11-01"
+  }
+}

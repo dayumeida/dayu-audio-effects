@@ -1,0 +1,17 @@
+{
+  "frames": 271200,
+  "rate": 48000,
+  "identicalStereo": true,
+  "exactFullScaleSamples": 7107,
+  "runs": 6447,
+  "runsLengthGe2": 650,
+  "runsLengthGe3": 10,
+  "maxPlateauRun": 3,
+  "plateauSamplesLengthGe3": 30,
+  "runLengthsHistogram": {
+    "1": 5797,
+    "2": 640,
+    "3": 10
+  },
+  "peak": 1.0
+}

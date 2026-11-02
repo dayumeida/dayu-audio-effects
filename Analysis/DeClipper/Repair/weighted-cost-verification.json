@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "standard-full",
+    "channelWindows": 116,
+    "differentBits": 0,
+    "maxUnderestimate": 3.4633558243513107e-09,
+    "maxUnderestimateRatio": 1.2199026470135172e-13,
+    "maxOverestimate": 7.839844329282641e-10,
+    "maxEstimatedCost": 28390.427980708653
+  },
+  {
+    "mode": "high-full",
+    "channelWindows": 116,
+    "differentBits": 0,
+    "maxUnderestimate": 8.549250196665525e-11,
+    "maxUnderestimateRatio": 5.6547384477688674e-15,
+    "maxOverestimate": 3.5070115700364113e-09,
+    "maxEstimatedCost": 78202.07207519685
+  },
+  {
+    "mode": "type2-full",
+    "channelWindows": 152,
+    "differentBits": 0,
+    "maxUnderestimate": 6.402842700481415e-09,
+    "maxUnderestimateRatio": 2.6665686009069026e-13,
+    "maxOverestimate": 8.603819878771901e-10,
+    "maxEstimatedCost": 28736.574780708634
+  },
+  {
+    "mode": "type2-high-full",
+    "channelWindows": 152,
+    "differentBits": 0,
+    "maxUnderestimate": 1.9444996723905206e-09,
+    "maxUnderestimateRatio": 1.892339684409873e-13,
+    "maxOverestimate": 192.59999999815773,
+    "maxEstimatedCost": 78721.01887519687
+  }
+]

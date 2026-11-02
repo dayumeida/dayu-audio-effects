@@ -1,0 +1,37 @@
+{
+  "postId": 15770,
+  "url": "https://dayu.media/15770/",
+  "status": "publish",
+  "appVersion": "1.2",
+  "appBuild": "10",
+  "defaultTargetDb": -3,
+  "packageBytes": 42407490,
+  "packageSha256": "fe2091fd17645df2e29dda981ce3ea66da6438a54564cdf14f8b835396ff7c1b",
+  "uploadedPackageMatchesLocal": true,
+  "price": 50,
+  "vipRate": 0,
+  "lifetimeVipFree": true,
+  "commercialSettingsPreserved": true,
+  "coverPreserved": true,
+  "coverAttachmentId": 15772,
+  "publicChecks": [
+    {
+      "url": "https://dayu.media/15770/",
+      "httpStatus": 200,
+      "seoExact": true,
+      "updatedContentPresent": true,
+      "pricesVerified": true,
+      "paidUrlExposed": false
+    },
+    {
+      "url": "https://dayu.media/15770/?dayu_build=10",
+      "httpStatus": 200,
+      "seoExact": true,
+      "updatedContentPresent": true,
+      "pricesVerified": true,
+      "paidUrlExposed": false
+    }
+  ],
+  "actualPurchaseTested": false,
+  "memberDownloadTested": false
+}

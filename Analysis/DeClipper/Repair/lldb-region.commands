@@ -1,0 +1,7 @@
+command script import "Analysis/DeClipper/Repair/lldb_region.py"
+breakpoint set -n AudioUnitInitialize
+run
+regioninit
+breakpoint disable 1
+continue
+quit

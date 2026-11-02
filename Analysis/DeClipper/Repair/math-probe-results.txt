@@ -1,0 +1,2 @@
+divisionDifferences=0 dot=250.27682408945711
+dotDifferences=0 vDSPms=25.30600 fusedms=9.37792 sink=263.93216767318683

@@ -1,0 +1,28 @@
+{
+  "source": "/Volumes/DayuMedia 4TB/2026.10.27/261027_005.MP3",
+  "source_excerpt_seconds": [
+    2470,
+    2500
+  ],
+  "menu_localization": "zh-Hans",
+  "tested": [
+    "open original MP3 in host",
+    "several minutes of real-time original MP3 playback",
+    "save JSON preset",
+    "change target -12 to -6",
+    "load saved preset restores -12",
+    "Chinese native system dialogs",
+    "out-of-process AU instantiate/render/fullState roundtrip",
+    "final peak meter display with 0...-30 dB matching scale",
+    "Chinese advanced names: 最短分段, 活动门槛, 附加峰值保护"
+  ],
+  "preset_file": "preset-smoke.json",
+  "screenshot": "ui-preview.png",
+  "build": "Outputs/Release/大鱼音频效果器.app",
+  "core_sha256": "1eec62215c7b8e28cf532a02fbe241b566659dcf86d6bf926887bee196b0f134",
+  "final_other_swift_flags": [
+    "-Xcc",
+    "-ffp-contract=off"
+  ],
+  "peak_meter_semantics": "maximum absolute output sample within current host render block, dBFS"
+}

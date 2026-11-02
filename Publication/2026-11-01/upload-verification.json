@@ -1,0 +1,15 @@
+{
+  "postId": 15770,
+  "packageAttachmentId": 15771,
+  "coverAttachmentId": 15772,
+  "uploadedPackageBytes": 42163781,
+  "uploadedPackageSha256": "0547cb1bef423a2ac8db33bdaefc2cfec9a1a8e61205216e6c4bbb51dd0a3b43",
+  "matchesLocalPackage": true,
+  "coverSize": [
+    1672,
+    941
+  ],
+  "coverAltSaved": true,
+  "coverInContent": true,
+  "paidPackageUrlAbsentFromContent": true
+}

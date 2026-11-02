@@ -1,0 +1,39 @@
+{
+  "app": {
+    "arch": "arm64",
+    "bundleIdentifier": "media.dayu.audio.leveler",
+    "version": "1.2",
+    "build": "9",
+    "developerIDApplication": true,
+    "debugEntitlement": false
+  },
+  "extension": {
+    "arch": "arm64",
+    "bundleIdentifier": "media.dayu.audio.leveler.Extension",
+    "version": "1.2",
+    "build": "9",
+    "developerIDApplication": true,
+    "debugEntitlement": false
+  },
+  "iconSha256": "31efd45ecda9b17296b61f50d243f8e6172a6d45469e63f811b0f34edc1cefa6",
+  "components": [
+    {
+      "subtype": "dylv",
+      "version": 65544
+    },
+    {
+      "subtype": "dyll",
+      "version": 65544
+    },
+    {
+      "subtype": "dydn",
+      "version": 65544
+    },
+    {
+      "subtype": "dycr",
+      "version": 65544
+    }
+  ],
+  "modelUnchanged": true,
+  "dspSourceUnchanged": true
+}

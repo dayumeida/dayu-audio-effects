@@ -1,0 +1,475 @@
+{
+  "algorithm" : "dayu::ERA5DeClipperCore; bounded ERA5 restoration; explicit physical parameters",
+  "algorithm_latency_frames_removed" : 7871,
+  "algorithm_latency_seconds_removed" : 0.16397916666666668,
+  "channels" : 2,
+  "core_process_timing" : {
+    "block_count" : 546,
+    "blocks_over_nominal_budget" : 7,
+    "max_us" : 12336.333000000001,
+    "mean_us" : 2365.0869523809533,
+    "nominal_audio_block_budget_us" : 10666.666666666666,
+    "nominal_block_frames" : 512,
+    "p50_us" : 1150.2090000000001,
+    "p99_us" : 10786.415999999999,
+    "total_core_seconds" : 1.2913374760000005
+  },
+  "duration_seconds" : 5.6500000000000004,
+  "flush_zero_frames" : 7871,
+  "input_total" : {
+    "channels" : [
+      {
+        "finite_samples" : 271200,
+        "infinity_samples" : 0,
+        "nan_samples" : 0,
+        "nonfinite_samples" : 0,
+        "peak_dbfs" : 0,
+        "peak_linear" : 1,
+        "rms_dbfs" : -7.8927171662903337,
+        "samples_abs_ge_1" : 3617,
+        "samples_abs_le_1e-9" : 0
+      },
+      {
+        "finite_samples" : 271200,
+        "infinity_samples" : 0,
+        "nan_samples" : 0,
+        "nonfinite_samples" : 0,
+        "peak_dbfs" : 0,
+        "peak_linear" : 1,
+        "rms_dbfs" : -7.8927171662903337,
+        "samples_abs_ge_1" : 3617,
+        "samples_abs_le_1e-9" : 0
+      }
+    ],
+    "frames" : 271200,
+    "peak_dbfs" : 0,
+    "rms_dbfs" : -7.8927171662903337,
+    "silent_frames_all_channels_abs_le_1e-9" : 0
+  },
+  "notes" : "Float WAV statistics before lossy AAC encoding. Input\/output timelines are aligned by trimming reported algorithm latency and zero-flushing the tail. Output statistics count only decoded source duration; no startup\/tail padding. RMS is unweighted dBFS, not LUFS. Stereo channels are linked by the algorithm; background and speech are not independently separated. Timing p99 is empirical, not a real-time guarantee.",
+  "output_frames_written" : 271200,
+  "output_intermediate" : "\/Volumes\/DayuMedia 4TB\/大鱼音频插件开发\/大鱼音频效果器\/Outputs\/破音素材试听\/破音修复_质量1_类型1.wav",
+  "output_total" : {
+    "channels" : [
+      {
+        "finite_samples" : 271200,
+        "infinity_samples" : 0,
+        "nan_samples" : 0,
+        "nonfinite_samples" : 0,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "peak_linear" : 0.99999988079071045,
+        "rms_dbfs" : -11.444294979533964,
+        "samples_abs_ge_1" : 0,
+        "samples_abs_le_1e-9" : 0
+      },
+      {
+        "finite_samples" : 271200,
+        "infinity_samples" : 0,
+        "nan_samples" : 0,
+        "nonfinite_samples" : 0,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "peak_linear" : 0.99999988079071045,
+        "rms_dbfs" : -11.444294979533964,
+        "samples_abs_ge_1" : 0,
+        "samples_abs_le_1e-9" : 0
+      }
+    ],
+    "frames" : 271200,
+    "peak_dbfs" : -1.0354387945871882e-06,
+    "rms_dbfs" : -11.444294979533964,
+    "silent_frames_all_channels_abs_le_1e-9" : 0
+  },
+  "parameter_values_by_address" : [
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "peak_resident_memory_bytes_macOS_getrusage" : 12664832,
+  "per_second" : [
+    {
+      "input" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -10.868694203254794,
+            "samples_abs_ge_1" : 52,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -10.868694203254794,
+            "samples_abs_ge_1" : 52,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : 0,
+        "rms_dbfs" : -10.868694203254794,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "output" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -11.897350045948169,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -11.897350045948169,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "rms_dbfs" : -11.897350045948169,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "start_second" : 0
+    },
+    {
+      "input" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -5.2798173598594769,
+            "samples_abs_ge_1" : 1466,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -5.2798173598594769,
+            "samples_abs_ge_1" : 1466,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : 0,
+        "rms_dbfs" : -5.2798173598594769,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "output" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -9.8448544147557975,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -9.8448544147557975,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "rms_dbfs" : -9.8448544147557975,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "start_second" : 1
+    },
+    {
+      "input" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -5.2081852322019575,
+            "samples_abs_ge_1" : 1871,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -5.2081852322019575,
+            "samples_abs_ge_1" : 1871,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : 0,
+        "rms_dbfs" : -5.2081852322019575,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "output" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -11.377664329365324,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -11.377664329365324,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "rms_dbfs" : -11.377664329365324,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "start_second" : 2
+    },
+    {
+      "input" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -12.367115835007809,
+            "samples_abs_ge_1" : 50,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -12.367115835007809,
+            "samples_abs_ge_1" : 50,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : 0,
+        "rms_dbfs" : -12.367115835007809,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "output" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -2.0001071313686958,
+            "peak_linear" : 0.79431843757629395,
+            "rms_dbfs" : -15.267412690095597,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -2.0001071313686958,
+            "peak_linear" : 0.79431843757629395,
+            "rms_dbfs" : -15.267412690095597,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : -2.0001071313686958,
+        "rms_dbfs" : -15.267412690095597,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "start_second" : 3
+    },
+    {
+      "input" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -8.9278918702518535,
+            "samples_abs_ge_1" : 132,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -8.9278918702518535,
+            "samples_abs_ge_1" : 132,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : 0,
+        "rms_dbfs" : -8.9278918702518535,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "output" : {
+        "channels" : [
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -10.215976503188536,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 48000,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -10.215976503188536,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 48000,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "rms_dbfs" : -10.215976503188536,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "start_second" : 4
+    },
+    {
+      "input" : {
+        "channels" : [
+          {
+            "finite_samples" : 31200,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -10.961943074016586,
+            "samples_abs_ge_1" : 46,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 31200,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : 0,
+            "peak_linear" : 1,
+            "rms_dbfs" : -10.961943074016586,
+            "samples_abs_ge_1" : 46,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 31200,
+        "peak_dbfs" : 0,
+        "rms_dbfs" : -10.961943074016586,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "output" : {
+        "channels" : [
+          {
+            "finite_samples" : 31200,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -12.195049593336048,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          },
+          {
+            "finite_samples" : 31200,
+            "infinity_samples" : 0,
+            "nan_samples" : 0,
+            "nonfinite_samples" : 0,
+            "peak_dbfs" : -1.0354387945871882e-06,
+            "peak_linear" : 0.99999988079071045,
+            "rms_dbfs" : -12.195049593336048,
+            "samples_abs_ge_1" : 0,
+            "samples_abs_le_1e-9" : 0
+          }
+        ],
+        "frames" : 31200,
+        "peak_dbfs" : -1.0354387945871882e-06,
+        "rms_dbfs" : -12.195049593336048,
+        "silent_frames_all_channels_abs_le_1e-9" : 0
+      },
+      "start_second" : 5
+    }
+  ],
+  "real_time_speed_ratio" : 4.306619220843432,
+  "render_wall_seconds_including_decode_metrics_and_wav_io" : 1.311933958,
+  "sample_rate_hz" : 48000,
+  "source" : "\/Users\/dayu\/Movies\/FCPX千问识音交接\/incoming-qwen-share-1793470011166-1\/大鱼多插件长素材验证-011166-1.wav",
+  "source_frames_decoded" : 271200
+}

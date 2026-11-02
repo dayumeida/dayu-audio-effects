@@ -1,0 +1,77 @@
+[
+  {
+    "passed": true,
+    "test": "zoom_and_hit_testing_preserve_absolute_time_anchor"
+  },
+  {
+    "passed": true,
+    "test": "pan_clamps_at_both_ends_and_fit_restores_whole_media"
+  },
+  {
+    "passed": true,
+    "test": "timecode_entry_supports_precise_minutes_seconds_and_rejects_invalid_input"
+  },
+  {
+    "passed": true,
+    "test": "multiresolution_peak_index_preserves_transients_at_fit_and_zoom"
+  },
+  {
+    "passed": true,
+    "test": "whole_media_waveform_and_initial_fit_load_without_export"
+  },
+  {
+    "passed": true,
+    "test": "zoom_and_scroll_never_restart_dsp_preview"
+  },
+  {
+    "passed": true,
+    "test": "seek_within_cached_audio_is_sample_positioned_without_rerender"
+  },
+  {
+    "passed": true,
+    "test": "near_end_seek_plays_target_in_overlapping_final_buffer_not_buffer_start"
+  },
+  {
+    "passed": true,
+    "test": "click_playback_continues_past_12s_boundary_and_pause_keeps_cursor"
+  },
+  {
+    "passed": true,
+    "test": "original_effect_switch_uses_same_absolute_playhead"
+  },
+  {
+    "passed": true,
+    "test": "rapid_clicks_cancel_stale_seek_and_only_play_latest_target"
+  },
+  {
+    "passed": true,
+    "test": "video_overview_preserves_audio_track_start_offset"
+  },
+  {
+    "passed": true,
+    "test": "parameter_edit_keeps_cursor_and_invalidates_processed_waveform_regions"
+  },
+  {
+    "passed": true,
+    "test": "render_completion_outlives_transient_ui_task_and_clears_busy_state"
+  },
+  {
+    "passed": true,
+    "test": "timeline_navigation_and_audition_never_write_source_directory"
+  },
+  {
+    "test": "native_ui_click_zoom_fit_scroll_shortcuts_and_12s_continuation",
+    "passed": true,
+    "method": "Cua native UI; silent 21-second fixture; click at 10.5 seconds, pause after 15 seconds; precise seek 5.375 seconds, +/F/Space and scrollbar checked"
+  },
+  {
+    "test": "native_ui_long_source_restored_and_ready_at_396_464920635_seconds",
+    "passed": true,
+    "method": "Final Release GUI; user preset restored; source 44:02, 44100 Hz stereo; timecode seek, 7 zoom clicks to 128x; original/effect cursor equal, processed peak visible, export enabled but not invoked"
+  },
+  {
+    "test": "user_original_and_existing_copies_unchanged_after_timeline_navigation",
+    "passed": true,
+    "method": "All 3 source-prefix files match pre-change names, sizes and nanosecond modification times; UI fixture directory still contains only timeline.wav"
+  }
+]

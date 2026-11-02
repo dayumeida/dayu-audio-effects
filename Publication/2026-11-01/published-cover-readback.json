@@ -1,0 +1,172 @@
+{
+  "id": 15772,
+  "date": "2026-11-01T03:13:26",
+  "date_gmt": "2026-10-31T19:13:26",
+  "guid": {
+    "rendered": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png",
+    "raw": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png"
+  },
+  "modified": "2026-11-01T03:14:57",
+  "modified_gmt": "2026-10-31T19:14:57",
+  "slug": "dayu-audio-effects-cover",
+  "status": "inherit",
+  "type": "attachment",
+  "link": "https://dayu.media/15770/dayu-audio-effects-cover/",
+  "title": {
+    "raw": "大鱼音频效果器1.2发布封面",
+    "rendered": "大鱼音频效果器1.2发布封面"
+  },
+  "author": 1,
+  "featured_media": 0,
+  "comment_status": "open",
+  "ping_status": "closed",
+  "template": "",
+  "meta": [],
+  "permalink_template": "https://dayu.media/15770/%postname%/",
+  "generated_slug": "大鱼音频效果器1-2发布封面",
+  "class_list": [
+    "post-15772",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+  ],
+  "description": {
+    "raw": "",
+    "rendered": "<p class=\"attachment\"><a href='https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png'><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"169\" src=\"https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-300x169.png\" class=\"attachment-medium size-medium\" alt=\"大鱼音频效果器1.2，四款中文FCP音频插件，售价50元，会员免费\" srcset=\"https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-300x169.png 300w, https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-1024x576.png 1024w, https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-768x432.png 768w, https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-1536x864.png 1536w, https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png 1672w\" sizes=\"auto, (max-width: 300px) 100vw, 300px\" /></a></p>\n"
+  },
+  "caption": {
+    "raw": "",
+    "rendered": ""
+  },
+  "alt_text": "大鱼音频效果器1.2，四款中文FCP音频插件，售价50元，会员免费",
+  "media_type": "image",
+  "mime_type": "image/png",
+  "media_details": {
+    "width": 1672,
+    "height": 941,
+    "file": "2026/11/1793474006-17709e165c2af2a.png",
+    "filesize": 1891664,
+    "sizes": {
+      "medium": {
+        "file": "1793474006-17709e165c2af2a-300x169.png",
+        "width": 300,
+        "height": 169,
+        "filesize": 87647,
+        "mime_type": "image/png",
+        "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-300x169.png"
+      },
+      "large": {
+        "file": "1793474006-17709e165c2af2a-1024x576.png",
+        "width": 1024,
+        "height": 576,
+        "filesize": 785157,
+        "mime_type": "image/png",
+        "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-1024x576.png"
+      },
+      "thumbnail": {
+        "file": "1793474006-17709e165c2af2a-150x150.png",
+        "width": 150,
+        "height": 150,
+        "filesize": 41012,
+        "mime_type": "image/png",
+        "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-150x150.png"
+      },
+      "medium_large": {
+        "file": "1793474006-17709e165c2af2a-768x432.png",
+        "width": 768,
+        "height": 432,
+        "filesize": 464902,
+        "mime_type": "image/png",
+        "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-768x432.png"
+      },
+      "1536x1536": {
+        "file": "1793474006-17709e165c2af2a-1536x864.png",
+        "width": 1536,
+        "height": 864,
+        "filesize": 1620203,
+        "mime_type": "image/png",
+        "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-1536x864.png"
+      },
+      "full": {
+        "file": "1793474006-17709e165c2af2a.png",
+        "width": 1672,
+        "height": 941,
+        "mime_type": "image/png",
+        "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png"
+      }
+    },
+    "image_meta": {
+      "aperture": "0",
+      "credit": "",
+      "camera": "",
+      "caption": "",
+      "created_timestamp": "0",
+      "copyright": "",
+      "focal_length": "0",
+      "iso": "0",
+      "shutter_speed": "0",
+      "title": "",
+      "orientation": "0",
+      "keywords": []
+    }
+  },
+  "post": 15770,
+  "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png",
+  "missing_image_sizes": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://dayu.media/wp-json/wp/v2/media/15772",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://dayu.media/wp-json/wp/v2/media"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://dayu.media/wp-json/wp/v2/types/attachment"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://dayu.media/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://dayu.media/wp-json/wp/v2/comments?post=15772"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://dayu.media/wp-json/wp/v2/media/15772"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://dayu.media/wp-json/wp/v2/media/15772"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+CrumplePopAudioDenoiseAI_FancyView frame={{0, 0}, {400, 536}}
+  NSImageView frame={{0, 0}, {400, 536}} tag=0 action=(null) target=(null) enabled=1
+    _NSImageViewSimpleImageView frame={{0, 0}, {400, 536}}
+  NSTextField frame={{49, 109}, {56, 20}} tag=0 action=(null) target=(null) enabled=1 text=Low
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {56, 20}}
+  NSTextField frame={{295, 109}, {56, 20}} tag=0 action=(null) target=(null) enabled=1 text=High
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {56, 20}}
+  NSTextField frame={{172, 109}, {56, 20}} tag=0 action=(null) target=(null) enabled=1 text=Mid
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {56, 20}}
+  NSTextField frame={{27, 450}, {56, 20}} tag=0 action=(null) target=(null) enabled=1 text=Output
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {56, 20}}
+  NSTextField frame={{106, 496}, {189, 20}} tag=0 action=(null) target=(null) enabled=1 text=AudioDenoise AI
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {189, 20}}
+  NSTextField frame={{317, 450}, {56, 20}} tag=0 action=(null) target=(null) enabled=1 text=Level
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {56, 20}}
+  NSTextField frame={{167, 318}, {66, 20}} tag=0 action=(null) target=(null) enabled=1 text=Strength
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {66, 20}}
+  NSTextField frame={{20, 282}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text= 0
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{20, 228}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-12
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{20, 174}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-24
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{20, 157}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=dB
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{356, 163}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=dB
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{355, 386}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=0
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{355, 344}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-9
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{355, 302}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-21
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{355, 260}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-33
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{355, 218}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-45
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{355, 182}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=-57
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSTextField frame={{20, 336}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=12
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  NSImageView frame={{40, 492}, {30, 27}} tag=0 action=(null) target=(null) enabled=1
+    _NSImageViewSimpleImageView frame={{0, 0}, {30, 27}}
+  CrumplePopAudioDenoiseAI_FancySmallKnob frame={{164, 33}, {72, 72}} tag=0 action=midKnobChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  CrumplePopAudioDenoiseAI_FancySmallKnob frame={{287, 33}, {72, 72}} tag=0 action=highKnobChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  CrumplePopAudioDenoiseAI_FancySmallKnob frame={{41, 33}, {72, 74}} tag=0 action=lowKnobChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  CrumplePopAudioDenoiseAI_FancyDisplay frame={{317, 415}, {56, 28}} tag=0 action=levelDisplayPressed: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  CrumplePopAudioDenoiseAI_FancyButton frame={{312, 495}, {66, 24}} tag=0 action=toggled: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  CrumplePopAudioDenoiseAI_FancyLevelView frame={{317, 187}, {10, 206}}
+  CrumplePopAudioDenoiseAI_FancyStrengthKnob frame={{136, 318}, {128, 168}} tag=0 action=strengthKnobChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  NSTextField frame={{20, 389}, {25, 18}} tag=0 action=(null) target=(null) enabled=1 text=24
+    _TtC6AppKitP33_72EBFCF981BE77E1C6F26FD717D0893922NSTextFieldSimpleLabel frame={{0, 0}, {25, 18}}
+  CrumplePopAudioDenoiseAI_FancySlider frame={{71, 155}, {16, 260}} tag=0 action=outputSliderChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  CrumplePopAudioDenoiseAI_FancyWaveformView frame={{109, 169}, {182, 76}} tag=0 action=(null) target=(null) enabled=1
+  CrumplePopAudioDenoiseAI_NSButtonFirstResponder frame={{108, 145}, {48, 24}} tag=0 action=savePressed: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+    NSButtonImageView frame={{1, 0}, {46, 24}}
+  CrumplePopAudioDenoiseAI_NSButtonFirstResponder frame={{245, 145}, {48, 24}} tag=0 action=infoPressed: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+    NSButtonImageView frame={{1, 0}, {46, 24}}
+  CrumplePopAudioDenoiseAI_NSButtonFirstResponder frame={{153, 145}, {48, 24}} tag=0 action=loadPressed: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+    NSButtonImageView frame={{0.5, 0}, {47, 24}}
+  CrumplePopAudioDenoiseAI_FancyTextField frame={{172, 284}, {56, 28}} tag=0 action=strengthFieldChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1 text=080%
+  CrumplePopAudioDenoiseAI_FancyTextField frame={{27, 415}, {56, 28}} tag=0 action=outputFieldChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1 text=+00.0dB
+  CrumplePopAudioDenoiseAI_FancyTextField frame={{57, 22}, {40, 18}} tag=0 action=lowFieldChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1 text=100
+  CrumplePopAudioDenoiseAI_FancyTextField frame={{180, 22}, {40, 18}} tag=0 action=midFieldChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1 text=100
+  CrumplePopAudioDenoiseAI_FancyTextField frame={{303, 22}, {40, 18}} tag=0 action=highFieldChanged: target=CrumplePopAudioDenoiseAI_FancyView enabled=1 text=100
+  CrumplePopAudioDenoiseAI_NSButtonFirstResponder frame={{199, 145}, {48, 24}} tag=0 action=resetPressed: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+    NSButtonImageView frame={{0, 0}, {48, 24}}
+  CrumplePopAudioDenoiseAI_FancyDisplay frame={{0, 0}, {400, 536}} tag=0 action=tipsPressed: target=CrumplePopAudioDenoiseAI_FancyView enabled=1
+  NSImageView frame={{0, 0}, {400, 24}} tag=0 action=(null) target=(null) enabled=1
+    _NSImageViewSimpleImageView frame={{0, 0}, {400, 24}}
+  NSImageView frame={{0, 0}, {400, 24}} tag=0 action=(null) target=(null) enabled=1
+    _NSImageViewSimpleImageView frame={{0, 0}, {400, 24}}

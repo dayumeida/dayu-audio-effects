@@ -1,0 +1,284 @@
+[
+  {
+    "test": "bypass_exact_frames_and_samples",
+    "effect": "reference",
+    "max_sample_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "bypass_exact_frames_and_samples",
+    "effect": "low-latency",
+    "max_sample_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "bypass_exact_frames_and_samples",
+    "effect": "audio-denoise-ai",
+    "max_sample_error": 3.725290298461914e-09,
+    "passed": true
+  },
+  {
+    "test": "bypass_exact_frames_and_samples",
+    "effect": "era5-declipper",
+    "max_sample_error": 0.0,
+    "passed": true
+  },
+  {
+    "test": "active_dsp_changes_audio_keeps_length",
+    "passed": true
+  },
+  {
+    "test": "collision_never_overwrites",
+    "passed": true
+  },
+  {
+    "test": "cancelled_job_no_partial_copy",
+    "passed": true
+  },
+  {
+    "test": "mp3_mono_44100_to_wav",
+    "passed": true
+  },
+  {
+    "test": "H264_AAC_错位音轨.mp4",
+    "passed": true,
+    "video_packets_unchanged": 96,
+    "audio": [
+      {
+        "codec": "aac",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "189471",
+        "output_bitrate": "189926",
+        "source_start": "0.378000",
+        "output_start": "0.378000",
+        "native_source": {
+          "end": 2.9093333333333335,
+          "rate": 48000,
+          "frames": 121504,
+          "start": 0.378
+        },
+        "native_output": {
+          "start": 0.378,
+          "rate": 48000,
+          "frames": 121504,
+          "end": 2.9093333333333335
+        }
+      }
+    ]
+  },
+  {
+    "test": "HEVC_PCM24.mov",
+    "passed": true,
+    "video_packets_unchanged": 63,
+    "audio": [
+      {
+        "codec": "pcm_s24le",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "2304000",
+        "output_bitrate": "2304000",
+        "source_start": "0.000000",
+        "output_start": "0.000000",
+        "native_source": {
+          "start": 0,
+          "frames": 120480,
+          "end": 2.5100000000000002,
+          "rate": 48000
+        },
+        "native_output": {
+          "start": 0,
+          "frames": 120480,
+          "rate": 48000,
+          "end": 2.51
+        }
+      }
+    ]
+  },
+  {
+    "test": "双音轨.mp4",
+    "passed": true,
+    "video_packets_unchanged": 96,
+    "audio": [
+      {
+        "codec": "aac",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "188571",
+        "output_bitrate": "188253",
+        "source_start": "0.356000",
+        "output_start": "0.356000",
+        "native_source": {
+          "start": 0.356,
+          "frames": 122880,
+          "rate": 48000,
+          "end": 2.916
+        },
+        "native_output": {
+          "end": 2.9160000000000004,
+          "start": 0.356,
+          "rate": 48000,
+          "frames": 122880
+        }
+      },
+      {
+        "codec": "aac",
+        "rate": "44100",
+        "channels": 1,
+        "source_bitrate": "96675",
+        "output_bitrate": "96663",
+        "source_start": "0.000000",
+        "output_start": "0.000000",
+        "native_source": {
+          "end": 3.1999999999999997,
+          "rate": 44100,
+          "frames": 141120,
+          "start": 0
+        },
+        "native_output": {
+          "start": 0,
+          "frames": 141120,
+          "rate": 44100,
+          "end": 3.1999999999999997
+        }
+      }
+    ]
+  },
+  {
+    "test": "旋转视频.mp4",
+    "passed": true,
+    "video_packets_unchanged": 96,
+    "audio": [
+      {
+        "codec": "aac",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "189471",
+        "output_bitrate": "189926",
+        "source_start": "0.378000",
+        "output_start": "0.378000",
+        "native_source": {
+          "end": 2.9093333333333335,
+          "start": 0.378,
+          "rate": 48000,
+          "frames": 121504
+        },
+        "native_output": {
+          "end": 2.9093333333333335,
+          "rate": 48000,
+          "frames": 121504,
+          "start": 0.378
+        }
+      }
+    ]
+  },
+  {
+    "test": "ALAC.mov",
+    "passed": true,
+    "video_packets_unchanged": 96,
+    "audio": [
+      {
+        "codec": "alac",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "1052007",
+        "output_bitrate": "1072243",
+        "source_start": "0.378000",
+        "output_start": "0.378000",
+        "native_source": {
+          "start": 0.378,
+          "end": 2.9166666666666665,
+          "rate": 48000,
+          "frames": 121856
+        },
+        "native_output": {
+          "end": 2.916666666666667,
+          "frames": 121856,
+          "rate": 48000,
+          "start": 0.378
+        }
+      }
+    ]
+  },
+  {
+    "test": "ProRes_PCM16.mov",
+    "passed": true,
+    "video_packets_unchanged": 63,
+    "audio": [
+      {
+        "codec": "pcm_s16le",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "1536000",
+        "output_bitrate": "1536000",
+        "source_start": "0.000000",
+        "output_start": "0.000000",
+        "native_source": {
+          "rate": 48000,
+          "end": 2.5100000000000002,
+          "frames": 120480,
+          "start": 0
+        },
+        "native_output": {
+          "frames": 120480,
+          "rate": 48000,
+          "start": 0,
+          "end": 2.51
+        }
+      }
+    ]
+  },
+  {
+    "test": "AAC.m4v",
+    "passed": true,
+    "video_packets_unchanged": 96,
+    "audio": [
+      {
+        "codec": "aac",
+        "rate": "48000",
+        "channels": 2,
+        "source_bitrate": "189471",
+        "output_bitrate": "189926",
+        "source_start": "0.378000",
+        "output_start": "0.378000",
+        "native_source": {
+          "rate": 48000,
+          "frames": 121504,
+          "start": 0.378,
+          "end": 2.9093333333333335
+        },
+        "native_output": {
+          "rate": 48000,
+          "start": 0.378,
+          "end": 2.9093333333333335,
+          "frames": 121504
+        }
+      }
+    ]
+  },
+  {
+    "test": "cancel_during_processing_removes_partial",
+    "passed": true
+  },
+  {
+    "test": "no_audio_multichannel_unsupported_codec_fail_cleanly",
+    "passed": true
+  },
+  {
+    "test": "parameter_snapshot_minus6dB_after_existing_gain_ramp",
+    "max_error_after_100ms": 1.4603004194757574e-08,
+    "passed": true
+  },
+  {
+    "test": "cancel_after_3_percent_removes_partial",
+    "passed": true
+  },
+  {
+    "test": "final_sandbox_app_mixed_batch_with_parent_authorization",
+    "passed": true,
+    "video_packets_unchanged": 63,
+    "audio_frames": 120480,
+    "ui_completed_count": 2,
+    "output_directory": "/private/tmp/dayu-offline-ui-final-20261101"
+  }
+]

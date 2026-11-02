@@ -1,0 +1,5 @@
+Undefined symbols for architecture arm64:
+  "_vDSP_convD", referenced from:
+      dayu::recovered::LPC::prime(double const*, unsigned long, unsigned long, unsigned long) in DeclipperCoreTests-fe935d.o
+ld: symbol(s) not found for architecture arm64
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)

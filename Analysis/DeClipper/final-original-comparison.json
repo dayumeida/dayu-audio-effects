@@ -1,0 +1,46 @@
+[
+  {
+    "type": 0,
+    "quality": 0,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "differences": 0,
+    "firstDifference": null,
+    "maxError": 0.0,
+    "rmsError": 0.0,
+    "interpretation": "Tested input does not enter original residual overread; exact original alignment expected"
+  },
+  {
+    "type": 0,
+    "quality": 1,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "differences": 0,
+    "firstDifference": null,
+    "maxError": 0.0,
+    "rmsError": 0.0,
+    "interpretation": "Tested input does not enter original residual overread; exact original alignment expected"
+  },
+  {
+    "type": 1,
+    "quality": 0,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "differences": 114642,
+    "firstDifference": 74674,
+    "maxError": 1.6181251406669617,
+    "rmsError": 0.10089219067305835,
+    "interpretation": "Original residual-overread fix intentionally changes long Type2 regions"
+  },
+  {
+    "type": 1,
+    "quality": 1,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "differences": 114642,
+    "firstDifference": 74674,
+    "maxError": 1.155157744884491,
+    "rmsError": 0.09152492053397694,
+    "interpretation": "Original residual-overread fix intentionally changes long Type2 regions"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "rate": 48000,
+    "type": 0,
+    "quality": 0,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 596.943,
+      "p99Milliseconds": 27.7847,
+      "maxMilliseconds": 33.2171
+    },
+    "scheduledTiming": {
+      "firstNonzero": 7872,
+      "latency": 7871,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 101860,
+      "allocations": 0,
+      "totalMilliseconds": 645.381,
+      "p99Milliseconds": 6.96171,
+      "maxMilliseconds": 11.8961
+    }
+  },
+  {
+    "rate": 48000,
+    "type": 0,
+    "quality": 1,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 1327.66,
+      "p99Milliseconds": 53.9847,
+      "maxMilliseconds": 57.5064
+    },
+    "scheduledTiming": {
+      "firstNonzero": 7872,
+      "latency": 7871,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 269860,
+      "allocations": 0,
+      "totalMilliseconds": 1372,
+      "p99Milliseconds": 11.3853,
+      "maxMilliseconds": 12.0567
+    }
+  },
+  {
+    "rate": 48000,
+    "type": 1,
+    "quality": 0,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 931.242,
+      "p99Milliseconds": 18.9426,
+      "maxMilliseconds": 20.933
+    },
+    "scheduledTiming": {
+      "firstNonzero": 7872,
+      "latency": 7871,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 103586,
+      "allocations": 0,
+      "totalMilliseconds": 989.324,
+      "p99Milliseconds": 4.56333,
+      "maxMilliseconds": 4.77758
+    }
+  },
+  {
+    "rate": 48000,
+    "type": 1,
+    "quality": 1,
+    "alignmentFrames": 2503,
+    "samples": 189497,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 5369,
+      "latency": 5368,
+      "allocations": 0,
+      "totalMilliseconds": 2877.73,
+      "p99Milliseconds": 54.6019,
+      "maxMilliseconds": 297.681
+    },
+    "scheduledTiming": {
+      "firstNonzero": 7872,
+      "latency": 7871,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 271586,
+      "allocations": 0,
+      "totalMilliseconds": 2654.22,
+      "p99Milliseconds": 13.52,
+      "maxMilliseconds": 16.6305
+    }
+  },
+  {
+    "rate": 44100,
+    "type": 0,
+    "quality": 0,
+    "alignmentFrames": 2300,
+    "samples": 174100,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 4933,
+      "latency": 4932,
+      "allocations": 0,
+      "totalMilliseconds": 435.071,
+      "p99Milliseconds": 16.9973,
+      "maxMilliseconds": 17.1586
+    },
+    "scheduledTiming": {
+      "firstNonzero": 7233,
+      "latency": 7232,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 99780,
+      "allocations": 0,
+      "totalMilliseconds": 473.159,
+      "p99Milliseconds": 4.40867,
+      "maxMilliseconds": 5.50546
+    }
+  },
+  {
+    "rate": 96000,
+    "type": 0,
+    "quality": 0,
+    "alignmentFrames": 5007,
+    "samples": 378993,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 10738,
+      "latency": 10737,
+      "allocations": 0,
+      "totalMilliseconds": 1197.52,
+      "p99Milliseconds": 35.5603,
+      "maxMilliseconds": 43.7873
+    },
+    "scheduledTiming": {
+      "firstNonzero": 15745,
+      "latency": 15744,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 114977,
+      "allocations": 0,
+      "totalMilliseconds": 1199.9,
+      "p99Milliseconds": 4.38325,
+      "maxMilliseconds": 4.7035
+    }
+  },
+  {
+    "rate": 96000,
+    "type": 0,
+    "quality": 1,
+    "alignmentFrames": 5007,
+    "samples": 378993,
+    "unequal": 0,
+    "maxError": 0.0,
+    "referenceTiming": {
+      "firstNonzero": 10738,
+      "latency": 10737,
+      "allocations": 0,
+      "totalMilliseconds": 3205.23,
+      "p99Milliseconds": 93.8231,
+      "maxMilliseconds": 190.286
+    },
+    "scheduledTiming": {
+      "firstNonzero": 15745,
+      "latency": 15744,
+      "deadlineMisses": 0,
+      "maximumJobUnits": 281377,
+      "allocations": 0,
+      "totalMilliseconds": 3093.24,
+      "p99Milliseconds": 10.5518,
+      "maxMilliseconds": 10.932
+    }
+  }
+]

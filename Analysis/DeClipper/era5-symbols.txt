@@ -1,0 +1,539 @@
+                 U _AUEventListenerNotify
+                 U _AudioUnitGetProperty
+                 U _AudioUnitRender
+                 U _CFArrayAppendValue
+                 U _CFArrayCreate
+                 U _CFArrayCreateMutable
+                 U _CFArrayGetCount
+                 U _CFArrayGetValueAtIndex
+                 U _CFAttributedStringCreate
+                 U _CFAttributedStringCreateMutable
+                 U _CFAttributedStringGetLength
+                 U _CFAttributedStringReplaceString
+                 U _CFAttributedStringSetAttribute
+                 U _CFDataAppendBytes
+                 U _CFDataCreate
+                 U _CFDataCreateMutable
+                 U _CFDataCreateWithBytesNoCopy
+                 U _CFDataGetBytePtr
+                 U _CFDataGetLength
+                 U _CFDictionaryContainsKey
+                 U _CFDictionaryCreate
+                 U _CFDictionaryCreateMutable
+                 U _CFDictionaryCreateMutableCopy
+                 U _CFDictionaryGetCount
+                 U _CFDictionaryGetKeysAndValues
+                 U _CFDictionaryGetTypeID
+                 U _CFDictionaryGetValue
+                 U _CFDictionaryGetValueIfPresent
+                 U _CFDictionaryRemoveValue
+                 U _CFDictionarySetValue
+                 U _CFGetTypeID
+                 U _CFNumberCreate
+                 U _CFNumberGetTypeID
+                 U _CFNumberGetValue
+                 U _CFRelease
+                 U _CFRetain
+                 U _CFRunLoopAddSource
+                 U _CFRunLoopGetMain
+                 U _CFRunLoopRemoveSource
+                 U _CFRunLoopRunInMode
+                 U _CFRunLoopSourceCreate
+                 U _CFRunLoopSourceInvalidate
+                 U _CFRunLoopSourceSignal
+                 U _CFRunLoopWakeUp
+                 U _CFStringCreateCopy
+                 U _CFStringCreateWithBytes
+                 U _CFStringCreateWithCString
+                 U _CFStringGetBytes
+                 U _CFStringGetCString
+                 U _CFStringGetLength
+                 U _CGAffineTransformIdentity
+                 U _CGAffineTransformInvert
+                 U _CGAssociateMouseAndMouseCursorPosition
+                 U _CGBitmapContextCreate
+                 U _CGColorCreate
+                 U _CGColorGetComponents
+                 U _CGColorGetNumberOfComponents
+                 U _CGColorRelease
+                 U _CGColorSpaceCreateWithName
+                 U _CGColorSpaceRelease
+                 U _CGContextAddCurveToPoint
+                 U _CGContextAddLineToPoint
+                 U _CGContextAddQuadCurveToPoint
+                 U _CGContextBeginPath
+                 U _CGContextBeginTransparencyLayer
+                 U _CGContextClearRect
+                 U _CGContextClip
+                 U _CGContextClipToMask
+                 U _CGContextClipToRect
+                 U _CGContextClipToRects
+                 U _CGContextClosePath
+                 U _CGContextConcatCTM
+                 U _CGContextDrawImage
+                 U _CGContextDrawLinearGradient
+                 U _CGContextDrawRadialGradient
+                 U _CGContextDrawTiledImage
+                 U _CGContextEOClip
+                 U _CGContextEOFillPath
+                 U _CGContextEndTransparencyLayer
+                 U _CGContextFillPath
+                 U _CGContextFillRect
+                 U _CGContextFillRects
+                 U _CGContextFlush
+                 U _CGContextGetClipBoundingBox
+                 U _CGContextGetTextMatrix
+                 U _CGContextGetUserSpaceToDeviceSpaceTransform
+                 U _CGContextMoveToPoint
+                 U _CGContextRelease
+                 U _CGContextRestoreGState
+                 U _CGContextRetain
+                 U _CGContextSaveGState
+                 U _CGContextSetAllowsFontSmoothing
+                 U _CGContextSetAlpha
+                 U _CGContextSetBlendMode
+                 U _CGContextSetFont
+                 U _CGContextSetFontSize
+                 U _CGContextSetInterpolationQuality
+                 U _CGContextSetRGBFillColor
+                 U _CGContextSetShouldAntialias
+                 U _CGContextSetShouldSmoothFonts
+                 U _CGContextSetTextMatrix
+                 U _CGContextShowGlyphsAtPositions
+                 U _CGContextTranslateCTM
+                 U _CGDataProviderCreateWithCFData
+                 U _CGDataProviderCreateWithData
+                 U _CGDataProviderRelease
+                 U _CGDisplayRegisterReconfigurationCallback
+                 U _CGDisplayRemoveReconfigurationCallback
+                 U _CGEventCreateMouseEvent
+                 U _CGFontCreateWithDataProvider
+                 U _CGFontRelease
+                 U _CGGradientCreateWithColorComponents
+                 U _CGGradientRelease
+                 U _CGGradientRetain
+                 U _CGImageCreate
+                 U _CGImageGetAlphaInfo
+                 U _CGImageGetHeight
+                 U _CGImageGetWidth
+                 U _CGImageRelease
+                 U _CGImageRetain
+                 U _CGImageSourceCreateImageAtIndex
+                 U _CGImageSourceCreateWithDataProvider
+                 U _CGPathAddRect
+                 U _CGPathApply
+                 U _CGPathCreateMutable
+                 U _CGPathRelease
+                 U _CGRectIntegral
+                 U _CGRectZero
+                 U _CGWarpMouseCursorPosition
+                 U _CTFontCollectionCreateMatchingFontDescriptors
+                 U _CTFontCollectionCreateWithFontDescriptors
+                 U _CTFontCopyAttribute
+                 U _CTFontCopyGraphicsFont
+                 U _CTFontCopyName
+                 U _CTFontCopyPostScriptName
+                 U _CTFontCreateCopyWithAttributes
+                 U _CTFontCreatePathForGlyph
+                 U _CTFontCreateWithFontDescriptor
+                 U _CTFontCreateWithGraphicsFont
+                 U _CTFontCreateWithName
+                 U _CTFontDescriptorCopyAttribute
+                 U _CTFontDescriptorCreateWithAttributes
+                 U _CTFontGetAscent
+                 U _CTFontGetDescent
+                 U _CTFontGetSize
+                 U _CTFontManagerRegisterGraphicsFont
+                 U _CTFontManagerUnregisterGraphicsFont
+                 U _CTFrameDraw
+                 U _CTFrameGetLineOrigins
+                 U _CTFrameGetLines
+                 U _CTFramesetterCreateFrame
+                 U _CTFramesetterCreateWithAttributedString
+                 U _CTFramesetterSuggestFrameSizeWithConstraints
+                 U _CTLineCreateWithAttributedString
+                 U _CTLineGetGlyphRuns
+                 U _CTLineGetStringRange
+                 U _CTLineGetTypographicBounds
+                 U _CTParagraphStyleCreate
+                 U _CTRunGetAdvances
+                 U _CTRunGetAdvancesPtr
+                 U _CTRunGetAttributes
+                 U _CTRunGetGlyphCount
+                 U _CTRunGetGlyphs
+                 U _CTRunGetGlyphsPtr
+                 U _CTRunGetPositions
+                 U _CTRunGetPositionsPtr
+                 U _CTRunGetStringRange
+                 U _ConvertFromUnicodeToText
+                 U _CreateTextEncoding
+                 U _CreateUnicodeToTextInfo
+0000000000003f8c T _DeClipperFxFactory5AUEntry
+0000000000012d60 T _DeClipperFxFactory5AUFactory
+                 U _DisposeUnicodeToTextInfo
+                 U _FxFactoryGetLicensingStatus
+                 U _FxFactoryShowProductUpdates
+                 U _NSApp
+                 U _NSAppearanceNameAqua
+                 U _NSApplicationDidBecomeActiveNotification
+                 U _NSApplicationDidResignActiveNotification
+                 U _NSApplicationWillTerminateNotification
+                 U _NSApplicationWillUnhideNotification
+                 U _NSBeep
+                 U _NSDefaultRunLoopMode
+                 U _NSDeviceResolution
+                 U _NSFoundationVersionNumber
+                 U _NSHomeDirectory
+                 U _NSImageHintCTM
+                 U _NSMenuDidBeginTrackingNotification
+                 U _NSMenuDidEndTrackingNotification
+                 U _NSPasteboardTypeString
+                 U _NSPointInRect
+                 U _NSViewFrameDidChangeNotification
+                 U _NSWindowDidDeminiaturizeNotification
+                 U _NSWindowDidMiniaturizeNotification
+                 U _NSWindowDidMoveNotification
+                 U _NSWindowWillMiniaturizeNotification
+                 U _NSZeroRect
+                 U _OBJC_CLASS_$_CATransaction
+                 U _OBJC_CLASS_$_CIContext
+                 U _OBJC_CLASS_$_NSAffineTransform
+                 U _OBJC_CLASS_$_NSAlert
+                 U _OBJC_CLASS_$_NSAppearance
+                 U _OBJC_CLASS_$_NSAppleEventManager
+                 U _OBJC_CLASS_$_NSAppleScript
+                 U _OBJC_CLASS_$_NSApplication
+                 U _OBJC_CLASS_$_NSArray
+                 U _OBJC_CLASS_$_NSAttributedString
+                 U _OBJC_CLASS_$_NSAutoreleasePool
+                 U _OBJC_CLASS_$_NSBitmapImageRep
+                 U _OBJC_CLASS_$_NSBundle
+                 U _OBJC_CLASS_$_NSCharacterSet
+                 U _OBJC_CLASS_$_NSColor
+                 U _OBJC_CLASS_$_NSControl
+                 U _OBJC_CLASS_$_NSCursor
+                 U _OBJC_CLASS_$_NSData
+                 U _OBJC_CLASS_$_NSDate
+                 U _OBJC_CLASS_$_NSDictionary
+                 U _OBJC_CLASS_$_NSDistributedNotificationCenter
+                 U _OBJC_CLASS_$_NSDocumentController
+                 U _OBJC_CLASS_$_NSDraggingItem
+                 U _OBJC_CLASS_$_NSEvent
+                 U _OBJC_CLASS_$_NSFileManager
+                 U _OBJC_CLASS_$_NSGraphicsContext
+                 U _OBJC_CLASS_$_NSHTTPCookieStorage
+                 U _OBJC_CLASS_$_NSHTTPURLResponse
+                 U _OBJC_CLASS_$_NSImage
+                 U _OBJC_CLASS_$_NSMenu
+                 U _OBJC_CLASS_$_NSMenuItem
+                 U _OBJC_CLASS_$_NSMutableArray
+                 U _OBJC_CLASS_$_NSMutableData
+                 U _OBJC_CLASS_$_NSMutableDictionary
+                 U _OBJC_CLASS_$_NSMutableURLRequest
+                 U _OBJC_CLASS_$_NSNib
+                 U _OBJC_CLASS_$_NSNotificationCenter
+                 U _OBJC_CLASS_$_NSObject
+                 U _OBJC_CLASS_$_NSOpenPanel
+                 U _OBJC_CLASS_$_NSOperationQueue
+                 U _OBJC_CLASS_$_NSPasteboard
+                 U _OBJC_CLASS_$_NSPasteboardItem
+                 U _OBJC_CLASS_$_NSProcessInfo
+                 U _OBJC_CLASS_$_NSRunLoop
+                 U _OBJC_CLASS_$_NSRunningApplication
+                 U _OBJC_CLASS_$_NSSavePanel
+                 U _OBJC_CLASS_$_NSScreen
+                 U _OBJC_CLASS_$_NSStatusBar
+                 U _OBJC_CLASS_$_NSString
+                 U _OBJC_CLASS_$_NSThread
+                 U _OBJC_CLASS_$_NSURL
+                 U _OBJC_CLASS_$_NSURLSession
+                 U _OBJC_CLASS_$_NSURLSessionConfiguration
+                 U _OBJC_CLASS_$_NSUserDefaults
+                 U _OBJC_CLASS_$_NSView
+                 U _OBJC_CLASS_$_NSWindow
+                 U _OBJC_CLASS_$_NSWorkspace
+                 U _OBJC_CLASS_$_WKWebView
+                 U _OBJC_CLASS_$_WKWebViewConfiguration
+                 U _OBJC_CLASS_$_WebView
+                 U _OBJC_EHTYPE_$_NSException
+                 U _OSAtomicCompareAndSwap64Barrier
+                 U _OSMemoryBarrier
+                 U __DefaultRuneLocale
+                 U __NSGetExecutablePath
+                 U __Unwind_Resume
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::compare(unsigned long, unsigned long, char const*, unsigned long) const
+                 U std::__1::__vector_base_common<true>::__throw_length_error() const
+                 U std::__1::__vector_base_common<true>::__throw_out_of_range() const
+                 U std::__1::__basic_string_common<true>::__throw_length_error() const
+                 U std::__1::__match_any_but_newline<char>::__exec(std::__1::__state<char>&) const
+                 U std::__1::locale::name() const
+                 U std::__1::locale::use_facet(std::__1::locale::id&) const
+                 U std::__1::ios_base::getloc() const
+                 U std::exception::what() const
+                 U std::logic_error::logic_error(char const*)
+                 U std::length_error::~length_error()
+                 U std::runtime_error::runtime_error(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)
+                 U std::runtime_error::~runtime_error()
+                 U std::__1::regex_error::regex_error(std::__1::regex_constants::error_type)
+                 U std::__1::regex_error::~regex_error()
+                 U std::__1::__next_prime(unsigned long)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::append(char const*, unsigned long)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::resize(unsigned long, char)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::push_back(char)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::operator=(char)
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::~sentry()
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::~basic_ostream()
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::~basic_ostream()
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::~basic_ostream()
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(double)
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(int)
+                 U std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned long)
+                 U std::__1::random_device::random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)
+                 U std::__1::random_device::~random_device()
+                 U std::__1::random_device::operator()()
+                 U std::__1::__get_classname(char const*, bool)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::sync()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::imbue(std::__1::locale const&)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::uflow()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::setbuf(char*, long)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::xsgetn(char*, long)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::xsputn(char const*, long)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::seekoff(long long, std::__1::ios_base::seekdir, unsigned int)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::seekpos(std::__1::fpos<__mbstate_t>, unsigned int)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::overflow(int)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::pbackfail(int)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::showmanyc()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::underflow()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::basic_streambuf()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char>>::~basic_streambuf()
+                 U std::__1::condition_variable::notify_all()
+                 U std::__1::condition_variable::__do_timed_wait(std::__1::unique_lock<std::__1::mutex>&, std::__1::chrono::time_point<std::__1::chrono::system_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l>>>)
+                 U std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)
+                 U std::__1::condition_variable::~condition_variable()
+                 U std::__1::__shared_weak_count::__release_weak()
+                 U std::__1::__shared_weak_count::~__shared_weak_count()
+                 U std::__1::__get_collation_name(char const*)
+                 U std::__1::cerr
+                 U std::__1::stoi(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, unsigned long*, int)
+                 U std::__1::ctype<char>::id
+                 U std::__1::mutex::lock()
+                 U std::__1::mutex::unlock()
+                 U std::__1::mutex::~mutex()
+                 U void std::__1::__sort<std::__1::__less<float, float>&, float*>(float*, float*, std::__1::__less<float, float>&)
+                 U std::__1::chrono::steady_clock::now()
+                 U std::__1::chrono::system_clock::now()
+                 U std::__1::future<void>::~future()
+                 U std::__1::locale::classic()
+                 U std::__1::locale::locale(std::__1::locale const&)
+                 U std::__1::locale::locale()
+                 U std::__1::locale::~locale()
+                 U std::__1::collate<char>::id
+                 U std::__1::ios_base::__set_badbit_and_consider_rethrow()
+                 U std::__1::ios_base::init(void*)
+                 U std::__1::ios_base::clear(unsigned int)
+                 U std::__1::basic_ios<char, std::__1::char_traits<char>>::~basic_ios()
+                 U std::bad_alloc::bad_alloc()
+                 U std::bad_alloc::~bad_alloc()
+                 U std::exception::~exception()
+                 U std::nothrow
+                 U std::terminate()
+                 U typeinfo for std::__1::regex_error
+                 U typeinfo for std::__1::basic_ostream<char, std::__1::char_traits<char>>
+                 U typeinfo for std::__1::basic_streambuf<char, std::__1::char_traits<char>>
+                 U typeinfo for std::__1::__shared_weak_count
+                 U typeinfo for std::length_error
+                 U typeinfo for std::runtime_error
+                 U typeinfo for std::bad_alloc
+                 U typeinfo for std::exception
+                 U typeinfo for int
+                 U typeinfo for short
+                 U vtable for __cxxabiv1::__class_type_info
+                 U vtable for __cxxabiv1::__si_class_type_info
+                 U vtable for __cxxabiv1::__vmi_class_type_info
+                 U vtable for std::__1::basic_ostream<char, std::__1::char_traits<char>>
+                 U vtable for std::length_error
+                 U virtual thunk to std::__1::basic_ostream<char, std::__1::char_traits<char>>::~basic_ostream()
+                 U virtual thunk to std::__1::basic_ostream<char, std::__1::char_traits<char>>::~basic_ostream()
+                 U operator delete[](void*)
+                 U operator delete(void*)
+                 U operator new[](unsigned long)
+                 U operator new(unsigned long)
+                 U operator new(unsigned long, std::nothrow_t const&)
+                 U ___CFConstantStringClassReference
+                 U ___chkstk_darwin
+                 U ___cxa_allocate_exception
+                 U ___cxa_atexit
+                 U ___cxa_begin_catch
+                 U ___cxa_end_catch
+                 U ___cxa_free_exception
+                 U ___cxa_guard_abort
+                 U ___cxa_guard_acquire
+                 U ___cxa_guard_release
+                 U ___cxa_pure_virtual
+                 U ___cxa_throw
+                 U ___dynamic_cast
+                 U ___error
+                 U ___exp10f
+                 U ___gxx_personality_v0
+                 U ___maskrune
+                 U ___objc_personality_v0
+                 U ___sincos_stret
+                 U ___sincosf_stret
+                 U ___stack_chk_fail
+                 U ___stack_chk_guard
+                 U ___stderrp
+                 U ___tolower
+                 U ___toupper
+                 U _abort
+                 U _access
+                 U _acos
+                 U _atan2
+                 U _atan2f
+                 U _atoi
+                 U _atoll
+                 U _bzero
+                 U _calloc
+                 U _class_addIvar
+                 U _class_addMethod
+                 U _class_addProtocol
+                 U _class_createInstance
+                 U _class_getName
+                 U _close
+                 U _dispatch_once_f
+                 U _dladdr
+                 U _dlopen
+                 U _dlsym
+                 U _execve
+                 U _exit
+                 U _exp
+                 U _expf
+                 U _fflush
+                 U _fmod
+                 U _fork
+                 U _fprintf
+                 U _fputc
+                 U _fputs
+                 U _free
+                 U _fsync
+                 U _fwrite
+                 U _getcwd
+                 U _getenv
+                 U _getpwnam
+                 U _getpwuid
+                 U _getrlimit
+                 U _gettimeofday
+                 U _getuid
+                 U _hypot
+                 U _hypotf
+                 U _kCAContentsFormatRGBA8Uint
+                 U _kCATransactionDisableActions
+                 U _kCFAllocatorDefault
+                 U _kCFAllocatorNull
+                 U _kCFBooleanTrue
+                 U _kCFRunLoopCommonModes
+                 U _kCFRunLoopDefaultMode
+                 U _kCFTypeArrayCallBacks
+                 U _kCFTypeDictionaryKeyCallBacks
+                 U _kCFTypeDictionaryValueCallBacks
+                 U _kCGColorSpaceGenericGrayGamma2_2
+                 U _kCGColorSpaceSRGB
+                 U _kCTFontAttributeName
+                 U _kCTFontFamilyNameAttribute
+                 U _kCTFontFamilyNameKey
+                 U _kCTFontStyleNameAttribute
+                 U _kCTFontStyleNameKey
+                 U _kCTForegroundColorAttributeName
+                 U _kCTKernAttributeName
+                 U _kCTLigatureAttributeName
+                 U _kCTParagraphStyleAttributeName
+                 U _kCTUnderlineStyleAttributeName
+                 U _kUTTypeFileURL
+                 U _log
+                 U _log10f
+                 U _logf
+                 U _lseek
+                 U _mach_absolute_time
+                 U _mach_timebase_info
+                 U _malloc
+                 U _memcmp
+                 U _memcpy
+                 U _memmove
+                 U _memset
+                 U _memset_pattern16
+                 U _mkdir
+                 U _nanosleep
+                 U _newlocale
+                 U _objc_alloc
+                 U _objc_allocateClassPair
+                 U _objc_autorelease
+                 U _objc_autoreleasePoolPop
+                 U _objc_autoreleasePoolPush
+                 U _objc_begin_catch
+                 U _objc_disposeClassPair
+                 U _objc_end_catch
+                 U _objc_enumerationMutation
+                 U _objc_exception_rethrow
+                 U _objc_getClass
+                 U _objc_msgSend
+                 U _objc_msgSendSuper
+                 U _objc_registerClassPair
+                 U _objc_release
+                 U _objc_retain
+                 U _object_getInstanceVariable
+                 U _object_setInstanceVariable
+                 U _open
+                 U _pow
+                 U _powf
+                 U _pthread_attr_destroy
+                 U _pthread_attr_init
+                 U _pthread_attr_setstacksize
+                 U _pthread_cancel
+                 U _pthread_create
+                 U _pthread_detach
+                 U _pthread_getschedparam
+                 U _pthread_mutex_destroy
+                 U _pthread_mutex_init
+                 U _pthread_mutex_lock
+                 U _pthread_mutex_unlock
+                 U _pthread_mutexattr_destroy
+                 U _pthread_mutexattr_init
+                 U _pthread_mutexattr_setprotocol
+                 U _pthread_mutexattr_settype
+                 U _pthread_once
+                 U _pthread_self
+                 U _pthread_setschedparam
+                 U _read
+                 U _realloc
+                 U _reallocf
+                 U _remove
+                 U _rename
+                 U _rmdir
+                 U _sched_get_priority_max
+                 U _sched_get_priority_min
+                 U _sched_yield
+                 U _setrlimit
+                 U _sin
+                 U _snprintf
+                 U _sscanf
+                 U _stat
+                 U _strcmp
+                 U _strerror
+                 U _strlen
+                 U _strtod_l
+                 U _syslog
+                 U _tanf
+                 U _time
+                 U _vDSP_convD
+                 U _vDSP_dotprD
+                 U _vDSP_vaddD
+                 U _vDSP_vclr
+                 U _vDSP_vclrD
+                 U _vDSP_vfillD
+                 U _vDSP_vsdivD
+                 U _vDSP_vsmulD
+                 U _vvsqrt
+                 U _write
+                 U dyld_stub_binder

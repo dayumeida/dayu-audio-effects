@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "date": "2026-11-01",
+  "packagingTool": "PKG工坊 CLI 1.6",
+  "packagePath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-8/大鱼音频效果器安装包-1.2.pkg",
+  "packageBytes": 39425942,
+  "packageSha256": "3bda1b6ad425b3afdd150925785077fa32d0b06294400e6a275f943d77c72439",
+  "appPath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-8/App/大鱼音频效果器.app",
+  "appVersion": "1.2",
+  "appBuild": "8",
+  "architecture": "arm64",
+  "minimumMacOS": "14.0",
+  "installPath": "/Applications/大鱼音频效果器.app",
+  "appDeveloperIDApplication": true,
+  "extensionDeveloperIDApplication": true,
+  "packageDeveloperIDInstaller": true,
+  "appNotarySubmissionId": "cb09293d-2bc8-4c22-ae2a-dad015fda7e4",
+  "appNotaryStatus": "Accepted",
+  "packageNotaryStatus": "Accepted",
+  "appTicketValidated": true,
+  "packageTicketValidated": true,
+  "appGatekeeperAccepted": true,
+  "packageGatekeeperAccepted": true,
+  "payloadFilesByteIdentical": true,
+  "payloadFileCount": 39,
+  "payloadSignatureVerified": true,
+  "payloadTicketValidated": true,
+  "relocatable": false,
+  "installScripts": false,
+  "preservesQuarantine": true,
+  "installerTextVerified": true,
+  "components": [
+    {
+      "name": "Dayu: 大鱼自动电平",
+      "subtype": "dylv",
+      "version": 65543
+    },
+    {
+      "name": "Dayu: 大鱼自动电平·低延迟",
+      "subtype": "dyll",
+      "version": 65543
+    },
+    {
+      "name": "Dayu: 大鱼智能降噪",
+      "subtype": "dydn",
+      "version": 65543
+    },
+    {
+      "name": "Dayu: 大鱼破音修复",
+      "subtype": "dycr",
+      "version": 65543
+    }
+  ],
+  "pkgForgeProjectPath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Packaging/大鱼音频效果器.pkgforge",
+  "developmentAppPreserved": true,
+  "installedOnThisMac": false
+}

@@ -1,0 +1,744 @@
+{
+  "source": "4 second synthetic sine mix, 0.5..1.5s hard clipped +/-0.35, 1.5..2.5s asymmetrical clipped -0.15/+0.25; see ERA5DSPProbe.mm sourceSample. Host block512,48000Hz,identical stereo. Trial unmodified.",
+  "rows": [
+    {
+      "version": 4,
+      "quality": 0,
+      "processingType": 0,
+      "processExitCode": 0,
+      "processWallSeconds": 1.7020404170034453,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.66963,
+          "peakDB": -1.51946
+        },
+        {
+          "second": 1,
+          "rmsDB": -8.21413,
+          "peakDB": -2.05207
+        },
+        {
+          "second": 2,
+          "rmsDB": -14.11023,
+          "peakDB": -8.8759
+        },
+        {
+          "second": 3,
+          "rmsDB": -13.72644,
+          "peakDB": -8.87422
+        }
+      ]
+    },
+    {
+      "version": 4,
+      "quality": 0,
+      "processingType": 1,
+      "processExitCode": 0,
+      "processWallSeconds": 2.3881880409899168,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.99692,
+          "peakDB": -2.21041
+        },
+        {
+          "second": 1,
+          "rmsDB": -7.77946,
+          "peakDB": -1.96694
+        },
+        {
+          "second": 2,
+          "rmsDB": -10.92752,
+          "peakDB": -2.21972
+        },
+        {
+          "second": 3,
+          "rmsDB": -13.76668,
+          "peakDB": -8.92246
+        }
+      ]
+    },
+    {
+      "version": 4,
+      "quality": 1,
+      "processingType": 0,
+      "processExitCode": 0,
+      "processWallSeconds": 2.1903852079994977,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.56629,
+          "peakDB": -1.64076
+        },
+        {
+          "second": 1,
+          "rmsDB": -8.11214,
+          "peakDB": -1.84226
+        },
+        {
+          "second": 2,
+          "rmsDB": -14.11028,
+          "peakDB": -8.87581
+        },
+        {
+          "second": 3,
+          "rmsDB": -13.7265,
+          "peakDB": -8.87536
+        }
+      ]
+    },
+    {
+      "version": 4,
+      "quality": 1,
+      "processingType": 1,
+      "processExitCode": 0,
+      "processWallSeconds": 4.3777744169929065,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.88991,
+          "peakDB": -2.25976
+        },
+        {
+          "second": 1,
+          "rmsDB": -7.6735,
+          "peakDB": -1.85752
+        },
+        {
+          "second": 2,
+          "rmsDB": -10.83224,
+          "peakDB": -3.22988
+        },
+        {
+          "second": 3,
+          "rmsDB": -13.76625,
+          "peakDB": -8.91644
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "quality": 0,
+      "processingType": 0,
+      "processExitCode": 0,
+      "processWallSeconds": 1.025344291003421,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.64768,
+          "peakDB": -1.45081
+        },
+        {
+          "second": 1,
+          "rmsDB": -8.14376,
+          "peakDB": -2.05846
+        },
+        {
+          "second": 2,
+          "rmsDB": -14.10999,
+          "peakDB": -8.87502
+        },
+        {
+          "second": 3,
+          "rmsDB": -13.72635,
+          "peakDB": -8.87395
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "quality": 0,
+      "processingType": 1,
+      "processExitCode": 0,
+      "processWallSeconds": 1.8479007499990985,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.93776,
+          "peakDB": -1.9013
+        },
+        {
+          "second": 1,
+          "rmsDB": -8.96133,
+          "peakDB": -0.0
+        },
+        {
+          "second": 2,
+          "rmsDB": -19.3759,
+          "peakDB": -0.0
+        },
+        {
+          "second": 3,
+          "rmsDB": -21.2063,
+          "peakDB": -12.83457
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "quality": 1,
+      "processingType": 0,
+      "processExitCode": 0,
+      "processWallSeconds": 2.842827458982356,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.54756,
+          "peakDB": -1.68701
+        },
+        {
+          "second": 1,
+          "rmsDB": -8.03625,
+          "peakDB": -1.7217
+        },
+        {
+          "second": 2,
+          "rmsDB": -14.1098,
+          "peakDB": -8.87396
+        },
+        {
+          "second": 3,
+          "rmsDB": -13.72635,
+          "peakDB": -8.87395
+        }
+      ]
+    },
+    {
+      "version": 5,
+      "quality": 1,
+      "processingType": 1,
+      "processExitCode": 0,
+      "processWallSeconds": 5.033888332982315,
+      "latencySeconds": 0.111833333,
+      "renderStatus": 0,
+      "firstNonzeroFrame": 5369,
+      "parameters": [
+        {
+          "id": 3357091,
+          "name": "Quality",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 105897776,
+          "name": "On/Off",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 195981549,
+          "name": "Processing Type",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 873230368,
+          "name": "Output Gain",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.85714,
+          "value": 0.85714,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 952144203,
+          "name": "De-Clip",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 1.0,
+          "value": 1.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "perSecond": [
+        {
+          "second": 0,
+          "rmsDB": -9.86968,
+          "peakDB": -2.2394
+        },
+        {
+          "second": 1,
+          "rmsDB": -8.71173,
+          "peakDB": -0.0
+        },
+        {
+          "second": 2,
+          "rmsDB": -16.32186,
+          "peakDB": -0.0
+        },
+        {
+          "second": 3,
+          "rmsDB": -16.92973,
+          "peakDB": -10.26124
+        }
+      ]
+    }
+  ],
+  "versionComparisons": [
+    {
+      "quality": 0,
+      "processingType": 0,
+      "maxAbsoluteError": 0.42604750394821167,
+      "rmsError": 0.010151397663124633
+    },
+    {
+      "quality": 0,
+      "processingType": 1,
+      "maxAbsoluteError": 1.677419900894165,
+      "rmsError": 0.20661555760180092
+    },
+    {
+      "quality": 1,
+      "processingType": 0,
+      "maxAbsoluteError": 0.4517298936843872,
+      "rmsError": 0.010932975964660252
+    },
+    {
+      "quality": 1,
+      "processingType": 1,
+      "maxAbsoluteError": 1.6483867168426514,
+      "rmsError": 0.21264134582401695
+    }
+  ],
+  "limitations": "Process wall includes AU loading and teardown; not render callback timing. Synthetic input is not proof on arbitrary program audio. No licensing bypass."
+}

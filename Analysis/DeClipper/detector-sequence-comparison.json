@@ -1,0 +1,28 @@
+[
+  {
+    "type": 0,
+    "windows": 76,
+    "maxErrors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0
+    ],
+    "exact": true
+  },
+  {
+    "type": 1,
+    "windows": 76,
+    "maxErrors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0
+    ],
+    "exact": true
+  }
+]

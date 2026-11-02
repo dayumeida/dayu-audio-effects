@@ -1,0 +1,45 @@
+{
+  "status": "published-and-verified",
+  "verifiedAt": "2026-10-31T19:18:09.706072+00:00",
+  "id": 15770,
+  "url": "https://dayu.media/15770/",
+  "title": "大鱼音频效果器 1.2：四款中文 FCP 音频插件",
+  "price": 50,
+  "currency": "CNY",
+  "memberPrice": 0,
+  "permanentMembersFree": true,
+  "nonMembersCanBuy": true,
+  "packageAttachmentId": 15771,
+  "coverAttachmentId": 15772,
+  "packageSha256": "0547cb1bef423a2ac8db33bdaefc2cfec9a1a8e61205216e6c4bbb51dd0a3b43",
+  "packageBytes": 42163781,
+  "uploadedPackageMatchesLocal": true,
+  "anonymousHttpStatus": 200,
+  "anonymousPriceAndMembershipDisplayVerified": true,
+  "paidPackageUrlAbsentFromPublicContent": true,
+  "featuredMediaVerified": true,
+  "coverVisibleInPublicBody": true,
+  "coverAltVerified": true,
+  "seoReadbackExact": true,
+  "publicSeoHeadExact": true,
+  "seoTagCounts": {
+    "title": 1,
+    "description": 1,
+    "keywords": 1
+  },
+  "visualScreenshot": "published-page.png",
+  "checkoutPerformed": false,
+  "memberAccountDownloadTestPerformed": false,
+  "fcpxAppSyncRequested": false,
+  "skill": {
+    "path": "/Users/dayu/.agents/skills/dayu-publish-article/SKILL.md",
+    "source": "https://dayu.media/git/dayu/dayu-publish-article-skill",
+    "commit": "1e8da1005f32bf6b6452144b071dd2a800123185"
+  },
+  "generation": {
+    "method": "built-in image_gen",
+    "icon": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Branding/DayuAudio-AppIcon-20261101.png",
+    "cover": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Publication/2026-11-01/dayu-audio-effects-cover.png",
+    "prompts": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Branding/generation-prompts.json"
+  }
+}

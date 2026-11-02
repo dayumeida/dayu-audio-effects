@@ -1,0 +1,75 @@
+{
+  "probe": "Levelmatic 1.0.8 AUv2",
+  "sampleRate": 48000,
+  "mode": "query",
+  "inputFormatStatus": 0,
+  "outputFormatStatus": 0,
+  "callbackStatus": 0,
+  "offlineStatus": -10879,
+  "initializeStatus": 0,
+  "latencyStatus": 0,
+  "latencySeconds": 7.552,
+  "parameters": [
+    {
+      "id": 0,
+      "name": "Profile",
+      "min": 0.0,
+      "max": 999999.0,
+      "default": 0.0,
+      "value": 0.0,
+      "unit": 0,
+      "infoStatus": 0,
+      "valueStatus": 0
+    },
+    {
+      "id": 1,
+      "name": "Active",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "value": 1.0,
+      "unit": 2,
+      "infoStatus": 0,
+      "valueStatus": 0
+    },
+    {
+      "id": 2,
+      "name": "Strength",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 80.0,
+      "value": 80.0,
+      "unit": 0,
+      "infoStatus": 0,
+      "valueStatus": 0
+    },
+    {
+      "id": 3,
+      "name": "Target",
+      "min": -24.0,
+      "max": 0.0,
+      "default": -12.0,
+      "value": -12.0,
+      "unit": 0,
+      "infoStatus": 0,
+      "valueStatus": 0
+    },
+    {
+      "id": 4,
+      "name": "Analyzing",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "value": 0.0,
+      "unit": 0,
+      "infoStatus": 0,
+      "valueStatus": 0
+    }
+  ],
+  "parameterListStatus": 0,
+  "disposeStatus": 0,
+  "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers.",
+  "exitCode": 0,
+  "wallSeconds": 0.31532083300407976,
+  "stderr": "Unknown property 37\n"
+}

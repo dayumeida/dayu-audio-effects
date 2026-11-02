@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="media.dayu.audio.effects.b20261101192127625.ai7qqjip.payload" postinstall-action="none" version="1.2" format-version="2" generator-version="InstallCmds-883 (26B5091g)" auth="root">
+    <payload numberOfFiles="111" installKBytes="45128"/>
+    <bundle path="./Applications/大鱼音频效果器.app/Contents/PlugIns/大鱼音频效果器Extension.appex" id="media.dayu.audio.leveler.Extension" CFBundleShortVersionString="1.2" CFBundleVersion="10"/>
+    <bundle path="./Applications/大鱼音频效果器.app" id="media.dayu.audio.leveler" CFBundleShortVersionString="1.2" CFBundleVersion="10"/>
+    <bundle-version>
+        <bundle id="media.dayu.audio.leveler"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="media.dayu.audio.leveler"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="media.dayu.audio.leveler"/>
+    </strict-identifier>
+    <relocate/>
+</pkg-info>

@@ -1,0 +1,13 @@
+{
+  "phase": "complete",
+  "idempotencyKey": "dayu-audio-b9-draft-e20b5e494e174630a85cac92f6b28156",
+  "postId": 15770,
+  "packageSha256": "0547cb1bef423a2ac8db33bdaefc2cfec9a1a8e61205216e6c4bbb51dd0a3b43",
+  "packagePath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-9/大鱼音频效果器安装包-1.2.pkg",
+  "coverPath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Publication/2026-11-01/dayu-audio-effects-cover.png",
+  "httpStatus": 201,
+  "publishIdempotencyKey": "dayu-audio-b9-publish-48a1315f53fc438f9e3cdcd515df819a",
+  "publishHttpStatus": 200,
+  "url": "https://dayu.media/15770/",
+  "verifiedAt": "2026-10-31T19:18:09.706072+00:00"
+}

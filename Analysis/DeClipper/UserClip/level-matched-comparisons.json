@@ -1,0 +1,93 @@
+{
+  "commonTargetRmsDb": -21.0,
+  "maximumPeakCeilingDb": -1,
+  "allOutputsPeakSafe": true,
+  "outputs": [
+    {
+      "name": "01_原始素材",
+      "path": "Outputs/破音素材试听/同响度对照/01_原始素材_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -13.107282833707941,
+      "rmsDb": -20.999999978198353,
+      "peakDb": -13.107282638549805
+    },
+    {
+      "name": "02_标准类型1_输出0dB",
+      "path": "Outputs/破音素材试听/同响度对照/02_标准类型1_输出0dB_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -9.85092086571187,
+      "rmsDb": -21.000000001066823,
+      "peakDb": -9.850922584533691
+    },
+    {
+      "name": "03_标准类型1_输出-6dB",
+      "path": "Outputs/破音素材试听/同响度对照/03_标准类型1_输出-6dB_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -6.442555925829958,
+      "rmsDb": -20.999999999181952,
+      "peakDb": -6.442556858062744
+    },
+    {
+      "name": "04_标准类型1_输出-12dB",
+      "path": "Outputs/破音素材试听/同响度对照/04_标准类型1_输出-12dB_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -0.8595658508689858,
+      "rmsDb": -21.00000000521417,
+      "peakDb": -4.186384677886963
+    },
+    {
+      "name": "05_标准类型2_输出-12dB",
+      "path": "Outputs/破音素材试听/同响度对照/05_标准类型2_输出-12dB_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -0.37187655780305107,
+      "rmsDb": -20.999999997524576,
+      "peakDb": -1.2345225811004639
+    },
+    {
+      "name": "06_高质量类型1_输出-12dB",
+      "path": "Outputs/破音素材试听/同响度对照/06_高质量类型1_输出-12dB_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -0.8622139960075491,
+      "rmsDb": -20.999999995749228,
+      "peakDb": -3.9667673110961914
+    },
+    {
+      "name": "07_高质量类型2_输出-12dB",
+      "path": "Outputs/破音素材试听/同响度对照/07_高质量类型2_输出-12dB_同响度-21dBFS-RMS.wav",
+      "appliedGainDb": -0.43537783488052123,
+      "rmsDb": -21.000000005458208,
+      "peakDb": -1.183205008506775
+    }
+  ],
+  "normalizedWaveformDifferences": [
+    {
+      "compareTo": "02_标准类型1_输出0dB",
+      "candidate": "03_标准类型1_输出-6dB",
+      "rmsDifferenceDb": -38.187230350567525,
+      "maxDifference": 0.15458866953849792,
+      "correlation": 0.9904452745091827
+    },
+    {
+      "compareTo": "02_标准类型1_输出0dB",
+      "candidate": "04_标准类型1_输出-12dB",
+      "rmsDifferenceDb": -36.188442383582036,
+      "maxDifference": 0.2958602011203766,
+      "correlation": 0.9848601105997046
+    },
+    {
+      "compareTo": "02_标准类型1_输出0dB",
+      "candidate": "05_标准类型2_输出-12dB",
+      "rmsDifferenceDb": -31.30759685629585,
+      "maxDifference": 0.8233032934367657,
+      "correlation": 0.9534158239147018
+    },
+    {
+      "compareTo": "02_标准类型1_输出0dB",
+      "candidate": "06_高质量类型1_输出-12dB",
+      "rmsDifferenceDb": -35.675487026843456,
+      "maxDifference": 0.3691516574472189,
+      "correlation": 0.9829621211619639
+    },
+    {
+      "compareTo": "02_标准类型1_输出0dB",
+      "candidate": "07_高质量类型2_输出-12dB",
+      "rmsDifferenceDb": -30.867801060152136,
+      "maxDifference": 0.9342334792017937,
+      "correlation": 0.9484512370291197
+    }
+  ]
+}

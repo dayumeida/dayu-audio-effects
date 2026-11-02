@@ -1,0 +1,21 @@
+{"rate":48000,"block":512,"frames":96000,"allFinite":true,"maxBlockDifference":0,"mallocCallsDuringRender":1,"mallocLoggerAvailable":true,"meanMS":0.363598638,"worstMS":1.958875}
+0   dayu-denoise-bnns-hybrid-fresh-trac 0x0000000102bb1700 _ZL8logAllocjmmmmj + 100
+1   libsystem_malloc.dylib              0x000000018e7efad4 _malloc_zone_calloc_instrumented_or_legacy + 244
+2   libsystem_malloc.dylib              0x000000018e7cef34 _malloc_type_calloc_outlined + 88
+3   libdyld.dylib                       0x000000018cd9bb20 _ZN4dyld20ThreadLocalVariables19instantiateVariableERKNS0_5ThunkE + 96
+4   libdyld.dylib                       0x000000018cd9aeb0 _tlv_get_addr + 104
+5   libBLAS.dylib                       0x00000001b08cde34 BLASStateRetain + 32
+6   libBNNS.dylib                       0x00000001a5e091ac BNNSDequantize + 251320
+7   libBNNS.dylib                       0x00000001a5be07bc libBNNS.dylib + 489404
+8   libBNNS.dylib                       0x00000001a65badf0 BNNSClearNetwork + 1762016
+9   libBNNS.dylib                       0x00000001a65ba878 BNNSClearNetwork + 1760616
+10  libBNNS.dylib                       0x00000001a5bd7de0 libBNNS.dylib + 454112
+11  libBNNS.dylib                       0x00000001a5bd2dd8 libBNNS.dylib + 433624
+12  libBNNS.dylib                       0x00000001a60749b4 BNNSMatMul + 492
+13  dayu-denoise-bnns-hybrid-fresh-trac 0x0000000102bb84a0 _ZN12dayu_denoise12MatrixEngine8multiplyEPKfS2_Pfiii + 364
+14  dayu-denoise-bnns-hybrid-fresh-trac 0x0000000102bb4750 _ZN12dayu_denoise9Inference4stepEv + 4548
+15  dayu-denoise-bnns-hybrid-fresh-trac 0x0000000102bc7480 _ZN4dayu16AudioDenoiseCore7jobStepEv + 108
+16  dayu-denoise-bnns-hybrid-fresh-trac 0x0000000102bb2510 _ZN4dayu16AudioDenoiseCore7processEPKPfS3_jj + 1104
+17  dayu-denoise-bnns-hybrid-fresh-trac 0x0000000102bc8224 _ZNSt3__114__thread_proxyB9nqe220106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZ4mainE3$_0EEEEEPvS9_ + 424
+18  libsystem_pthread.dylib             0x000000018cebfd00 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000018cebacec thread_start + 8

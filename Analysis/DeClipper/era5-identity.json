@@ -1,0 +1,298 @@
+{
+  "bundle": "/Library/Audio/Plug-Ins/Components/ERA5_DeClipperFxFactory.component",
+  "binarySHA256": "270172733d583f2023436baa5e6c5dc2c87342a88f1cbe8f5026e63fbaa910f5",
+  "plist": {
+    "AudioComponents": [
+      {
+        "description": "ERA 5 De-Clipper",
+        "factoryFunction": "DeClipperFxFactory5AUFactory",
+        "manufacturer": "Accu",
+        "name": "accusonus: ERA 5 De-Clipper FxFactory",
+        "sandboxSafe": true,
+        "subtype": "DcF5",
+        "type": "aufx",
+        "version": 328704
+      }
+    ],
+    "BuildMachineOSBuild": "19H1323",
+    "CFBundleDisplayName": "DeClipper",
+    "CFBundleExecutable": "ERA5_DeClipperFxFactory",
+    "CFBundleIdentifier": "com.accusonus.DeClipperFxFactory5",
+    "CFBundleName": "DeClipper",
+    "CFBundlePackageType": "BNDL",
+    "CFBundleShortVersionString": "5.4.00",
+    "CFBundleSignature": "????",
+    "CFBundleSupportedPlatforms": [
+      "MacOSX"
+    ],
+    "CFBundleVersion": "5.4.00",
+    "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+    "DTPlatformBuild": "12D4e",
+    "DTPlatformName": "macosx",
+    "DTPlatformVersion": "11.1",
+    "DTSDKBuild": "20C63",
+    "DTSDKName": "macosx11.1",
+    "DTXcode": "1240",
+    "DTXcodeBuild": "12D4e",
+    "LSMinimumSystemVersion": "10.11",
+    "NSHighResolutionCapable": true,
+    "NSHumanReadableCopyright": ""
+  },
+  "resources": [
+    {
+      "path": "Contents/Resources/processingType1OFF.svg",
+      "bytes": 532,
+      "sha256": "1b152822323eb5e002ebb9857b7e705d643e56b9e2489ad567cb36dc96966a45"
+    },
+    {
+      "path": "Contents/Resources/companyLogoOFF.svg",
+      "bytes": 2687,
+      "sha256": "cd1b0a42ef58e9936441dd522213ad70739d1897f3c4bda6c650141ffdac86d0"
+    },
+    {
+      "path": "Contents/Resources/eraLogoHOVER.svg",
+      "bytes": 1155,
+      "sha256": "357edc992a4b4208000105178e96a93a88b5d16fd0957d84db26acb02c993d6f"
+    },
+    {
+      "path": "Contents/Resources/declipHoverOFF.svg",
+      "bytes": 2572,
+      "sha256": "6a13c40fe2d8e2a00ca382b14d270f675c64e4d59eeda2d8afab48660f270cb5"
+    },
+    {
+      "path": "Contents/Resources/analyticsButton.svg",
+      "bytes": 9467,
+      "sha256": "e9f31bb11474139718dd80037d5dcf032771ade8261a6780b965728fe4c099ac"
+    },
+    {
+      "path": "Contents/Resources/qualityHighOFF.svg",
+      "bytes": 1527,
+      "sha256": "73338e8660c56c66917e3e5157ab81a69ed8db0a2d145f87afcc0a323371f24d"
+    },
+    {
+      "path": "Contents/Resources/qualityHighON.svg",
+      "bytes": 1635,
+      "sha256": "1a1c045d48968c5e26273773be7277843b623be2322ed2cb956e427f5d696212"
+    },
+    {
+      "path": "Contents/Resources/declipHoverON.svg",
+      "bytes": 2923,
+      "sha256": "53093b851ca103de7e054f73765be5a7245ea15d6fb89f1366f97679241064e9"
+    },
+    {
+      "path": "Contents/Resources/licensesButton.svg",
+      "bytes": 5719,
+      "sha256": "fdf60504a8661ed2238ddc290d86da1b2d1cfabffbfb7d51d3625f95135b3157"
+    },
+    {
+      "path": "Contents/Resources/powerON.svg",
+      "bytes": 2226,
+      "sha256": "4785107434624b5e3523602fe2ac0d97c3830736be5137ee1261208864752b04"
+    },
+    {
+      "path": "Contents/Resources/infoButtonON.svg",
+      "bytes": 449,
+      "sha256": "c98873e69b9a7e0c5518e6449457ade8f6cd6a588182d3753eb4893bf7d36f02"
+    },
+    {
+      "path": "Contents/Resources/processingType2DisOFF.svg",
+      "bytes": 1033,
+      "sha256": "461a90499f0f197fe27632e06b8890972b463b932daa7f4a44a6e1e3e6e46aeb"
+    },
+    {
+      "path": "Contents/Resources/companyLogoHOVER.svg",
+      "bytes": 2687,
+      "sha256": "434544d062c4659bcc9b75691938758a68c7191041c9baafe6508c8865295548"
+    },
+    {
+      "path": "Contents/Resources/processingType1ON.svg",
+      "bytes": 520,
+      "sha256": "b4c471bcc8cf8fb83a50d1c7e8378c72b9f9f18dea6ad7357d547836c7c819bb"
+    },
+    {
+      "path": "Contents/Resources/standardTooltips.xml",
+      "bytes": 11990,
+      "sha256": "236bd3ec117da953c6461fd3afb83f06e48f7799b31a05075c948a76434ccb62"
+    },
+    {
+      "path": "Contents/Resources/knobTop.svg",
+      "bytes": 221,
+      "sha256": "ec5657bd00ee95049b2f0d747c45979f24baf5d33fd9060b7359520ece498845"
+    },
+    {
+      "path": "Contents/Resources/config",
+      "bytes": 45056,
+      "sha256": "cc7e00342a15f97de8f8c7cc50eb45db782c9cb7c59e654b501e1cf250afb1d8"
+    },
+    {
+      "path": "Contents/Resources/processingType2HOVER.svg",
+      "bytes": 1033,
+      "sha256": "3672ef6cd8b09d8802368fe175dc8a5dcc05137ee2d3b62af0cced005bf83405"
+    },
+    {
+      "path": "Contents/Resources/declipperBG.svg",
+      "bytes": 30675,
+      "sha256": "d0dba8d1f640cae5edc7a6c1a8ec6e34a5fe2f0f2f4bbb6ef6571ce40deef1de"
+    },
+    {
+      "path": "Contents/Resources/qualityStandardHOVER.svg",
+      "bytes": 3475,
+      "sha256": "608c975048cd97a1af9d7a21a691f404b8cc3ef28c4bd60baedc3b5629e4b32c"
+    },
+    {
+      "path": "Contents/Resources/qualityHighHOVER.svg",
+      "bytes": 1527,
+      "sha256": "2f6ac53d7af1d6ec55641e9136a8d7bf8d373534bdd412e9605fd5aa30d59559"
+    },
+    {
+      "path": "Contents/Resources/qualityStandardON.svg",
+      "bytes": 3570,
+      "sha256": "ab97da8a196dc49a6e884f7fc5687cc243526ed40ce77be47717e4ef130ce9e3"
+    },
+    {
+      "path": "Contents/Resources/outputON.svg",
+      "bytes": 2706,
+      "sha256": "f7f9763f87b9667841f19541ca38ad60349918ed4f02044f2c803323b0d4a3d2"
+    },
+    {
+      "path": "Contents/Resources/byPassOverlay.svg",
+      "bytes": 5378,
+      "sha256": "9ced3f152aa25ef8dbc7d6263301fdc6efa1559e9163acb965f7406dfc3aee42"
+    },
+    {
+      "path": "Contents/Resources/processingType2ON.svg",
+      "bytes": 1025,
+      "sha256": "61bbaf0069a8effe216a1587e43a6d9923972795ace0d95557de9523e555e9ba"
+    },
+    {
+      "path": "Contents/Resources/infoButtonOFF.svg",
+      "bytes": 453,
+      "sha256": "8e51a018e4ce45826619bdbeac2c642168f28c65ac52af0281e9cbc0523d0230"
+    },
+    {
+      "path": "Contents/Resources/powerOFF.svg",
+      "bytes": 2226,
+      "sha256": "2107611a45573a625346817525463378fbbcc7dae89ec78c4076cc6fee408430"
+    },
+    {
+      "path": "Contents/Resources/stateB.svg",
+      "bytes": 965,
+      "sha256": "d6ee2775c58ad0bdf722a29aa989a17cf2552ce1b2d7c22fb97bcf249ce11bc0"
+    },
+    {
+      "path": "Contents/Resources/sliderThumb.svg",
+      "bytes": 205,
+      "sha256": "ef09a57374769926d71175ade1b3073ef38d8682437f0303a2f32c7d2c109915"
+    },
+    {
+      "path": "Contents/Resources/eraLogoOFF.svg",
+      "bytes": 1155,
+      "sha256": "b3d07834a9032402bf88af3c649e467ff972178506d06f1980909401d874d817"
+    },
+    {
+      "path": "Contents/Resources/productLogoON.svg",
+      "bytes": 3636,
+      "sha256": "dbeac382f90d49b4911821b4602f3b78c4a49c71e1bb67db5571e7994d22b0dd"
+    },
+    {
+      "path": "Contents/Resources/eraLogoON.svg",
+      "bytes": 1155,
+      "sha256": "6c96c77f2a55b92925e49046235cfb6385f7e0544137a7473054c43d56c71dcf"
+    },
+    {
+      "path": "Contents/Resources/stateA.svg",
+      "bytes": 965,
+      "sha256": "a246303fdaca4c7109ddf50314e6563f169ea46319ed9918b9c3559fbb2067cd"
+    },
+    {
+      "path": "Contents/Resources/qualityStandardOFF.svg",
+      "bytes": 3475,
+      "sha256": "757acc8306c5ce630ca1e2e4fccb66191da68dfff41ab12e95ebf1837bd13ff4"
+    },
+    {
+      "path": "Contents/Resources/bg.svg",
+      "bytes": 28632,
+      "sha256": "2654fae8c30feeafdd0b4fb940315845845e8de9ef3ae7d54d0517152e090e0c"
+    },
+    {
+      "path": "Contents/Resources/productLogoOFF.svg",
+      "bytes": 3635,
+      "sha256": "3f3f32c27760cf3f693537ea20294764733b450b5e1d8e3de024ea5dfc43b0c0"
+    },
+    {
+      "path": "Contents/Resources/okButtonCoachmarking.svg",
+      "bytes": 1720,
+      "sha256": "e13e426b9b4ad776df3454b548560749885755059451d4760e8bb736053ffd3f"
+    },
+    {
+      "path": "Contents/Resources/declipON.svg",
+      "bytes": 2564,
+      "sha256": "e887f1881b8bff82422f15022355e7557c51ce8097ecf44aa7e92d8df2e97c70"
+    },
+    {
+      "path": "Contents/Resources/processingType2OFF.svg",
+      "bytes": 1033,
+      "sha256": "db6b81b9bb6dbb27f9e76fc1628d38f1c4f7222b8fc9252a31bdb9ee7fbacef8"
+    },
+    {
+      "path": "Contents/Resources/Licenses.pdf",
+      "bytes": 89922,
+      "sha256": "bfba397ea21d733b73771cb871481b08219a352cb8daffa07471153614cfd0ae"
+    },
+    {
+      "path": "Contents/Resources/okButtonOFF.svg",
+      "bytes": 1790,
+      "sha256": "4a554447438fd822a8e3eb2a899af7507cb203fba6841dcae966ab31b43dd31e"
+    },
+    {
+      "path": "Contents/Resources/ERA5_DeClipperFxFactory.rsrc",
+      "bytes": 858,
+      "sha256": "61fa0195ea1d93808cf740766fd9b11f184a5112b3d322d6606fa223ef4fc3af"
+    },
+    {
+      "path": "Contents/Resources/declipOFF.svg",
+      "bytes": 2577,
+      "sha256": "f9d91de451fe1c56d20cb207c02884bc803cffce98aab1a7d6c4012fa620ee3d"
+    },
+    {
+      "path": "Contents/Resources/companyLogoON.svg",
+      "bytes": 2687,
+      "sha256": "221f944ff93931784f5c9536da7da6626410b0f6878d74eb3a3743e5968c47bf"
+    },
+    {
+      "path": "Contents/Resources/overlayXButton.svg",
+      "bytes": 229,
+      "sha256": "66a6c9f9bccda825b8117f8c351018d8c8684049cc5bc0fa4ae02e2b6b9a4882"
+    },
+    {
+      "path": "Contents/Resources/zoomToggleOFF.svg",
+      "bytes": 844,
+      "sha256": "0d1fe50883a8b7f6282cf83c3c0180f89e4c6f9e52bc2b30cd65a7aaa8c115a4"
+    },
+    {
+      "path": "Contents/Resources/productLogoHOVER.svg",
+      "bytes": 3636,
+      "sha256": "5f403653a3083b29e0ae9e92964b80af1c8a91fdde3034a644e6b92987b12c01"
+    },
+    {
+      "path": "Contents/Resources/processingType1DisOFF.svg",
+      "bytes": 532,
+      "sha256": "7839d5c9e9f6b3b6c088d555d7c1b104c5d0f3ef3ff725464ee63e4b0fed9502"
+    },
+    {
+      "path": "Contents/Resources/outputOFF.svg",
+      "bytes": 2704,
+      "sha256": "368117db3d553d918f801ab98937292f3a0ad25ba068ef0884667392746cd4f8"
+    },
+    {
+      "path": "Contents/Resources/processingType1HOVER.svg",
+      "bytes": 532,
+      "sha256": "e00766f7ef14d265dd73ff43289d8aed2902bf8a34a02c8499a7afbabe583905"
+    },
+    {
+      "path": "Contents/Resources/RecentFilesMenuTemplate.nib",
+      "bytes": 2842,
+      "sha256": "718eb4c5a3a5564dd832ae9a36cf649f3ef257ce896dd921693eeb6101bd008a"
+    }
+  ]
+}

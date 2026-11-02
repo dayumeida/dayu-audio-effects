@@ -1,0 +1,4 @@
+reference: parameters=7 latencyFrames=362496.0 defaults=PASS documentState=PASS foreignStateRejected=PASS outOfProcessAudio=PASS peak=0.13505484
+low-latency: parameters=7 latencyFrames=240.0 defaults=PASS documentState=PASS foreignStateRejected=PASS outOfProcessAudio=PASS peak=0.16686584
+audio-denoise-ai: parameters=7 latencyFrames=30722.0 defaults=PASS documentState=PASS foreignStateRejected=PASS outOfProcessAudio=PASS peak=0.0076288823
+era5-declipper: parameters=5 latencyFrames=7871.0 defaults=PASS documentState=PASS foreignStateRejected=PASS outOfProcessAudio=PASS peak=0.030001413

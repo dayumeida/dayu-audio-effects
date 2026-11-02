@@ -1,0 +1,54 @@
+[
+  {
+    "mode": "standard-full",
+    "channelWindows": 116,
+    "samples": 605984,
+    "differentBits": 0,
+    "maxOutputError": 0,
+    "maxPolynomialError": 0,
+    "regionDifferences": 0,
+    "allocations": 0,
+    "maxStepCalls": 50786,
+    "maxWorkUnitUpperBound": 50786,
+    "underestimated": 0
+  },
+  {
+    "mode": "high-full",
+    "channelWindows": 116,
+    "samples": 605984,
+    "differentBits": 0,
+    "maxOutputError": 0,
+    "maxPolynomialError": 0,
+    "regionDifferences": 0,
+    "allocations": 0,
+    "maxStepCalls": 134786,
+    "maxWorkUnitUpperBound": 134786,
+    "underestimated": 0
+  },
+  {
+    "mode": "type2-full",
+    "channelWindows": 152,
+    "samples": 794048,
+    "differentBits": 0,
+    "maxOutputError": 0,
+    "maxPolynomialError": 0,
+    "regionDifferences": 0,
+    "allocations": 0,
+    "maxStepCalls": 51649,
+    "maxWorkUnitUpperBound": 51649,
+    "underestimated": 0
+  },
+  {
+    "mode": "type2-high-full",
+    "channelWindows": 152,
+    "samples": 794048,
+    "differentBits": 0,
+    "maxOutputError": 0,
+    "maxPolynomialError": 0,
+    "regionDifferences": 0,
+    "allocations": 0,
+    "maxStepCalls": 135649,
+    "maxWorkUnitUpperBound": 135649,
+    "underestimated": 0
+  }
+]

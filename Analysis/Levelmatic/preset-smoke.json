@@ -1,0 +1,13 @@
+{
+  "format" : "dayu-leveler",
+  "parameters" : {
+    "amount" : 80,
+    "ceiling" : 0,
+    "maxBoost" : 24.60898,
+    "noiseFloor" : -36.6,
+    "outputGain" : 0,
+    "response" : 1000,
+    "targetLevel" : -12
+  },
+  "version" : 1
+}

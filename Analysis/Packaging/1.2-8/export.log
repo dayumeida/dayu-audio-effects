@@ -1,0 +1,6 @@
+2026-11-01 02:43:12.806 xcodebuild[58072:5520266] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/t4/kbc10sqs43b0rjf3nfh51nmw0000gn/T/大鱼音频效果器_2026-11-01_02-43-12.806.xcdistributionlogs".
+error: exportArchive "大鱼音频效果器.app" requires a provisioning profile.
+  Add a profile to the "provisioningProfiles" dictionary in your Export Options property list.
+
+** EXPORT FAILED **
+

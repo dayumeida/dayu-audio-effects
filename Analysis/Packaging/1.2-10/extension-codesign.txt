@@ -1,0 +1,30 @@
+Executable=/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-10/App/大鱼音频效果器.app/Contents/PlugIns/大鱼音频效果器Extension.appex/Contents/MacOS/大鱼音频效果器Extension
+Identifier=media.dayu.audio.leveler.Extension
+Format=bundle with Mach-O thin (arm64)
+CodeDirectory v=20500 size=1678 flags=0x10000(runtime) hashes=41+7 location=embedded
+VersionPlatform=1
+VersionMin=917504
+VersionSDK=1769984
+Hash type=sha256 size=32
+CandidateCDHash sha256=3bacd1168b96f15c3e7b2c248c5d710baf86322e
+CandidateCDHashFull sha256=3bacd1168b96f15c3e7b2c248c5d710baf86322e18d4ceaa2ca143f1c9977082
+Hash choices=sha256
+CMSDigest=3bacd1168b96f15c3e7b2c248c5d710baf86322e18d4ceaa2ca143f1c9977082
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=573440
+Executable Segment flags=0x1
+Page size=16384
+CDHash=3bacd1168b96f15c3e7b2c248c5d710baf86322e
+Signature size=8968
+Authority=Developer ID Application: zhong luo (B3W25FX5H5)
+Authority=Developer ID Certification Authority
+Authority=Apple Root CA
+Timestamp=Nov 2, 2026 at 03:20:35
+Info.plist entries=21
+TeamIdentifier=B3W25FX5H5
+Runtime Version=27.2.0
+Sealed Resources version=2 rules=13 files=28
+Internal requirements count=1 size=228
+Total signatures=1
+Chosen signature=1

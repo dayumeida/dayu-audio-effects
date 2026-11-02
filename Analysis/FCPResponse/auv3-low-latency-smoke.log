@@ -1,0 +1,3 @@
+latencyBeforeAllocation=0.005
+instantiated AudioComponentDescription(componentType: 1635083896, componentSubType: 1685679212, componentManufacturer: 1147238773, componentFlags: 14, componentFlagsMask: 0) parameters=7 latency=0.005
+renderedFrames=144240 wetRMS=0.15164126077486195 peak=0.23491135 fullStateRoundtrip=PASS finiteAudio=PASS

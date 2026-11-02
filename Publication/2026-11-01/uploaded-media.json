@@ -1,0 +1,97 @@
+[
+  {
+    "id": 15772,
+    "title": {
+      "raw": "dayu-audio-effects-cover",
+      "rendered": "dayu-audio-effects-cover"
+    },
+    "alt_text": "",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1672,
+      "height": 941,
+      "file": "2026/11/1793474006-17709e165c2af2a.png",
+      "filesize": 1891664,
+      "sizes": {
+        "medium": {
+          "file": "1793474006-17709e165c2af2a-300x169.png",
+          "width": 300,
+          "height": 169,
+          "filesize": 87647,
+          "mime_type": "image/png",
+          "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-300x169.png"
+        },
+        "large": {
+          "file": "1793474006-17709e165c2af2a-1024x576.png",
+          "width": 1024,
+          "height": 576,
+          "filesize": 785157,
+          "mime_type": "image/png",
+          "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-1024x576.png"
+        },
+        "thumbnail": {
+          "file": "1793474006-17709e165c2af2a-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 41012,
+          "mime_type": "image/png",
+          "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-150x150.png"
+        },
+        "medium_large": {
+          "file": "1793474006-17709e165c2af2a-768x432.png",
+          "width": 768,
+          "height": 432,
+          "filesize": 464902,
+          "mime_type": "image/png",
+          "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-768x432.png"
+        },
+        "1536x1536": {
+          "file": "1793474006-17709e165c2af2a-1536x864.png",
+          "width": 1536,
+          "height": 864,
+          "filesize": 1620203,
+          "mime_type": "image/png",
+          "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a-1536x864.png"
+        },
+        "full": {
+          "file": "1793474006-17709e165c2af2a.png",
+          "width": 1672,
+          "height": 941,
+          "mime_type": "image/png",
+          "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 15770,
+    "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474006-17709e165c2af2a.png"
+  },
+  {
+    "id": 15771,
+    "title": {
+      "raw": "大鱼音频效果器安装包-1.2",
+      "rendered": "大鱼音频效果器安装包-1.2"
+    },
+    "alt_text": "",
+    "mime_type": "application/octet-stream",
+    "media_details": {
+      "filesize": 42163781,
+      "sizes": {}
+    },
+    "post": 15770,
+    "source_url": "https://dayu.media/wp-content/uploads/2026/11/1793474004-6ad6ff998aafe87.pkg"
+  }
+]

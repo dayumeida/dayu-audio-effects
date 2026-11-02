@@ -1,0 +1,220 @@
+{
+  "bundle": "/Library/Audio/Plug-Ins/Components/ERA4_DeClipperFxFactory.component",
+  "binarySHA256": "d5f254f24723e2d250eb9614b9304cc7d3ac1c468ee2715b0192fcdc66e589b2",
+  "plist": {
+    "AudioComponents": [
+      {
+        "description": "ERA 4 De-Clipper FxFactory",
+        "factoryFunction": "DeClipperFxFactory4AUFactory",
+        "manufacturer": "Accu",
+        "name": "accusonus: ERA 4 De-Clipper FxFactory",
+        "subtype": "DcFx",
+        "type": "aufx",
+        "version": 262411
+      }
+    ],
+    "BuildMachineOSBuild": "18D42",
+    "CFBundleDisplayName": "DeClipperFxFactory",
+    "CFBundleExecutable": "ERA4_DeClipperFxFactory",
+    "CFBundleIdentifier": "com.accusonus.DeClipperFxFactory4",
+    "CFBundleName": "DeClipperFxFactory",
+    "CFBundlePackageType": "BNDL",
+    "CFBundleShortVersionString": "4.1.11",
+    "CFBundleSignature": "????",
+    "CFBundleSupportedPlatforms": [
+      "MacOSX"
+    ],
+    "CFBundleVersion": "4.1.11",
+    "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+    "DTPlatformBuild": "9F2000",
+    "DTPlatformVersion": "GM",
+    "DTSDKBuild": "17E189",
+    "DTSDKName": "macosx10.13",
+    "DTXcode": "0941",
+    "DTXcodeBuild": "9F2000",
+    "NSHighResolutionCapable": true,
+    "NSHumanReadableCopyright": ""
+  },
+  "resources": [
+    {
+      "path": "Contents/Resources/processingType1OFF.svg",
+      "bytes": 514,
+      "sha256": "fdbd0e29461029b7df0b0b97a492a53842f64aeaa8f0eee068e3e79a2fa50ddf"
+    },
+    {
+      "path": "Contents/Resources/companyLogoOFF.svg",
+      "bytes": 4024,
+      "sha256": "24b86ac87b370deb86ac1058f8cb0411d15f5a39fbee50cb717c740380d8bc3f"
+    },
+    {
+      "path": "Contents/Resources/eraLogoHOVER.svg",
+      "bytes": 961,
+      "sha256": "1554b0eba493d2d011b5a6942e1b3964ed5a2d8793d2f2ea819d1dbbae946eb9"
+    },
+    {
+      "path": "Contents/Resources/ERA4_DeClipperFxFactory.rsrc",
+      "bytes": 868,
+      "sha256": "eb304d772c5e2f0500d467b88ed1fa6394f8dafec2c28d7b2be196e1c84463d2"
+    },
+    {
+      "path": "Contents/Resources/ioSliderThumb.svg",
+      "bytes": 507,
+      "sha256": "20abdf46ce5e4eb0e4bfbb5e3ef32d6c51d103288c1ee39ca3ae907e117a6ffc"
+    },
+    {
+      "path": "Contents/Resources/qualityHighOFF.svg",
+      "bytes": 1501,
+      "sha256": "434654dc330f6695330845f4bd867c21e3739ded849da655352beff2f3a0ee52"
+    },
+    {
+      "path": "Contents/Resources/qualityHighON.svg",
+      "bytes": 1448,
+      "sha256": "e0d6470a739c63993cf31d54cdf366279bbfc3c8de3779411eb1a4fe1f1e62e6"
+    },
+    {
+      "path": "Contents/Resources/powerON.svg",
+      "bytes": 1849,
+      "sha256": "bd0f82186106a738c4c75d8376071bc92da4e61afefcf2c33e4e96975593f714"
+    },
+    {
+      "path": "Contents/Resources/processingType2DisOFF.svg",
+      "bytes": 1030,
+      "sha256": "468844e366a123988bf9f32fabac25740c8d743467fe6df8107e13be71fe397d"
+    },
+    {
+      "path": "Contents/Resources/companyLogoHOVER.svg",
+      "bytes": 4030,
+      "sha256": "071a02ad67c651bc0137ed13d945ee8015b57a312729d056712d378b7d52b014"
+    },
+    {
+      "path": "Contents/Resources/processingType1ON.svg",
+      "bytes": 476,
+      "sha256": "0d4beb56818446db3f8de0506c87eee399f1618ec9dda8f8e79489e8003a7e99"
+    },
+    {
+      "path": "Contents/Resources/knobTop.svg",
+      "bytes": 365,
+      "sha256": "902a5cffccec57c8581fc3384f354f0aac03aa40e56c2ce5d448765089749f30"
+    },
+    {
+      "path": "Contents/Resources/config",
+      "bytes": 45056,
+      "sha256": "ad9825b95c72cfa2b76177604223dd205e8fe4c6207653106cc6fbb74a0e337e"
+    },
+    {
+      "path": "Contents/Resources/declipperBG.svg",
+      "bytes": 23270,
+      "sha256": "9337aacd08f6b58c425ab40fb0d526ec6b78f41311cb8ce33c591750e99b2945"
+    },
+    {
+      "path": "Contents/Resources/qualityStandardON.svg",
+      "bytes": 3086,
+      "sha256": "ed5359da1354ec478590255a904b6b676be1355eaf55d7e8f37c2072864b0d53"
+    },
+    {
+      "path": "Contents/Resources/processingType2ON.svg",
+      "bytes": 982,
+      "sha256": "44f0582dc2fd3e3990b54077792bfae18309368fda9feec305ada9d25d959f58"
+    },
+    {
+      "path": "Contents/Resources/powerOFF.svg",
+      "bytes": 1866,
+      "sha256": "0840d19584a44de5a9eb638876bbd434a3c554b10efca2c64e77c40a6ae9e91b"
+    },
+    {
+      "path": "Contents/Resources/stateB.svg",
+      "bytes": 999,
+      "sha256": "458acdd921043c171406e6724bd1c698bd44815d8bdf4120724ab79e6167632e"
+    },
+    {
+      "path": "Contents/Resources/sliderThumb.svg",
+      "bytes": 337,
+      "sha256": "bd39329821c1267535947e23ac6c8952ec1108868b90ef08aba71195143489b3"
+    },
+    {
+      "path": "Contents/Resources/eraLogoOFF.svg",
+      "bytes": 952,
+      "sha256": "3545940437ce79daee96529b160d6c3600198f7a4caa2e982a995e3dcd9099a3"
+    },
+    {
+      "path": "Contents/Resources/eraLogoON.svg",
+      "bytes": 959,
+      "sha256": "c42967b02fd04557cca3ac8148e0ccfbf98190a25599034f7b1d406a2c780f80"
+    },
+    {
+      "path": "Contents/Resources/stateA.svg",
+      "bytes": 997,
+      "sha256": "8134c37e473be15c3fa4182a9381ceaaad7bc6988d58a5ee01b8ffe6f2ed455b"
+    },
+    {
+      "path": "Contents/Resources/qualityStandardOFF.svg",
+      "bytes": 3161,
+      "sha256": "24bbf3930b74c9448791681af74f4093c43d48721231c470ae1d215417ee07fd"
+    },
+    {
+      "path": "Contents/Resources/bg.svg",
+      "bytes": 21382,
+      "sha256": "e635a00875d5e258f75ceab122ccdb9d066047d1b43ba3dc50b013ef975dcdf9"
+    },
+    {
+      "path": "Contents/Resources/productLogoOFF.svg",
+      "bytes": 2846,
+      "sha256": "b7bdf383a302f94831bd53be4110a47255da0b40e78f75627f6433fe32d663f4"
+    },
+    {
+      "path": "Contents/Resources/declipON.svg",
+      "bytes": 1978,
+      "sha256": "fac6ed59ad5c9f6cafe503fac0cb7de506a7a286c826806f6867620a5f4800a4"
+    },
+    {
+      "path": "Contents/Resources/processingType2OFF.svg",
+      "bytes": 1020,
+      "sha256": "9c461ff2013d0b0fd5f39157d614a094e3ba3bfa98f7e17a2038a39a82ed7b15"
+    },
+    {
+      "path": "Contents/Resources/Licenses.pdf",
+      "bytes": 94209,
+      "sha256": "2d3395dca827b31bc4ab2cd7d812a4100a7d750d1d059fe6f301e6e7e75f8ed0"
+    },
+    {
+      "path": "Contents/Resources/okButtonOFF.svg",
+      "bytes": 1111,
+      "sha256": "fa7cc90c690b4d5e7d9c20570316889ac9edd84bec608257c965ad2cd2898d95"
+    },
+    {
+      "path": "Contents/Resources/declipOFF.svg",
+      "bytes": 2100,
+      "sha256": "2d3c257a4b3fa11bb45bd95e75fec504d9f47d81cc4355225371cebca1d24e74"
+    },
+    {
+      "path": "Contents/Resources/companyLogoON.svg",
+      "bytes": 4028,
+      "sha256": "b41857406582a550b710de94a56edf5dd89ed34e8273942c4754549dd60b123d"
+    },
+    {
+      "path": "Contents/Resources/zoomToggleOFF.svg",
+      "bytes": 648,
+      "sha256": "5add4925263c8af88c802b519159dbc28ec3fd92c3befb2a022fe1f2dcade1a6"
+    },
+    {
+      "path": "Contents/Resources/okButtonHOVER.svg",
+      "bytes": 1119,
+      "sha256": "0f7b61f6666c55cbbcf8b53f4b829e29bc194ffcbfccbd440b643ebe42103abd"
+    },
+    {
+      "path": "Contents/Resources/output.svg",
+      "bytes": 2572,
+      "sha256": "9d79a165972aa02773633227bce51b760ffa78d14bcbd75c70165c01d5c6ed5a"
+    },
+    {
+      "path": "Contents/Resources/processingType1DisOFF.svg",
+      "bytes": 524,
+      "sha256": "bfce717cd99be201d01e8804914867874c8098ad5a23b92176054c4d64df4de2"
+    },
+    {
+      "path": "Contents/Resources/RecentFilesMenuTemplate.nib",
+      "bytes": 2842,
+      "sha256": "718eb4c5a3a5564dd832ae9a36cf649f3ef257ce896dd921693eeb6101bd008a"
+    }
+  ]
+}

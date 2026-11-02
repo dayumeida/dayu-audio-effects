@@ -1,0 +1,51 @@
+{
+  "appearance": {
+    "accentBlue": 0.96,
+    "accentGreen": 0.49,
+    "accentRed": 0.12,
+    "backgroundPath": "",
+    "badgeImagePath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Branding/DayuAudio-AppIcon-20261101.png",
+    "badgeText": "AUv3",
+    "subtitle": "为 Mac 与 Final Cut Pro 安装大鱼音频效果器",
+    "title": "大鱼音频效果器"
+  },
+  "applicationsToClose": [
+    {
+      "bundleIdentifier": "com.apple.FinalCut",
+      "isSelected": true,
+      "name": "Final Cut Pro（买断版）"
+    },
+    {
+      "bundleIdentifier": "com.apple.FinalCutApp",
+      "isSelected": true,
+      "name": "Final Cut Pro（订阅版）"
+    },
+    {
+      "bundleIdentifier": "media.dayu.audio.leveler",
+      "isSelected": true,
+      "name": "大鱼音频效果器"
+    }
+  ],
+  "id": "B9C81231-D1EC-4B5A-910F-1EFAA79822F2",
+  "identifierPrefix": "media.dayu.audio.effects",
+  "items": [
+    {
+      "destinationPath": "/Applications",
+      "id": "B389831D-8D7B-4A34-9F6C-6B1E86E8DA0E",
+      "kind": "application",
+      "launchAfterInstall": false,
+      "removeQuarantineAfterInstall": false,
+      "sourcePath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-10/App/大鱼音频效果器.app"
+    }
+  ],
+  "name": "大鱼音频效果器",
+  "packageFileName": "大鱼音频效果器安装包.pkg",
+  "signing": {
+    "keychainPath": "/Users/dayu/Library/Keychains/login.keychain-db",
+    "notarizePackage": true,
+    "notaryProfile": "codex-dayu-notary-B3W25FX5H5",
+    "signPackage": true,
+    "signingIdentity": "Developer ID Installer: zhong luo (B3W25FX5H5)"
+  },
+  "version": "1.2"
+}

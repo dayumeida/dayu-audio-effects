@@ -1,0 +1,20 @@
+[
+  {
+    "source": "原始素材.wav",
+    "output": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/破音素材试听/同响度对照/A_原始_同响度.wav",
+    "rmsDbFS": -20.76547769684007,
+    "peakDbFS": -12.872760772705078
+  },
+  {
+    "source": "破音修复_质量0_类型0.wav",
+    "output": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/破音素材试听/同响度对照/B_标准类型一_同响度.wav",
+    "rmsDbFS": -20.765477728606314,
+    "peakDbFS": -9.616399765014648
+  },
+  {
+    "source": "保留余量_标准类型二.wav",
+    "output": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/破音素材试听/同响度对照/C_类型二留余量_同响度.wav",
+    "rmsDbFS": -20.765477726148568,
+    "peakDbFS": -1.0000003576278687
+  }
+]

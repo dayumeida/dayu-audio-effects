@@ -1,0 +1,42 @@
+{
+  "logFormatVersion": 1,
+  "jobId": "747f81e0-691e-4c5f-9a36-072792f041c8",
+  "status": "Accepted",
+  "statusSummary": "Ready for distribution",
+  "statusCode": 0,
+  "archiveFilename": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668\u5b89\u88c5\u5305-1.2.pkg",
+  "uploadDate": "2026-10-31T19:11:03.752Z",
+  "sha256": "2f67ea0d2f9c89335cbace1635277868cd4d905f9982fe5e3ecc0fd9d983e5a2",
+  "ticketContents": [
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668\u5b89\u88c5\u5305-1.2.pkg/Payload.pkg Contents/Payload/Applications/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2115e8bd68840b105e738d8f680f18e65fea96f7",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668\u5b89\u88c5\u5305-1.2.pkg/Payload.pkg Contents/Payload/Applications/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app/Contents/PlugIns/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668Extension.appex",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "37ed66fc1e996c66bd8a8159d60b1a40f04528e2",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668\u5b89\u88c5\u5305-1.2.pkg/Payload.pkg Contents/Payload/Applications/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app/Contents/MacOS/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2115e8bd68840b105e738d8f680f18e65fea96f7",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668\u5b89\u88c5\u5305-1.2.pkg/Payload.pkg Contents/Payload/Applications/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app/Contents/PlugIns/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668Extension.appex/Contents/MacOS/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668Extension",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "37ed66fc1e996c66bd8a8159d60b1a40f04528e2",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668\u5b89\u88c5\u5305-1.2.pkg",
+      "digestAlgorithm": "SHA-1",
+      "cdhash": "73220ca1c1a6522627f9eba5300726f41304f4cf"
+    }
+  ],
+  "issues": null
+}

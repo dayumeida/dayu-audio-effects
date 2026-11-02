@@ -1,0 +1,96 @@
+{
+  "consumption_checksum" : 444.7047119140625,
+  "cpu" : "Apple M1 Max",
+  "excluded_from_timing" : "Device\/queue\/pipeline creation, runtime shader compilation, buffer allocation, signal generation, result validation.",
+  "experiment" : "Per-block stereo RMS plus constant gain: CPU Accelerate versus synchronous Metal",
+  "gpu" : "Apple M1 Max",
+  "gpu_timing_includes" : "Command buffer\/encoder creation, encoding, commit, waitUntilCompleted, autorelease-pool cleanup. Shared storage; no copy or transfer.",
+  "limitations" : "Isolated microbenchmark, not a full leveler or a comparison against original Levelmatic. Does not test pipelined\/asynchronous GPU designs, multi-track batching, or performance under DAW\/video GPU load. p99 is empirical and not a real-time bound. CPU timings include clock overhead and may be affected by interleaved GPU waits.",
+  "measured_iterations_per_case" : 500,
+  "os" : "Version 27.2 (Build 26B5091g)",
+  "production_policy" : "Benchmark synchronization is intentional and must not be copied into the audio render callback.",
+  "results" : [
+    {
+      "audio_budget_us_at_48k" : 1333.3333333333333,
+      "channels" : 2,
+      "cpu_accelerate" : {
+        "max_us" : 1.042,
+        "mean_us" : 0.29468600000000017,
+        "p50_us" : 0.29099999999999998,
+        "p99_us" : 0.83399999999999996
+      },
+      "frames_per_channel" : 64,
+      "gpu_synchronous_metal" : {
+        "max_us" : 1085.0830000000001,
+        "mean_us" : 248.02599800000004,
+        "p50_us" : 235.334,
+        "p99_us" : 415.5
+      },
+      "max_rms_absolute_error" : 0,
+      "max_sample_absolute_error" : 0,
+      "validation_passed" : true
+    },
+    {
+      "audio_budget_us_at_48k" : 2666.6666666666665,
+      "channels" : 2,
+      "cpu_accelerate" : {
+        "max_us" : 111.209,
+        "mean_us" : 0.60951200000000005,
+        "p50_us" : 0.375,
+        "p99_us" : 1.042
+      },
+      "frames_per_channel" : 128,
+      "gpu_synchronous_metal" : {
+        "max_us" : 1068.625,
+        "mean_us" : 252.80000799999999,
+        "p50_us" : 239.542,
+        "p99_us" : 387.541
+      },
+      "max_rms_absolute_error" : 1.4901161193847656e-08,
+      "max_sample_absolute_error" : 0,
+      "validation_passed" : true
+    },
+    {
+      "audio_budget_us_at_48k" : 10666.666666666666,
+      "channels" : 2,
+      "cpu_accelerate" : {
+        "max_us" : 2.0830000000000002,
+        "mean_us" : 0.60004999999999997,
+        "p50_us" : 0.54100000000000004,
+        "p99_us" : 1.458
+      },
+      "frames_per_channel" : 512,
+      "gpu_synchronous_metal" : {
+        "max_us" : 1294.875,
+        "mean_us" : 269.43089799999996,
+        "p50_us" : 246.666,
+        "p99_us" : 651.33299999999997
+      },
+      "max_rms_absolute_error" : 1.4901161193847656e-08,
+      "max_sample_absolute_error" : 0,
+      "validation_passed" : true
+    },
+    {
+      "audio_budget_us_at_48k" : 85333.333333333328,
+      "channels" : 2,
+      "cpu_accelerate" : {
+        "max_us" : 4.5,
+        "mean_us" : 2.1110899999999968,
+        "p50_us" : 2,
+        "p99_us" : 3.25
+      },
+      "frames_per_channel" : 4096,
+      "gpu_synchronous_metal" : {
+        "max_us" : 7922.2089999999998,
+        "mean_us" : 310.2395600000001,
+        "p50_us" : 266.375,
+        "p99_us" : 1020.2089999999999
+      },
+      "max_rms_absolute_error" : 1.4901161193847656e-08,
+      "max_sample_absolute_error" : 0,
+      "validation_passed" : true
+    }
+  ],
+  "sample_rate_hz" : 48000,
+  "warmup_iterations_per_case" : 50
+}

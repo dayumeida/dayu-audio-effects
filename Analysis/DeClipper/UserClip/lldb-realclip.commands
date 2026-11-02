@@ -1,0 +1,8 @@
+command script import "Analysis/DeClipper/UserClip/lldb_realclip.py"
+breakpoint set -n AudioUnitInitialize
+run
+realinit
+breakpoint disable 1
+continue
+realfinish
+quit

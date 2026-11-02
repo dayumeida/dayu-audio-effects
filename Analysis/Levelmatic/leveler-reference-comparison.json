@@ -1,0 +1,212 @@
+[
+  {
+    "second": 0,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 1,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 2,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 3,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 4,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 5,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 6,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 7,
+    "originalRMS": -25.76999,
+    "reconstructionRMS": -25.76999,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 8,
+    "originalRMS": -21.79102,
+    "reconstructionRMS": -21.79102,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 9,
+    "originalRMS": -21.79102,
+    "reconstructionRMS": -21.79102,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 10,
+    "originalRMS": -21.20785,
+    "reconstructionRMS": -21.20785,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 11,
+    "originalRMS": -21.14901,
+    "reconstructionRMS": -21.14901,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 12,
+    "originalRMS": -21.2898,
+    "reconstructionRMS": -21.2898,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 13,
+    "originalRMS": -21.14901,
+    "reconstructionRMS": -21.14901,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 14,
+    "originalRMS": -21.21821,
+    "reconstructionRMS": -21.21821,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 15,
+    "originalRMS": -21.21949,
+    "reconstructionRMS": -21.21949,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 16,
+    "originalRMS": -21.14901,
+    "reconstructionRMS": -21.14901,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 17,
+    "originalRMS": -21.01827,
+    "reconstructionRMS": -21.0182,
+    "differenceDB": 7e-05
+  },
+  {
+    "second": 18,
+    "originalRMS": -19.76959,
+    "reconstructionRMS": -19.76959,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 19,
+    "originalRMS": -19.79594,
+    "reconstructionRMS": -19.79594,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 20,
+    "originalRMS": -19.82707,
+    "reconstructionRMS": -19.82707,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 21,
+    "originalRMS": -19.76941,
+    "reconstructionRMS": -19.76941,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 22,
+    "originalRMS": -19.85408,
+    "reconstructionRMS": -19.85408,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 23,
+    "originalRMS": -19.77547,
+    "reconstructionRMS": -19.77547,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 24,
+    "originalRMS": -19.80276,
+    "reconstructionRMS": -19.80276,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 25,
+    "originalRMS": -19.96913,
+    "reconstructionRMS": -19.96913,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 26,
+    "originalRMS": -20.3132,
+    "reconstructionRMS": -20.3132,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 27,
+    "originalRMS": -23.2889,
+    "reconstructionRMS": -23.2889,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 28,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 29,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 30,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 31,
+    "originalRMS": -240.0,
+    "reconstructionRMS": -240.0,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 32,
+    "originalRMS": -23.97672,
+    "reconstructionRMS": -23.97672,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 33,
+    "originalRMS": -19.76958,
+    "reconstructionRMS": -19.76958,
+    "differenceDB": 0.0
+  },
+  {
+    "second": 34,
+    "originalRMS": -19.78832,
+    "reconstructionRMS": -19.78832,
+    "differenceDB": 0.0
+  }
+]

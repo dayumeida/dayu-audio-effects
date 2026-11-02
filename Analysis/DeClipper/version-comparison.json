@@ -1,0 +1,568 @@
+{
+  "era4": {
+    "probe": "ERA4 DeClipper 4.1.11 AUv2",
+    "sampleRate": 48000,
+    "mode": "render",
+    "quality": 0,
+    "type": 0,
+    "preInitializeLatency": 0.111833333,
+    "strengthSetStatus": 0,
+    "targetSetStatus": 0,
+    "inputFormatStatus": 0,
+    "outputFormatStatus": 0,
+    "callbackStatus": 0,
+    "offlineStatus": 0,
+    "initializeStatus": 0,
+    "latencyStatus": 0,
+    "latencySeconds": 0.111833333,
+    "parameters": [
+      {
+        "id": 3357091,
+        "name": "Quality",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.0,
+        "value": 0.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 105897776,
+        "name": "On/Off",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 1.0,
+        "value": 1.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 195981549,
+        "name": "Processing Type",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.0,
+        "value": 0.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 873230368,
+        "name": "Output Gain",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.85714,
+        "value": 0.85714,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 952144203,
+        "name": "De-Clip",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 1.0,
+        "value": 1.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      }
+    ],
+    "parameterListStatus": 0,
+    "firstNonzeroFrame": 5369,
+    "firstNonzeroSeconds": 0.111854167,
+    "renderStatus": 0,
+    "renderedFrames": 192000,
+    "inputSegments": [
+      {
+        "start": 0,
+        "end": 10,
+        "rmsDB": -36
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "rmsDB": -12
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "silence": true
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "rmsDB": -30
+      }
+    ],
+    "outputPerSecond": [
+      {
+        "second": 0,
+        "rmsDB": -9.66963,
+        "peakDB": -1.51946
+      },
+      {
+        "second": 1,
+        "rmsDB": -8.21413,
+        "peakDB": -2.05207
+      },
+      {
+        "second": 2,
+        "rmsDB": -14.11023,
+        "peakDB": -8.8759
+      },
+      {
+        "second": 3,
+        "rmsDB": -13.72644,
+        "peakDB": -8.87422
+      },
+      {
+        "second": 4,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 5,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 6,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 7,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 8,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 9,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 10,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 11,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 12,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 13,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 14,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 15,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 16,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 17,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 18,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 19,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 20,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 21,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 22,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 23,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 24,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 25,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 26,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 27,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 28,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 29,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 30,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 31,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 32,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 33,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 34,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      }
+    ],
+    "disposeStatus": 0,
+    "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers."
+  },
+  "era5": {
+    "probe": "ERA5 DeClipper 5.4.00 AUv2",
+    "sampleRate": 48000,
+    "mode": "render",
+    "quality": 0,
+    "type": 0,
+    "preInitializeLatency": 0.111833333,
+    "strengthSetStatus": 0,
+    "targetSetStatus": 0,
+    "inputFormatStatus": 0,
+    "outputFormatStatus": 0,
+    "callbackStatus": 0,
+    "offlineStatus": 0,
+    "initializeStatus": 0,
+    "latencyStatus": 0,
+    "latencySeconds": 0.111833333,
+    "parameters": [
+      {
+        "id": 3357091,
+        "name": "Quality",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.0,
+        "value": 0.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 105897776,
+        "name": "On/Off",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 1.0,
+        "value": 1.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 195981549,
+        "name": "Processing Type",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.0,
+        "value": 0.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 873230368,
+        "name": "Output Gain",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 0.85714,
+        "value": 0.85714,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      },
+      {
+        "id": 952144203,
+        "name": "De-Clip",
+        "min": 0.0,
+        "max": 1.0,
+        "default": 1.0,
+        "value": 1.0,
+        "unit": 0,
+        "infoStatus": 0,
+        "valueStatus": 0
+      }
+    ],
+    "parameterListStatus": 0,
+    "firstNonzeroFrame": 5369,
+    "firstNonzeroSeconds": 0.111854167,
+    "renderStatus": 0,
+    "renderedFrames": 192000,
+    "inputSegments": [
+      {
+        "start": 0,
+        "end": 10,
+        "rmsDB": -36
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "rmsDB": -12
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "silence": true
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "rmsDB": -30
+      }
+    ],
+    "outputPerSecond": [
+      {
+        "second": 0,
+        "rmsDB": -9.64768,
+        "peakDB": -1.45081
+      },
+      {
+        "second": 1,
+        "rmsDB": -8.14376,
+        "peakDB": -2.05846
+      },
+      {
+        "second": 2,
+        "rmsDB": -14.10999,
+        "peakDB": -8.87502
+      },
+      {
+        "second": 3,
+        "rmsDB": -13.72635,
+        "peakDB": -8.87395
+      },
+      {
+        "second": 4,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 5,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 6,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 7,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 8,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 9,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 10,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 11,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 12,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 13,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 14,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 15,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 16,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 17,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 18,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 19,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 20,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 21,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 22,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 23,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 24,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 25,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 26,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 27,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 28,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 29,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 30,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 31,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 32,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 33,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      },
+      {
+        "second": 34,
+        "rmsDB": -240.0,
+        "peakDB": -240.0
+      }
+    ],
+    "disposeStatus": 0,
+    "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers."
+  },
+  "comparison": {
+    "frames": 192000,
+    "maxAbsoluteError": 0.42604750394821167,
+    "rmsError": 0.010151397663124633,
+    "bitIdentical": false
+  }
+}

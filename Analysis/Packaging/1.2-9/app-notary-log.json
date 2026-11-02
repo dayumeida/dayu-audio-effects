@@ -1,0 +1,37 @@
+{
+  "logFormatVersion": 1,
+  "jobId": "7913906a-1bbd-4172-8cee-d041f8dbfdf1",
+  "status": "Accepted",
+  "statusSummary": "Ready for distribution",
+  "statusCode": 0,
+  "archiveFilename": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668-App\u516c\u8bc1.zip",
+  "uploadDate": "2026-10-31T19:09:32.877Z",
+  "sha256": "89957c4e820a5ddeab0f6a8e7a37c44344426cb3fefd9cc9d847e72bc569e6ad",
+  "ticketContents": [
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668-App\u516c\u8bc1.zip/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2115e8bd68840b105e738d8f680f18e65fea96f7",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668-App\u516c\u8bc1.zip/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app/Contents/PlugIns/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668Extension.appex",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "37ed66fc1e996c66bd8a8159d60b1a40f04528e2",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668-App\u516c\u8bc1.zip/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app/Contents/MacOS/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "2115e8bd68840b105e738d8f680f18e65fea96f7",
+      "arch": "arm64"
+    },
+    {
+      "path": "\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668-App\u516c\u8bc1.zip/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668.app/Contents/PlugIns/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668Extension.appex/Contents/MacOS/\u5927\u9c7c\u97f3\u9891\u6548\u679c\u5668Extension",
+      "digestAlgorithm": "SHA-256",
+      "cdhash": "37ed66fc1e996c66bd8a8159d60b1a40f04528e2",
+      "arch": "arm64"
+    }
+  ],
+  "issues": null
+}

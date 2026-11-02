@@ -1,0 +1,55 @@
+{
+  "version": "1.1.0",
+  "enabled": true,
+  "user_id": 1,
+  "can_publish": true,
+  "can_upload": true,
+  "max_upload_bytes": 20971520000,
+  "authentication": "WordPress Application Password over HTTPS, or WordPress Cookie + wp_rest nonce",
+  "fields": [
+    "title",
+    "content",
+    "excerpt",
+    "slug",
+    "status",
+    "categories",
+    "tags",
+    "featured_media",
+    "media",
+    "resource",
+    "seo",
+    "fcpx"
+  ],
+  "seo_fields": {
+    "title": {
+      "enabled_meta": "post_titie_s",
+      "value_meta": "post_titie",
+      "max_length": 300
+    },
+    "description": {
+      "enabled_meta": "post_description_s",
+      "value_meta": "description",
+      "max_length": 1000
+    },
+    "keywords": {
+      "enabled_meta": "post_keywords_s",
+      "value_meta": "keywords",
+      "max_length": 1000
+    }
+  },
+  "theme_seo": {
+    "enabled": true,
+    "description_max_length": 200
+  },
+  "uploads": [
+    "package",
+    "cover",
+    "video",
+    "video_cover"
+  ],
+  "placeholders": [
+    "{{media.cover.url}}",
+    "{{media.video.url}}",
+    "{{media.video_cover.url}}"
+  ]
+}

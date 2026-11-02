@@ -1,0 +1,41 @@
+{
+  "sampleRate": 48000,
+  "frames": 271200,
+  "digitalFullScaleSamples": 7109,
+  "plateausAtLeast3Samples": 10,
+  "longestPlateau": 3,
+  "modes": [
+    {
+      "file": "破音修复_质量0_类型0.wav",
+      "leastSquaresGain": 0.6620638288085572,
+      "correlation": 0.9632044002421895,
+      "residualOverOutputRMS": 0.26877390509881266,
+      "inputFullScaleSamplesStillFlatAt3SampleScale": 0,
+      "sameRMSRmsDifferenceDbFS": -19.224327926009895
+    },
+    {
+      "file": "破音修复_质量0_类型1.wav",
+      "leastSquaresGain": 0.6012244352612304,
+      "correlation": 0.9091761648011584,
+      "residualOverOutputRMS": 0.41641603195417193,
+      "inputFullScaleSamplesStillFlatAt3SampleScale": 0,
+      "sameRMSRmsDifferenceDbFS": -15.300323902055338
+    },
+    {
+      "file": "破音修复_质量1_类型0.wav",
+      "leastSquaresGain": 0.6470651644333961,
+      "correlation": 0.9607722550876928,
+      "residualOverOutputRMS": 0.2773370507042453,
+      "inputFullScaleSamplesStillFlatAt3SampleScale": 0,
+      "sameRMSRmsDifferenceDbFS": -18.94653184526024
+    },
+    {
+      "file": "破音修复_质量1_类型1.wav",
+      "leastSquaresGain": 0.6057457307281764,
+      "correlation": 0.9117388919825817,
+      "residualOverOutputRMS": 0.41077596669928673,
+      "inputFullScaleSamplesStillFlatAt3SampleScale": 0,
+      "sameRMSRmsDifferenceDbFS": -15.424596578788837
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "band": 0,
+    "maxError": 0.0,
+    "RMSError": 0.0,
+    "sampleCount": 16384
+  },
+  {
+    "band": 1,
+    "maxError": 0.0,
+    "RMSError": 0.0,
+    "sampleCount": 16384
+  },
+  {
+    "band": 2,
+    "maxError": 0.0,
+    "RMSError": 0.0,
+    "sampleCount": 16384
+  }
+]

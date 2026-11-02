@@ -1,0 +1,18 @@
+[
+  {
+    "type": 1,
+    "quality": 0,
+    "unequal": 117138,
+    "firstUnequal": 74674,
+    "maxError": 1.139731988310814,
+    "rmsError": 0.06501104156472709
+  },
+  {
+    "type": 1,
+    "quality": 1,
+    "unequal": 0,
+    "firstUnequal": null,
+    "maxError": 0.0,
+    "rmsError": 0.0
+  }
+]

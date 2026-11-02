@@ -1,0 +1,35 @@
+{
+  "version": "v3.1-pure-neon-calibrated-original-OLA",
+  "validatedSampleRates": [
+    32000,
+    44100,
+    48000,
+    96000
+  ],
+  "validatedBlockSizes": [
+    1,
+    17,
+    64,
+    128,
+    512,
+    16384
+  ],
+  "mallocLoggerAvailable": true,
+  "renderAllocations": 0,
+  "maximumBlockDifference": 0,
+  "maximumResetDifference": 0,
+  "allFinite": true,
+  "freshRenderThreadCases": 24,
+  "ASanUBSanCaseCount": 24,
+  "ASanUBSanMaxBlockDifference": 0,
+  "ASanUBSanMaxResetDifference": 0,
+  "ASanUBSanLogBytes": 0,
+  "hashes": {
+    "AudioDenoiseCore.hpp": "9004daecf8bcfe68a0c23d6155136ec1497cf0795be6d51befc439e7ff726224",
+    "DenoiseInference.hpp": "3755aeb0e0bd9a2a269bb728ef7a4d265b7d9db8990865cad07985bdcd72b043",
+    "DenoiseMatmul.hpp": "423c265780e84eebd500bee4c3a2528c46b71d7a48bdb5d0b787f4edc4ec95c6",
+    "DenoiseModelData.hpp": "c8a02f2e01ad2c400c63d06ef31fc25f3dc4cc649ee05a7ac13365d491452337",
+    "dayu-denoise-weights.bin": "d76d1ec54a541328438e50fb81197eb0fa4630f9cdad14b693363d285ce323d6",
+    "model.onnx": "c5b58a4c91a250a9829cf8c4aab6e81eaf1092d0a09048117a98dc8f8e9dcc15"
+  }
+}

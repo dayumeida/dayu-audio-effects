@@ -1,0 +1,1854 @@
+[
+  {
+    "strength": 80,
+    "target": 0,
+    "repeat": 1,
+    "maxRMSErrorDB": 0.0,
+    "maxPeakErrorDB": 0.0,
+    "differences": [
+      {
+        "second": 0,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 1,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 2,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 3,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 4,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 5,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 6,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 7,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 8,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 9,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 10,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 11,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 12,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 13,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 14,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 15,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 16,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 17,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 18,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 19,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 20,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 21,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 22,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 23,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 24,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 25,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 26,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 27,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 28,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 29,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 30,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 31,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 32,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 33,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 34,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      }
+    ],
+    "result": {
+      "probe": "Levelmatic 1.0.8 AUv2",
+      "sampleRate": 48000,
+      "mode": "render",
+      "strengthSetStatus": 0,
+      "targetSetStatus": 0,
+      "inputFormatStatus": 0,
+      "outputFormatStatus": 0,
+      "callbackStatus": 0,
+      "offlineStatus": -10879,
+      "initializeStatus": 0,
+      "latencyStatus": 0,
+      "latencySeconds": 7.552,
+      "parameters": [
+        {
+          "id": 0,
+          "name": "Profile",
+          "min": 0.0,
+          "max": 999999.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 1,
+          "name": "Active",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 2,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 2,
+          "name": "Strength",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 80.0,
+          "value": 80.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 3,
+          "name": "Target",
+          "min": -24.0,
+          "max": 0.0,
+          "default": -12.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 4,
+          "name": "Analyzing",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "parameterListStatus": 0,
+      "firstNonzeroFrame": 362497,
+      "firstNonzeroSeconds": 7.552020833,
+      "renderStatus": 0,
+      "renderedFrames": 1680000,
+      "inputSegments": [
+        {
+          "start": 0,
+          "end": 10,
+          "rmsDB": -36
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "rmsDB": -12
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "silence": true
+        },
+        {
+          "start": 25,
+          "end": 35,
+          "rmsDB": -30
+        }
+      ],
+      "outputPerSecond": [
+        {
+          "second": 0,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 1,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 2,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 3,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 4,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 5,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 6,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 7,
+          "rmsDB": -13.98711,
+          "peakDB": -6.78072
+        },
+        {
+          "second": 8,
+          "rmsDB": -10.94584,
+          "peakDB": -6.78072
+        },
+        {
+          "second": 9,
+          "rmsDB": -10.97476,
+          "peakDB": -6.78072
+        },
+        {
+          "second": 10,
+          "rmsDB": -10.40709,
+          "peakDB": -6.13869
+        },
+        {
+          "second": 11,
+          "rmsDB": -10.38057,
+          "peakDB": -6.13872
+        },
+        {
+          "second": 12,
+          "rmsDB": -10.46501,
+          "peakDB": -6.23489
+        },
+        {
+          "second": 13,
+          "rmsDB": -10.33038,
+          "peakDB": -6.1387
+        },
+        {
+          "second": 14,
+          "rmsDB": -10.32758,
+          "peakDB": -6.13871
+        },
+        {
+          "second": 15,
+          "rmsDB": -10.27705,
+          "peakDB": -6.14138
+        },
+        {
+          "second": 16,
+          "rmsDB": -10.37012,
+          "peakDB": -6.14582
+        },
+        {
+          "second": 17,
+          "rmsDB": -10.225,
+          "peakDB": 0.01813
+        },
+        {
+          "second": 18,
+          "rmsDB": -9.05619,
+          "peakDB": -4.80655
+        },
+        {
+          "second": 19,
+          "rmsDB": -9.102,
+          "peakDB": -4.79226
+        },
+        {
+          "second": 20,
+          "rmsDB": -9.08323,
+          "peakDB": -4.79223
+        },
+        {
+          "second": 21,
+          "rmsDB": -9.10731,
+          "peakDB": -5.23671
+        },
+        {
+          "second": 22,
+          "rmsDB": -9.2411,
+          "peakDB": -5.22473
+        },
+        {
+          "second": 23,
+          "rmsDB": -9.2014,
+          "peakDB": -5.45232
+        },
+        {
+          "second": 24,
+          "rmsDB": -9.20251,
+          "peakDB": -5.26677
+        },
+        {
+          "second": 25,
+          "rmsDB": -9.37655,
+          "peakDB": -5.51225
+        },
+        {
+          "second": 26,
+          "rmsDB": -9.68557,
+          "peakDB": -5.84584
+        },
+        {
+          "second": 27,
+          "rmsDB": -12.72148,
+          "peakDB": -6.62022
+        },
+        {
+          "second": 28,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 29,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 30,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 31,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 32,
+          "rmsDB": -12.41761,
+          "peakDB": -4.79758
+        },
+        {
+          "second": 33,
+          "rmsDB": -9.01329,
+          "peakDB": -4.75923
+        },
+        {
+          "second": 34,
+          "rmsDB": -9.09659,
+          "peakDB": -4.75976
+        }
+      ],
+      "disposeStatus": 0,
+      "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers.",
+      "exitCode": 0,
+      "stderr": "Unknown property 37\n"
+    }
+  },
+  {
+    "strength": 80,
+    "target": 0,
+    "repeat": 2,
+    "maxRMSErrorDB": 0.0,
+    "maxPeakErrorDB": 0.0,
+    "differences": [
+      {
+        "second": 0,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 1,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 2,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 3,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 4,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 5,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 6,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 7,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 8,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 9,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 10,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 11,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 12,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 13,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 14,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 15,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 16,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 17,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 18,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 19,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 20,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 21,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 22,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 23,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 24,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 25,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 26,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 27,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 28,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 29,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 30,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 31,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 32,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 33,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 34,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      }
+    ],
+    "result": {
+      "probe": "Levelmatic 1.0.8 AUv2",
+      "sampleRate": 48000,
+      "mode": "render",
+      "strengthSetStatus": 0,
+      "targetSetStatus": 0,
+      "inputFormatStatus": 0,
+      "outputFormatStatus": 0,
+      "callbackStatus": 0,
+      "offlineStatus": -10879,
+      "initializeStatus": 0,
+      "latencyStatus": 0,
+      "latencySeconds": 7.552,
+      "parameters": [
+        {
+          "id": 0,
+          "name": "Profile",
+          "min": 0.0,
+          "max": 999999.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 1,
+          "name": "Active",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 2,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 2,
+          "name": "Strength",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 80.0,
+          "value": 80.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 3,
+          "name": "Target",
+          "min": -24.0,
+          "max": 0.0,
+          "default": -12.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 4,
+          "name": "Analyzing",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "parameterListStatus": 0,
+      "firstNonzeroFrame": 362497,
+      "firstNonzeroSeconds": 7.552020833,
+      "renderStatus": 0,
+      "renderedFrames": 1680000,
+      "inputSegments": [
+        {
+          "start": 0,
+          "end": 10,
+          "rmsDB": -36
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "rmsDB": -12
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "silence": true
+        },
+        {
+          "start": 25,
+          "end": 35,
+          "rmsDB": -30
+        }
+      ],
+      "outputPerSecond": [
+        {
+          "second": 0,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 1,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 2,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 3,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 4,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 5,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 6,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 7,
+          "rmsDB": -13.98711,
+          "peakDB": -6.78072
+        },
+        {
+          "second": 8,
+          "rmsDB": -10.94584,
+          "peakDB": -6.78072
+        },
+        {
+          "second": 9,
+          "rmsDB": -10.97476,
+          "peakDB": -6.78072
+        },
+        {
+          "second": 10,
+          "rmsDB": -10.40709,
+          "peakDB": -6.13869
+        },
+        {
+          "second": 11,
+          "rmsDB": -10.38057,
+          "peakDB": -6.13872
+        },
+        {
+          "second": 12,
+          "rmsDB": -10.46501,
+          "peakDB": -6.23489
+        },
+        {
+          "second": 13,
+          "rmsDB": -10.33038,
+          "peakDB": -6.1387
+        },
+        {
+          "second": 14,
+          "rmsDB": -10.32758,
+          "peakDB": -6.13871
+        },
+        {
+          "second": 15,
+          "rmsDB": -10.27705,
+          "peakDB": -6.14138
+        },
+        {
+          "second": 16,
+          "rmsDB": -10.37012,
+          "peakDB": -6.14582
+        },
+        {
+          "second": 17,
+          "rmsDB": -10.225,
+          "peakDB": 0.01813
+        },
+        {
+          "second": 18,
+          "rmsDB": -9.05619,
+          "peakDB": -4.80655
+        },
+        {
+          "second": 19,
+          "rmsDB": -9.102,
+          "peakDB": -4.79226
+        },
+        {
+          "second": 20,
+          "rmsDB": -9.08323,
+          "peakDB": -4.79223
+        },
+        {
+          "second": 21,
+          "rmsDB": -9.10731,
+          "peakDB": -5.23671
+        },
+        {
+          "second": 22,
+          "rmsDB": -9.2411,
+          "peakDB": -5.22473
+        },
+        {
+          "second": 23,
+          "rmsDB": -9.2014,
+          "peakDB": -5.45232
+        },
+        {
+          "second": 24,
+          "rmsDB": -9.20251,
+          "peakDB": -5.26677
+        },
+        {
+          "second": 25,
+          "rmsDB": -9.37655,
+          "peakDB": -5.51225
+        },
+        {
+          "second": 26,
+          "rmsDB": -9.68557,
+          "peakDB": -5.84584
+        },
+        {
+          "second": 27,
+          "rmsDB": -12.72148,
+          "peakDB": -6.62022
+        },
+        {
+          "second": 28,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 29,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 30,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 31,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 32,
+          "rmsDB": -12.41761,
+          "peakDB": -4.79758
+        },
+        {
+          "second": 33,
+          "rmsDB": -9.01329,
+          "peakDB": -4.75923
+        },
+        {
+          "second": 34,
+          "rmsDB": -9.09659,
+          "peakDB": -4.75976
+        }
+      ],
+      "disposeStatus": 0,
+      "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers.",
+      "exitCode": 0,
+      "stderr": "Unknown property 37\n"
+    }
+  },
+  {
+    "strength": 100,
+    "target": 0,
+    "repeat": 1,
+    "maxRMSErrorDB": 0.0,
+    "maxPeakErrorDB": 0.0,
+    "differences": [
+      {
+        "second": 0,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 1,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 2,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 3,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 4,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 5,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 6,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 7,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 8,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 9,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 10,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 11,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 12,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 13,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 14,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 15,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 16,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 17,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 18,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 19,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 20,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 21,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 22,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 23,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 24,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 25,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 26,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 27,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 28,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 29,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 30,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 31,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 32,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 33,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 34,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      }
+    ],
+    "result": {
+      "probe": "Levelmatic 1.0.8 AUv2",
+      "sampleRate": 48000,
+      "mode": "render",
+      "strengthSetStatus": 0,
+      "targetSetStatus": 0,
+      "inputFormatStatus": 0,
+      "outputFormatStatus": 0,
+      "callbackStatus": 0,
+      "offlineStatus": -10879,
+      "initializeStatus": 0,
+      "latencyStatus": 0,
+      "latencySeconds": 7.552,
+      "parameters": [
+        {
+          "id": 0,
+          "name": "Profile",
+          "min": 0.0,
+          "max": 999999.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 1,
+          "name": "Active",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 2,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 2,
+          "name": "Strength",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 80.0,
+          "value": 100.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 3,
+          "name": "Target",
+          "min": -24.0,
+          "max": 0.0,
+          "default": -12.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 4,
+          "name": "Analyzing",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "parameterListStatus": 0,
+      "firstNonzeroFrame": 362497,
+      "firstNonzeroSeconds": 7.552020833,
+      "renderStatus": 0,
+      "renderedFrames": 1680000,
+      "inputSegments": [
+        {
+          "start": 0,
+          "end": 10,
+          "rmsDB": -36
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "rmsDB": -12
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "silence": true
+        },
+        {
+          "start": 25,
+          "end": 35,
+          "rmsDB": -30
+        }
+      ],
+      "outputPerSecond": [
+        {
+          "second": 0,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 1,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 2,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 3,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 4,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 5,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 6,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 7,
+          "rmsDB": -12.75647,
+          "peakDB": -5.40075
+        },
+        {
+          "second": 8,
+          "rmsDB": -9.63889,
+          "peakDB": -5.40103
+        },
+        {
+          "second": 9,
+          "rmsDB": -9.6599,
+          "peakDB": -5.40075
+        },
+        {
+          "second": 10,
+          "rmsDB": -9.05966,
+          "peakDB": -4.75874
+        },
+        {
+          "second": 11,
+          "rmsDB": -9.02658,
+          "peakDB": -4.75883
+        },
+        {
+          "second": 12,
+          "rmsDB": -9.07704,
+          "peakDB": -4.7803
+        },
+        {
+          "second": 13,
+          "rmsDB": -9.00737,
+          "peakDB": -4.75913
+        },
+        {
+          "second": 14,
+          "rmsDB": -8.98812,
+          "peakDB": -4.76078
+        },
+        {
+          "second": 15,
+          "rmsDB": -9.03921,
+          "peakDB": -4.93155
+        },
+        {
+          "second": 16,
+          "rmsDB": -9.07997,
+          "peakDB": -5.04253
+        },
+        {
+          "second": 17,
+          "rmsDB": -9.42018,
+          "peakDB": 0.02164
+        },
+        {
+          "second": 18,
+          "rmsDB": -9.00872,
+          "peakDB": -4.9857
+        },
+        {
+          "second": 19,
+          "rmsDB": -8.9177,
+          "peakDB": -4.57858
+        },
+        {
+          "second": 20,
+          "rmsDB": -8.73138,
+          "peakDB": -1.10521
+        },
+        {
+          "second": 21,
+          "rmsDB": -9.19533,
+          "peakDB": -5.04036
+        },
+        {
+          "second": 22,
+          "rmsDB": -8.56786,
+          "peakDB": -0.99323
+        },
+        {
+          "second": 23,
+          "rmsDB": -9.05771,
+          "peakDB": -4.82881
+        },
+        {
+          "second": 24,
+          "rmsDB": -8.89402,
+          "peakDB": -4.77875
+        },
+        {
+          "second": 25,
+          "rmsDB": -8.82585,
+          "peakDB": -1.09071
+        },
+        {
+          "second": 26,
+          "rmsDB": -9.51747,
+          "peakDB": -5.15065
+        },
+        {
+          "second": 27,
+          "rmsDB": -9.135,
+          "peakDB": 0.05262
+        },
+        {
+          "second": 28,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 29,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 30,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 31,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 32,
+          "rmsDB": -12.15742,
+          "peakDB": -4.75049
+        },
+        {
+          "second": 33,
+          "rmsDB": -9.02192,
+          "peakDB": -4.75879
+        },
+        {
+          "second": 34,
+          "rmsDB": -9.03101,
+          "peakDB": -4.75867
+        }
+      ],
+      "disposeStatus": 0,
+      "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers.",
+      "exitCode": 0,
+      "stderr": "Unknown property 37\n"
+    }
+  },
+  {
+    "strength": 100,
+    "target": 0,
+    "repeat": 2,
+    "maxRMSErrorDB": 0.0,
+    "maxPeakErrorDB": 0.0,
+    "differences": [
+      {
+        "second": 0,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 1,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 2,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 3,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 4,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 5,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 6,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 7,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 8,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 9,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 10,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 11,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 12,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 13,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 14,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 15,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 16,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 17,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 18,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 19,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 20,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 21,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 22,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 23,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 24,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 25,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 26,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 27,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 28,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 29,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 30,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 31,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 32,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 33,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      },
+      {
+        "second": 34,
+        "rmsDB": 0.0,
+        "peakDB": 0.0
+      }
+    ],
+    "result": {
+      "probe": "Levelmatic 1.0.8 AUv2",
+      "sampleRate": 48000,
+      "mode": "render",
+      "strengthSetStatus": 0,
+      "targetSetStatus": 0,
+      "inputFormatStatus": 0,
+      "outputFormatStatus": 0,
+      "callbackStatus": 0,
+      "offlineStatus": -10879,
+      "initializeStatus": 0,
+      "latencyStatus": 0,
+      "latencySeconds": 7.552,
+      "parameters": [
+        {
+          "id": 0,
+          "name": "Profile",
+          "min": 0.0,
+          "max": 999999.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 1,
+          "name": "Active",
+          "min": 0.0,
+          "max": 1.0,
+          "default": 0.0,
+          "value": 1.0,
+          "unit": 2,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 2,
+          "name": "Strength",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 80.0,
+          "value": 100.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 3,
+          "name": "Target",
+          "min": -24.0,
+          "max": 0.0,
+          "default": -12.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        },
+        {
+          "id": 4,
+          "name": "Analyzing",
+          "min": 0.0,
+          "max": 100.0,
+          "default": 0.0,
+          "value": 0.0,
+          "unit": 0,
+          "infoStatus": 0,
+          "valueStatus": 0
+        }
+      ],
+      "parameterListStatus": 0,
+      "firstNonzeroFrame": 362497,
+      "firstNonzeroSeconds": 7.552020833,
+      "renderStatus": 0,
+      "renderedFrames": 1680000,
+      "inputSegments": [
+        {
+          "start": 0,
+          "end": 10,
+          "rmsDB": -36
+        },
+        {
+          "start": 10,
+          "end": 20,
+          "rmsDB": -12
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "silence": true
+        },
+        {
+          "start": 25,
+          "end": 35,
+          "rmsDB": -30
+        }
+      ],
+      "outputPerSecond": [
+        {
+          "second": 0,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 1,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 2,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 3,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 4,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 5,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 6,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 7,
+          "rmsDB": -12.75647,
+          "peakDB": -5.40075
+        },
+        {
+          "second": 8,
+          "rmsDB": -9.63889,
+          "peakDB": -5.40103
+        },
+        {
+          "second": 9,
+          "rmsDB": -9.6599,
+          "peakDB": -5.40075
+        },
+        {
+          "second": 10,
+          "rmsDB": -9.05966,
+          "peakDB": -4.75874
+        },
+        {
+          "second": 11,
+          "rmsDB": -9.02658,
+          "peakDB": -4.75883
+        },
+        {
+          "second": 12,
+          "rmsDB": -9.07704,
+          "peakDB": -4.7803
+        },
+        {
+          "second": 13,
+          "rmsDB": -9.00737,
+          "peakDB": -4.75913
+        },
+        {
+          "second": 14,
+          "rmsDB": -8.98812,
+          "peakDB": -4.76078
+        },
+        {
+          "second": 15,
+          "rmsDB": -9.03921,
+          "peakDB": -4.93155
+        },
+        {
+          "second": 16,
+          "rmsDB": -9.07997,
+          "peakDB": -5.04253
+        },
+        {
+          "second": 17,
+          "rmsDB": -9.42018,
+          "peakDB": 0.02164
+        },
+        {
+          "second": 18,
+          "rmsDB": -9.00872,
+          "peakDB": -4.9857
+        },
+        {
+          "second": 19,
+          "rmsDB": -8.9177,
+          "peakDB": -4.57858
+        },
+        {
+          "second": 20,
+          "rmsDB": -8.73138,
+          "peakDB": -1.10521
+        },
+        {
+          "second": 21,
+          "rmsDB": -9.19533,
+          "peakDB": -5.04036
+        },
+        {
+          "second": 22,
+          "rmsDB": -8.56786,
+          "peakDB": -0.99323
+        },
+        {
+          "second": 23,
+          "rmsDB": -9.05771,
+          "peakDB": -4.82881
+        },
+        {
+          "second": 24,
+          "rmsDB": -8.89402,
+          "peakDB": -4.77875
+        },
+        {
+          "second": 25,
+          "rmsDB": -8.82585,
+          "peakDB": -1.09071
+        },
+        {
+          "second": 26,
+          "rmsDB": -9.51747,
+          "peakDB": -5.15065
+        },
+        {
+          "second": 27,
+          "rmsDB": -9.135,
+          "peakDB": 0.05262
+        },
+        {
+          "second": 28,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 29,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 30,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 31,
+          "rmsDB": -240.0,
+          "peakDB": -240.0
+        },
+        {
+          "second": 32,
+          "rmsDB": -12.15742,
+          "peakDB": -4.75049
+        },
+        {
+          "second": 33,
+          "rmsDB": -9.02192,
+          "peakDB": -4.75879
+        },
+        {
+          "second": 34,
+          "rmsDB": -9.03101,
+          "peakDB": -4.75867
+        }
+      ],
+      "disposeStatus": 0,
+      "limitations": "Trial or watermark may affect output. No license bypass or installation change. Offline synthetic render; no speakers.",
+      "exitCode": 0,
+      "stderr": "Unknown property 37\n"
+    }
+  }
+]

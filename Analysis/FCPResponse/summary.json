@@ -1,0 +1,41 @@
+{
+  "components": {
+    "reference": "aufx/dylv/Dayu",
+    "lowLatency": "aufx/dyll/Dayu"
+  },
+  "latencyBeforeAllocationFixed": true,
+  "fastLatency48kSeconds": 0.005,
+  "fastLatency44100Seconds": 0.005011337868480726,
+  "referenceCoreUnmodifiedSHA256": "1eec62215c7b8e28cf532a02fbe241b566659dcf86d6bf926887bee196b0f134",
+  "fcpObserved": {
+    "bothEffectsVisible": true,
+    "testClip": "261027_005",
+    "project": "未命名项目 2",
+    "referenceEffectEnabled": false,
+    "lowLatencyEffectEnabled": true,
+    "timelineWaveformVisible": true,
+    "exactRebuildWallTimeMeasured": false
+  },
+  "longOfflineRenderWallSeconds": 8.975624666,
+  "coreTiming": {
+    "block_count": 113814,
+    "blocks_over_nominal_budget": 0,
+    "max_us": 215.25,
+    "mean_us": 22.947155578399343,
+    "nominal_audio_block_budget_us": 23219.954648526076,
+    "nominal_block_frames": 1024,
+    "p50_us": 22.542,
+    "p99_us": 32.791,
+    "total_core_seconds": 2.6117075649999424
+  },
+  "offlineMediaReplacementAppFeature": "deferred by user",
+  "limitations": [
+    "Low-latency uses a causal algorithm; not claimed identical to the long-window reference.",
+    "FCP still owns timeline waveform caching; no promise of instantaneous full-clip waveform regeneration."
+  ],
+  "sourceSHA256": {
+    "大鱼音频效果器Extension/DSP/LevelerCore.hpp": "1eec62215c7b8e28cf532a02fbe241b566659dcf86d6bf926887bee196b0f134",
+    "大鱼音频效果器Extension/DSP/RealtimeLevelerCore.hpp": "b89521f3699121242c365a0cb7138950b8a96843fad467f710c282d0297d4df1",
+    "大鱼音频效果器Extension/DSP/_______ExtensionDSPKernel.hpp": "4f1de0908c29f5866d3c6b894a86277c053c9ea84bdf907f24ed4480e6c65d79"
+  }
+}

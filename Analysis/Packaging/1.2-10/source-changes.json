@@ -1,0 +1,47 @@
+[
+  {
+    "path": "大鱼音频效果器Extension/DSP/LevelerCore.hpp",
+    "before_sha256": "1eec62215c7b8e28cf532a02fbe241b566659dcf86d6bf926887bee196b0f134",
+    "after_sha256": "85d3d425e88ebb38c762d4d7d916bc8f8e8bd7b6cdcfb9e04349e167833a784e"
+  },
+  {
+    "path": "大鱼音频效果器Extension/DSP/RealtimeLevelerCore.hpp",
+    "before_sha256": "b89521f3699121242c365a0cb7138950b8a96843fad467f710c282d0297d4df1",
+    "after_sha256": "9a76456ce154ca255cc575093d683f82fb289aac66febef356a58241b3bc849d"
+  },
+  {
+    "path": "大鱼音频效果器Extension/Parameters/Parameters.swift",
+    "before_sha256": "1ccb8f222f620b320a1562c9e60176cba83586c8e8ae36f993385b0068bd6d7e",
+    "after_sha256": "34b06bc9ef6be225510afd18165c6c80b9d2376d8d1aec9d08974f98144c9b4c"
+  },
+  {
+    "path": "大鱼音频效果器Extension/UI/_______ExtensionMainView.swift",
+    "before_sha256": "7915cb5cc610692c89fbc757c13fc013b3a1c88b5e3f966b04c83fd5d9baacdc",
+    "after_sha256": "368fc3e63ee2c8ffb4bd84781dbf73c87fa494ede55672b06168fe9c1b5a329b"
+  },
+  {
+    "path": "大鱼音频效果器.xcodeproj/project.xcproj",
+    "before_sha256": "0ff3e02774d99f94ca98c30b0f779582d1d9873850fba62caad236d29cc24639",
+    "after_sha256": "d7437a665fc1790c64fce093c7701b1ff1033b83b0a1fda7f8108617864ea8b5"
+  },
+  {
+    "path": "大鱼音频效果器Extension/Info.plist",
+    "before_sha256": "f22d2e7318c964b7ab0f00d7cf0434a2bcf027581fc093e81f975b5f4f2d97eb",
+    "after_sha256": "2d9a5d444911a9bdc2f246e41b41aaf32d0ed1bbb3c619e6b8e5dd74e3af3a7d"
+  },
+  {
+    "path": "Tests/LevelerCoreTests.cpp",
+    "before_sha256": "2409243cf1ed845cf6ef21ace4d4282bd0ae0f98e5c6e64809276cd636932430",
+    "after_sha256": "e3b3c04ec9c13e8918f9d4ec271d80c9b9e569efa7172dc9928d3b58e2d33da6"
+  },
+  {
+    "path": "Tests/RealtimeLevelerCoreTests.cpp",
+    "before_sha256": "d9b5dd75bb7f398d6105a0fb0be8feb0192fb67c0af576d01a0733bb8a8a36a0",
+    "after_sha256": "60c2a927c8931704ecde7a042bf2725aeaf0aaadaaf7218c2408600a3985faf0"
+  },
+  {
+    "path": "Tests/AUv3MultiEffectSmoke.swift",
+    "before_sha256": "65a473f20402153f3cbbc946f60e43f68ea3757121d2041c4fb7996d9adaddc8",
+    "after_sha256": "383d308de711bbc429afd04a4c371b2307bf08ce9cc0d1707ed3027ce605aaac"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "quality": 0,
+    "type": 0,
+    "gainMinus12PreservedPreLimiterWaveform": {
+      "bestFitScale": 0.25118863601350877,
+      "expectedScale": 0.251188643150958,
+      "residualRms": 3.4983192462150822e-09,
+      "residualMax": 6.48115454637832e-08
+    },
+    "limiterAtZeroGainDb": {
+      "minimumDb": -8.673183507576681,
+      "medianDb": -2.0137167209291325,
+      "p95AttenuationDb": -5.381309969816616
+    },
+    "perSecond": [
+      {
+        "second": 0,
+        "saturated": 90,
+        "detectedSaturated": 89,
+        "candidate": 268
+      },
+      {
+        "second": 1,
+        "saturated": 2966,
+        "detectedSaturated": 2154,
+        "candidate": 4780
+      },
+      {
+        "second": 2,
+        "saturated": 3558,
+        "detectedSaturated": 2457,
+        "candidate": 5223
+      },
+      {
+        "second": 3,
+        "saturated": 106,
+        "detectedSaturated": 90,
+        "candidate": 208
+      },
+      {
+        "second": 4,
+        "saturated": 242,
+        "detectedSaturated": 211,
+        "candidate": 488
+      },
+      {
+        "second": 5,
+        "saturated": 145,
+        "detectedSaturated": 142,
+        "candidate": 397
+      }
+    ]
+  },
+  {
+    "quality": 0,
+    "type": 1,
+    "gainMinus12PreservedPreLimiterWaveform": {
+      "bestFitScale": 0.25118863601486324,
+      "expectedScale": 0.251188643150958,
+      "residualRms": 3.5306279445753785e-09,
+      "residualMax": 7.119740996763824e-08
+    },
+    "limiterAtZeroGainDb": {
+      "minimumDb": -11.137355724025229,
+      "medianDb": -1.4998273287479904,
+      "p95AttenuationDb": -7.329508908814097
+    },
+    "perSecond": [
+      {
+        "second": 0,
+        "saturated": 90,
+        "detectedSaturated": 90,
+        "candidate": 1400
+      },
+      {
+        "second": 1,
+        "saturated": 2966,
+        "detectedSaturated": 2521,
+        "candidate": 10108
+      },
+      {
+        "second": 2,
+        "saturated": 3558,
+        "detectedSaturated": 3059,
+        "candidate": 10142
+      },
+      {
+        "second": 3,
+        "saturated": 106,
+        "detectedSaturated": 106,
+        "candidate": 2435
+      },
+      {
+        "second": 4,
+        "saturated": 242,
+        "detectedSaturated": 242,
+        "candidate": 2416
+      },
+      {
+        "second": 5,
+        "saturated": 145,
+        "detectedSaturated": 145,
+        "candidate": 1465
+      }
+    ]
+  },
+  {
+    "quality": 1,
+    "type": 0,
+    "gainMinus12PreservedPreLimiterWaveform": {
+      "bestFitScale": 0.25118863599464397,
+      "expectedScale": 0.251188643150958,
+      "residualRms": 3.5095518621168277e-09,
+      "residualMax": 4.292385857862513e-08
+    },
+    "limiterAtZeroGainDb": {
+      "minimumDb": -8.895448418529611,
+      "medianDb": -2.0011739504997337,
+      "p95AttenuationDb": -5.585642131277603
+    },
+    "perSecond": [
+      {
+        "second": 0,
+        "saturated": 90,
+        "detectedSaturated": 89,
+        "candidate": 268
+      },
+      {
+        "second": 1,
+        "saturated": 2966,
+        "detectedSaturated": 2154,
+        "candidate": 4780
+      },
+      {
+        "second": 2,
+        "saturated": 3558,
+        "detectedSaturated": 2457,
+        "candidate": 5223
+      },
+      {
+        "second": 3,
+        "saturated": 106,
+        "detectedSaturated": 90,
+        "candidate": 208
+      },
+      {
+        "second": 4,
+        "saturated": 242,
+        "detectedSaturated": 211,
+        "candidate": 488
+      },
+      {
+        "second": 5,
+        "saturated": 145,
+        "detectedSaturated": 142,
+        "candidate": 397
+      }
+    ]
+  },
+  {
+    "quality": 1,
+    "type": 1,
+    "gainMinus12PreservedPreLimiterWaveform": {
+      "bestFitScale": 0.251188635984717,
+      "expectedScale": 0.251188643150958,
+      "residualRms": 3.5410504685151137e-09,
+      "residualMax": 6.66915768166021e-08
+    },
+    "limiterAtZeroGainDb": {
+      "minimumDb": -11.252174508316319,
+      "medianDb": -1.5640792544914994,
+      "p95AttenuationDb": -6.975869963157064
+    },
+    "perSecond": [
+      {
+        "second": 0,
+        "saturated": 90,
+        "detectedSaturated": 90,
+        "candidate": 1400
+      },
+      {
+        "second": 1,
+        "saturated": 2966,
+        "detectedSaturated": 2521,
+        "candidate": 10108
+      },
+      {
+        "second": 2,
+        "saturated": 3558,
+        "detectedSaturated": 3059,
+        "candidate": 10142
+      },
+      {
+        "second": 3,
+        "saturated": 106,
+        "detectedSaturated": 106,
+        "candidate": 2435
+      },
+      {
+        "second": 4,
+        "saturated": 242,
+        "detectedSaturated": 242,
+        "candidate": 2416
+      },
+      {
+        "second": 5,
+        "saturated": 145,
+        "detectedSaturated": 145,
+        "candidate": 1465
+      }
+    ]
+  }
+]

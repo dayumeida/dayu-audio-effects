@@ -1,0 +1,18 @@
+#import <AudioToolbox/AudioToolbox.h>
+#include "AudioDenoiseCore.hpp"
+#include <cstdio>
+#include <cmath>
+#include <vector>
+#include <memory>
+#include <chrono>
+#include <thread>
+#include <cstring>
+#include <unistd.h>
+static double rate=32000;static bool stereo=false;
+static float sample(uint64_t n,int c){double t=n/rate;uint32_t h=uint32_t(n)*747796405u+2891336453u;h=((h>>((h>>28)+4))^h)*277803737u;h=(h>>22)^h;float noise=(float(h>>8)/16777216.f-.5f)*.02f;return float(.1*std::sin(t*2*M_PI*197)+.06*std::sin(t*2*M_PI*421)+.03*std::sin(t*2*M_PI*997)+noise)*(c?.8f:1.f);}
+static OSStatus input(void*,AudioUnitRenderActionFlags*,const AudioTimeStamp*ts,UInt32,UInt32 n,AudioBufferList*abl){for(UInt32 c=0;c<abl->mNumberBuffers;++c){float*p=(float*)abl->mBuffers[c].mData;if(!p)return -50;for(UInt32 i=0;i<n;++i)p[i]=sample(uint64_t(ts->mSampleTime)+i,c);}return 0;}
+int main(int argc,char**argv){if(argc<7)return 1;bool native=strcmp(argv[1],"native")==0;rate=atof(argv[2]);float strength=atof(argv[3]),low=atof(argv[4]);const char*path=argv[5];bool pace=atoi(argv[6]);const int N=int(rate*8),block=512;std::vector<float>result(N),l(block),r(block),o(block),p(block);double latency=0;int err=0;auto begin=std::chrono::steady_clock::now();
+if(native){auto core=std::make_unique<dayu::AudioDenoiseCore>();if(!core->loadModel("Analysis/AudioDenoiseAI/dayu-denoise-weights.bin"))return 2;core->prepare(rate);core->setParameter(2,strength);core->setParameter(4,low);latency=core->latencySeconds();float*in[]={l.data(),r.data()},*out[]={o.data(),p.data()};for(int start=0;start<N;start+=block){int n=std::min(block,N-start);for(int i=0;i<n;++i)l[i]=r[i]=sample(start+i,0);core->process(in,out,1,n);std::copy(o.begin(),o.begin()+n,result.begin()+start);}}
+else {AudioComponentDescription d{'aufx','adai','CPop',0,0};AudioComponent c=AudioComponentFindNext(nullptr,&d);AudioUnit au=nullptr;if(!c||AudioComponentInstanceNew(c,&au))return 3;AudioStreamBasicDescription f{};f.mSampleRate=rate;f.mFormatID=kAudioFormatLinearPCM;f.mFormatFlags=kAudioFormatFlagsNativeFloatPacked|kAudioFormatFlagIsNonInterleaved;f.mBytesPerPacket=f.mBytesPerFrame=4;f.mFramesPerPacket=1;f.mChannelsPerFrame=1;f.mBitsPerChannel=32;
+AudioUnitSetProperty(au,kAudioUnitProperty_StreamFormat,kAudioUnitScope_Input,0,&f,sizeof f);AudioUnitSetProperty(au,kAudioUnitProperty_StreamFormat,kAudioUnitScope_Output,0,&f,sizeof f);UInt32 b=block;AudioUnitSetProperty(au,kAudioUnitProperty_MaximumFramesPerSlice,kAudioUnitScope_Global,0,&b,sizeof b);AURenderCallbackStruct cb{input,nullptr};AudioUnitSetProperty(au,kAudioUnitProperty_SetRenderCallback,kAudioUnitScope_Input,0,&cb,sizeof cb);err=AudioUnitInitialize(au);AudioUnitSetParameter(au,2,kAudioUnitScope_Global,0,strength,0);AudioUnitSetParameter(au,4,kAudioUnitScope_Global,0,low,0);UInt32 z=sizeof latency;AudioUnitGetProperty(au,kAudioUnitProperty_Latency,kAudioUnitScope_Global,0,&latency,&z);AudioBufferList abl{1,{{1,UInt32(block*4),o.data()}}};for(int start=0;start<N&&!err;start+=block){int n=std::min(block,N-start);AudioTimeStamp ts{};ts.mSampleTime=start;ts.mFlags=kAudioTimeStampSampleTimeValid;AudioUnitRenderActionFlags flags=0;abl.mBuffers[0].mDataByteSize=n*4;err=AudioUnitRender(au,&flags,&ts,0,n,&abl);std::copy(o.begin(),o.begin()+n,result.begin()+start);if(pace)std::this_thread::sleep_for(std::chrono::duration<double>(n/rate));}AudioUnitUninitialize(au);AudioComponentInstanceDispose(au);}
+FILE*f=fopen(path,"wb");fwrite(result.data(),4,result.size(),f);fclose(f);fprintf(stderr,"{\"mode\":\"%s\",\"rate\":%.0f,\"strength\":%.0f,\"low\":%.0f,\"latencySeconds\":%.12g,\"status\":%d,\"elapsed\":%.9g}\n",argv[1],rate,strength,low,latency,err,std::chrono::duration<double>(std::chrono::steady_clock::now()-begin).count());}

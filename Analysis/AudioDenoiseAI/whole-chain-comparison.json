@@ -1,0 +1,65 @@
+{
+  "description": "8-second deterministic harmonics plus noise; original trial AU, real-time-paced renders. Alignment removes ceil(reported reference latency) and exact native latency. First source second excluded because startup padding intentionally differs. Mono. No arbitrary-input bit-exact claim.",
+  "cases": [
+    {
+      "rate": 32000,
+      "strength": 100,
+      "low": 0,
+      "startSourceFrame": 32000,
+      "endSourceFrame": 235518,
+      "referenceDelayFrames": 17919,
+      "nativeFixedDelayFrames": 20482,
+      "RMSerror": 1.376534299879495e-07,
+      "maxError": 5.960464477539062e-07,
+      "correlation": 0.9999999999985764
+    },
+    {
+      "rate": 32000,
+      "strength": 80,
+      "low": 100,
+      "startSourceFrame": 32000,
+      "endSourceFrame": 235518,
+      "referenceDelayFrames": 16901,
+      "nativeFixedDelayFrames": 20482,
+      "RMSerror": 9.858330685119654e-08,
+      "maxError": 4.246830940246582e-07,
+      "correlation": 0.9999999999993044
+    },
+    {
+      "rate": 44100,
+      "strength": 80,
+      "low": 100,
+      "startSourceFrame": 44100,
+      "endSourceFrame": 324574,
+      "referenceDelayFrames": 24829,
+      "nativeFixedDelayFrames": 28226,
+      "RMSerror": 1.4453446794959746e-07,
+      "maxError": 3.0919909477233887e-06,
+      "correlation": 0.9999999999985181
+    },
+    {
+      "rate": 48000,
+      "strength": 100,
+      "low": 100,
+      "startSourceFrame": 48000,
+      "endSourceFrame": 353278,
+      "referenceDelayFrames": 26915,
+      "nativeFixedDelayFrames": 30722,
+      "RMSerror": 1.7565288601417706e-07,
+      "maxError": 3.416091203689575e-06,
+      "correlation": 0.9999999999977851
+    },
+    {
+      "rate": 96000,
+      "strength": 80,
+      "low": 100,
+      "startSourceFrame": 96000,
+      "endSourceFrame": 706558,
+      "referenceDelayFrames": 54059,
+      "nativeFixedDelayFrames": 61442,
+      "RMSerror": 1.6878169617484673e-07,
+      "maxError": 4.932284355163574e-06,
+      "correlation": 0.9999999999979728
+    }
+  ]
+}

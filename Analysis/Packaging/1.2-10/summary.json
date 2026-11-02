@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "date": "2026-11-02",
+  "appVersion": "1.2",
+  "appBuild": "10",
+  "architecture": "arm64",
+  "minimumMacOS": "14.0",
+  "packagePath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-10/大鱼音频效果器安装包-1.2.pkg",
+  "packageBytes": 42407490,
+  "packageSha256": "fe2091fd17645df2e29dda981ce3ea66da6438a54564cdf14f8b835396ff7c1b",
+  "appPath": "/Volumes/DayuMedia 4TB/大鱼音频插件开发/大鱼音频效果器/Outputs/Distribution/1.2-10/App/大鱼音频效果器.app",
+  "appNotarySubmissionId": "2e2d938a-25fb-43d9-a6b8-6fd806fcd81c",
+  "appNotaryStatus": "Accepted",
+  "packageNotaryStatus": "Accepted",
+  "appTicketValidated": true,
+  "packageTicketValidated": true,
+  "appGatekeeperAccepted": true,
+  "packageGatekeeperAccepted": true,
+  "payloadFilesByteIdentical": true,
+  "payloadFileCount": 41,
+  "components": [
+    {
+      "name": "Dayu: 大鱼自动电平",
+      "subtype": "dylv",
+      "version": 65545
+    },
+    {
+      "name": "Dayu: 大鱼自动电平·低延迟",
+      "subtype": "dyll",
+      "version": 65545
+    },
+    {
+      "name": "Dayu: 大鱼智能降噪",
+      "subtype": "dydn",
+      "version": 65545
+    },
+    {
+      "name": "Dayu: 大鱼破音修复",
+      "subtype": "dycr",
+      "version": 65545
+    }
+  ],
+  "defaultTargetDb": {
+    "reference": -3,
+    "low-latency": -3
+  },
+  "lowLatencyTargetRangeDb": [
+    -30,
+    -3
+  ],
+  "installPath": "/Applications/大鱼音频效果器.app",
+  "relocatable": false,
+  "installScripts": false,
+  "installedOnThisMac": false,
+  "articleUrl": "https://dayu.media/15770/",
+  "pkgNotarySubmissionId": "124d43b0-dca5-4f84-a672-11511f2796cc",
+  "publishedPackageHashVerified": true,
+  "articleStatus": "publish"
+}
