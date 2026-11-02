@@ -1,10 +1,38 @@
+<div align="center">
+
+<a href="https://dayu.media/">
+  <img src="Branding/DayuAudio-AppIcon-20261101.png" alt="大鱼先森 Media · dayu.media" width="112">
+</a>
+
 # 大鱼音频效果器 AUv3
+
+**大鱼先森 Media 出品 · 给 Mac 与 Final Cut Pro 的中文音频工具箱**
+
+## 🌐 [大鱼官网 · dayu.media](https://dayu.media/)
+
+**[📖 插件详细介绍与安装使用教程](https://dayu.media/15770/)　｜　[📦 下载正式安装包](https://github.com/dayumeida/dayu-audio-effects/releases/tag/v1.2-build10)**
+
+智能降噪 · 破音修复 · 自动电平 · 低延迟电平
+
+Apple Silicon · macOS 14+ · AUv3 · 1.2（构建 10）
+
+</div>
+
+> **更多剪辑工具、插件资源与实用教程，欢迎访问 [大鱼先森官网 dayu.media](https://dayu.media/)。**
+>
+> 想了解这套插件如何安装、如何在 FCP 中使用、参数怎么调整？请看 **[《大鱼音频效果器 1.2：四款中文 FCP 音频插件》](https://dayu.media/15770/)**。
+>
+> 如果这个项目对你有帮助，欢迎点亮 **Star**、分享给剪辑伙伴，也欢迎到官网了解更多大鱼作品。
+
+---
+
+## 功能与使用
 
 主 APP 新增**音视频时间线预览与离线输出**，正式成品位于 `Outputs/Distribution/1.2-10/App/大鱼音频效果器.app`：拖入音频或视频，选择效果器并调参，比较波形、试听原音和效果，确认后点击「输出副本」。整段波形支持放大、缩小、一键适配窗口、横向滚动与总览导航；点击任意位置从该时间播放，原音和效果共用游标，支持空格暂停/继续及毫秒时间码定位。处理后波形在已生成预览的区间显示，调参后更新；播放会自动预读后续音频。导入、调参和时间线操作只生成临时预览，输出仍处理完整素材、全部音轨。副本保存在原目录，自动编号避免覆盖，可拖入剪辑时间线；支持进度、取消及 Finder 定位。首次输出到外部目录时按系统提示授权原目录。
 
 独立音频输出 Float32 WAV（超过 WAV 大小限制时使用 CAF），保留采样率、声道和采样长度，补偿算法延迟。MOV / MP4 / M4V 自动处理各条单声道或立体声音轨，再与原视频压缩数据直通封装；沿用音轨编码、采样率、声道、PCM/ALAC 位深及 AAC 目标码率，并保留音轨起始偏移、视频旋转和语言信息。有损编码的实际码率可能略有波动，无损编码码率随内容变化；不支持的编码、多声道音轨及无法保留的轨道会报错，不自动降级。构建 10 已将本轮主程序功能纳入正式安装包；两种自动电平默认目标均为 -3 dB，新建或重置生效，已有工程和预设沿用保存的参数。实现与验证见 [离线处理记录](Analysis/OfflineProcessing/实现与验证.md)。
 
-GitHub 备份仓库：`dayumeida/dayu-audio-effects`（私有）。正式安装包通过 [GitHub Release](https://github.com/dayumeida/dayu-audio-effects/releases/tag/v1.2-build10) 提供；本地 `Outputs/` 成品、构建缓存、大型分析中间数据和凭据不提交到 Git。
+GitHub 公开源码仓库：[dayumeida/dayu-audio-effects](https://github.com/dayumeida/dayu-audio-effects)。正式安装包通过 [GitHub Release](https://github.com/dayumeida/dayu-audio-effects/releases/tag/v1.2-build10) 提供；本地 `Outputs/` 成品、构建缓存、大型分析中间数据和凭据不提交到 Git。
 
 降噪模型使用 **Git LFS** 保存。克隆前运行 `git lfs install`，已有检出运行 `git lfs pull`，即可取得 `大鱼音频效果器Extension/UI/Resources/dayu-denoise-weights.bin` 完整模型；正式安装包已内含模型。
 
